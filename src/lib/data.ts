@@ -1,0 +1,117 @@
+import fs from "fs";
+import path from "path";
+import { Product, Category } from "@/features/catalog/types/catalog";
+
+const PRODUCTS_PATH = path.join(process.cwd(), "src/data/products.json");
+const CATEGORIES_PATH = path.join(process.cwd(), "src/data/categories.json");
+
+// Cache data in memory (since these are static JSON files)
+let productsCache: Product[] | null = null;
+let categoriesCache: Category[] | null = null;
+
+export function getAllProducts(): Product[] {
+  if (!productsCache) {
+    try {
+      const fileContent = fs.readFileSync(PRODUCTS_PATH, "utf8");
+      productsCache = JSON.parse(fileContent);
+      console.log(`DEBUG: Loaded ${productsCache?.length} products from JSON`);
+    } catch (e) {
+      console.error("DEBUG: Failed to load products.json", e);
+      return [];
+    }
+  }
+  return productsCache || [];
+}
+
+export function getPaginatedProducts(
+  page: number,
+  limit: number,
+  categorySlug?: string,
+): { products: Product[]; total: number; totalPages: number } {
+  let allProducts = getAllProducts();
+
+  if (categorySlug) {
+    allProducts = allProducts.filter((p) =>
+      p.categories.some((c) => c.slug === categorySlug),
+    );
+  }
+
+  const start = (page - 1) * limit;
+  const end = start + limit;
+  return {
+    products: allProducts.slice(start, end),
+    total: allProducts.length,
+    totalPages: Math.ceil(allProducts.length / limit),
+  };
+}
+
+export function getAllCategories(): Category[] {
+  if (!categoriesCache) {
+    const fileContent = fs.readFileSync(CATEGORIES_PATH, "utf8");
+    categoriesCache = JSON.parse(fileContent);
+  }
+  return categoriesCache || [];
+}
+
+export function getProductById(slug: string): Product | undefined {
+  const products = getAllProducts();
+  const product = products.find((p) => p.slug === slug);
+  console.log(
+    `DEBUG: Searching for slug "${slug}". Found: ${product ? product.name : "NOT FOUND"}`,
+  );
+  return product;
+}
+
+export function getFeaturedProducts(limit = 8): Product[] {
+  return getAllProducts()
+    .filter((p) => p.meta.featured || p.status === "publish") // Defaulting to publish for now if featured isn't set strictly
+    .slice(0, limit);
+}
+
+export function getRelatedProducts(product: Product, limit = 4): Product[] {
+  const categoryIds = product.categories.map((c) => c.id);
+  return getAllProducts()
+    .filter(
+      (p) =>
+        p.slug !== product.slug &&
+        p.categories.some((c) => categoryIds.includes(c.id)),
+    )
+    .slice(0, limit);
+}
+
+export function getProductsByCategory(categorySlug: string): Product[] {
+  return getAllProducts().filter((p) =>
+    p.categories.some((c) => c.slug === categorySlug),
+  );
+}
+
+export function getRootCategories(): Category[] {
+  return getAllCategories().filter((c) => c.parent === 0);
+}
+
+function shuffle<T>(array: T[]): T[] {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+export function getAccessoriesProducts(): Product[] {
+  const all = getAllProducts();
+
+  const mobile = shuffle(
+    all.filter((p) =>
+      p.categories.some((c) => c.slug === "mobile-accessories"),
+    ),
+  ).slice(0, 4);
+
+  const computer = shuffle(
+    all.filter((p) =>
+      p.categories.some((c) => c.slug === "computer-accessories"),
+    ),
+  ).slice(0, 4);
+
+  return shuffle([...mobile, ...computer]);
+}
