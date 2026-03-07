@@ -1,1 +1,1 @@
-# Blessing Computers Frontend
+# Technocrat Nigeria
