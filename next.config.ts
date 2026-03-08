@@ -7,19 +7,31 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "www.blessingcomputers.com",
+        hostname: "www.technocratng.com",
         port: "",
         pathname: "/**",
       },
       {
         protocol: "http",
-        hostname: "www.blessingcomputers.com",
+        hostname: "www.technocratng.com",
         port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "res.cloudinary.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "demo.madrasthemes.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
         port: "",
         pathname: "/**",
       },

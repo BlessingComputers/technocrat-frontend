@@ -7,11 +7,11 @@ interface ContainerProps {
 export function Container({
   children,
   innerStyle,
-  outerStyle,
+  outerStyle = "py-10",
 }: ContainerProps) {
   return (
-    <section className={`${outerStyle} py-10`}>
-      <div className={`mx-auto px-4 lg:px-8 container ${innerStyle}`}>
+    <section className={outerStyle}>
+      <div className={`mx-auto px-4 lg:px-8 container ${innerStyle || ""}`}>
         {children}
       </div>
     </section>

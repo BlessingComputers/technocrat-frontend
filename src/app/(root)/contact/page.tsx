@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useTransition } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -18,29 +18,23 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import Image from "next/image";
 import {
   Phone,
   Mail,
-  MessageSquare,
   MapPin,
   Clock,
-  HelpCircle,
-  Facebook,
-  Twitter,
-  Instagram,
-  Car,
-  Bus,
-  ShieldCheck,
   ArrowRight,
   Loader2,
+  Send,
 } from "lucide-react";
+
+const agents = [
+  "0812 436 2413",
+  "0901 121 5084",
+  "0907 060 4655",
+  "0901 145 5223",
+];
 
 const inquirySchema = z.object({
   firstName: z.string().min(2, "First name is required"),
@@ -108,543 +102,476 @@ export default function ContactPage() {
     });
   }
 
-  return (
-    <div className="min-h-screen bg-background text-foreground pb-20">
-      {/* 1. Header Section */}
-      <section
-        className="relative bg-muted/30 py-20 px-4 md:px-8 lg:px-16 text-center overflow-hidden border-b
-      border-border"
-      >
-        <div
-          className="absolute inset-0 z-0 opacity-20 pointer-events-none"
-          style={{
-            backgroundImage:
-              "radial-gradient(circle at 10% 20%, oklch(0.596 0.233 27.2 / 0.1) 0%, transparent 20%), radial-gradient(circle at 90% 80%, oklch(0.596 0.233 27.2 / 0.1) 0%, transparent 20%)",
-          }}
-        />
+  const inputClass =
+    "bg-background border-border h-11 focus-visible:ring-primary/30 focus-visible:border-primary";
+  const labelClass =
+    "text-[10px] text-muted-foreground uppercase tracking-[0.15em] font-semibold";
 
-        <div className="max-w-3xl mx-auto relative z-10">
-          <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-4">
-            Contact Us
-          </p>
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Get in Touch
-          </h1>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            We're here to answer your questions, help you book consultations,
-            and support your technology journey every step of the way.
-          </p>
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      {/* Hero Strip */}
+      <section className="bg-secondary relative overflow-hidden">
+        <Image
+          src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1920&q=80"
+          alt=""
+          fill
+          className="object-cover opacity-70"
+          sizes="100vw"
+          priority
+        />
+        <div className="absolute inset-0 bg-linear-to-r from-secondary via-secondary/90 to-secondary/60" />
+        <div className="container mx-auto px-4 lg:px-8 py-16 lg:py-24 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-end">
+            <div>
+              <span className="text-[11px] font-semibold uppercase tracking-[0.15em] text-primary block mb-3">
+                Get in Touch
+              </span>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-4">
+                Let&apos;s talk about
+                <br />
+                your next project
+              </h1>
+              <p className="text-sm text-white/60 leading-relaxed max-w-md">
+                Whether you need enterprise hardware, bulk pricing, or expert
+                consultation — our team is ready to help.
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-6 lg:justify-end">
+              <div className="flex items-start gap-3">
+                <div className="w-8 h-8 border border-white/20 flex items-center justify-center shrink-0">
+                  <Mail className="w-3.5 h-3.5 text-primary" />
+                </div>
+                <div>
+                  <span className="text-[10px] uppercase tracking-wider text-white/40 block mb-1">
+                    Email
+                  </span>
+                  <a
+                    href="mailto:contact@blessingcomputers.com"
+                    className="text-sm text-white hover:text-primary transition-colors"
+                  >
+                    contact@blessingcomputers.com
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-8 h-8 border border-white/20 flex items-center justify-center shrink-0">
+                  <MapPin className="w-3.5 h-3.5 text-primary" />
+                </div>
+                <div>
+                  <span className="text-[10px] uppercase tracking-wider text-white/40 block mb-1">
+                    Location
+                  </span>
+                  <span className="text-sm text-white">
+                    15 Kodesoh St, Ikeja, Lagos
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* 2. Contact Methods Row */}
-      <section className="py-12 px-4 md:px-8 lg:px-16 bg-background relative z-20 -mt-8">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            {
-              icon: <Phone className="w-6 h-6 text-primary" />,
-              title: "Phone",
-              desc: "Call us for immediate assistance or book a consultation",
-              details: ["(02) 123-4567", "Mon-Fri: 9AM–7PM"],
-            },
-            {
-              icon: <Mail className="w-6 h-6 text-primary" />,
-              title: "Email",
-              desc: "Send us a message and we'll respond within 24 hours",
-              details: [
-                "info@blessingcomputers.com",
-                "sales@blessingcomputers.com",
-              ],
-            },
-            {
-              icon: <MessageSquare className="w-6 h-6 text-primary" />,
-              title: "Live Chat",
-              desc: "Chat with our customer service team in real-time",
-              details: ["Available Mon-Fri", "9AM-6PM AEST"],
-            },
-            {
-              icon: <MapPin className="w-6 h-6 text-primary" />,
-              title: "Location",
-              desc: "Visit us in the heart of the tech district",
-              details: ["Level 1, 10 Tech Lane", "Innovation City, NSW 12345"],
-            },
-          ].map((item, idx) => (
-            <div
-              key={idx}
-              className="bg-card text-card-foreground p-6 rounded-2xl border border-border flex flex-col items-center
-              text-center transition-transform hover:-translate-y-1 hover:shadow-md duration-300"
-            >
-              <div className="bg-primary/10 p-4 rounded-full mb-4">
-                {item.icon}
+      {/* Quick Contact Stripe */}
+      <section className="border-b border-border">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-border">
+            {agents.map((number) => (
+              <a
+                key={number}
+                href={`tel:${number.replace(/\s/g, "")}`}
+                className="flex items-center gap-3 py-4 px-4 group hover:bg-primary/5 transition-colors"
+              >
+                <Phone className="w-3.5 h-3.5 text-primary shrink-0" />
+                <span className="text-sm font-mono font-medium text-foreground group-hover:text-primary transition-colors">
+                  {number}
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <section className="container mx-auto px-4 lg:px-8 py-12 lg:py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+          {/* Left: Form */}
+          <div className="lg:col-span-7 xl:col-span-8">
+            <div className="border border-border">
+              {/* Form Header */}
+              <div className="px-6 py-5 border-b border-border">
+                <h2 className="text-lg font-bold tracking-tight text-foreground flex items-center gap-2">
+                  <Send className="w-4 h-4 text-primary" />
+                  Send a Message
+                </h2>
+                <p className="text-xs text-muted-foreground mt-1">
+                  Fill out the form below and we&apos;ll respond within 24
+                  hours.
+                </p>
               </div>
-              <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
-              <p className="text-sm text-muted-foreground mb-4 opacity-90">
-                {item.desc}
-              </p>
-              <div className="mt-auto pt-4 border-t border-border/50 w-full text-sm font-medium">
-                {item.details.map((detail, i) => (
-                  <p key={i}>{detail}</p>
+
+              <div className="p-6">
+                <Tabs defaultValue="inquiries" className="w-full">
+                  <TabsList className="mb-8 p-0 bg-transparent border border-border inline-flex h-auto">
+                    <TabsTrigger
+                      value="inquiries"
+                      className="px-5 py-2.5 text-xs font-semibold uppercase tracking-wider data-[state=active]:bg-primary data-[state=active]:text-primary-foreground rounded-none transition-colors"
+                    >
+                      General Inquiry
+                    </TabsTrigger>
+                    <TabsTrigger
+                      value="product"
+                      className="px-5 py-2.5 text-xs font-semibold uppercase tracking-wider data-[state=active]:bg-primary data-[state=active]:text-primary-foreground rounded-none border-l border-border transition-colors"
+                    >
+                      Product Order
+                    </TabsTrigger>
+                  </TabsList>
+
+                  <TabsContent value="inquiries" className="space-y-5 mt-0">
+                    <Form {...inquiryForm}>
+                      <form
+                        onSubmit={inquiryForm.handleSubmit(onSubmitInquiry)}
+                        className="space-y-5"
+                      >
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                          <FormField
+                            control={inquiryForm.control}
+                            name="firstName"
+                            render={({ field }) => (
+                              <FormItem className="space-y-1.5">
+                                <FormLabel className={labelClass}>
+                                  First Name *
+                                </FormLabel>
+                                <FormControl>
+                                  <Input
+                                    placeholder="First Name"
+                                    className={inputClass}
+                                    {...field}
+                                  />
+                                </FormControl>
+                                <FormMessage />
+                              </FormItem>
+                            )}
+                          />
+                          <FormField
+                            control={inquiryForm.control}
+                            name="lastName"
+                            render={({ field }) => (
+                              <FormItem className="space-y-1.5">
+                                <FormLabel className={labelClass}>
+                                  Last Name
+                                </FormLabel>
+                                <FormControl>
+                                  <Input
+                                    placeholder="Last Name"
+                                    className={inputClass}
+                                    {...field}
+                                  />
+                                </FormControl>
+                                <FormMessage />
+                              </FormItem>
+                            )}
+                          />
+                        </div>
+
+                        <FormField
+                          control={inquiryForm.control}
+                          name="email"
+                          render={({ field }) => (
+                            <FormItem className="space-y-1.5">
+                              <FormLabel className={labelClass}>
+                                Email *
+                              </FormLabel>
+                              <FormControl>
+                                <Input
+                                  type="email"
+                                  placeholder="you@company.com"
+                                  className={inputClass}
+                                  {...field}
+                                />
+                              </FormControl>
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+
+                        <FormField
+                          control={inquiryForm.control}
+                          name="subject"
+                          render={({ field }) => (
+                            <FormItem className="space-y-1.5">
+                              <FormLabel className={labelClass}>
+                                Subject *
+                              </FormLabel>
+                              <FormControl>
+                                <Input
+                                  placeholder="How can we help?"
+                                  className={inputClass}
+                                  {...field}
+                                />
+                              </FormControl>
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+
+                        <FormField
+                          control={inquiryForm.control}
+                          name="comments"
+                          render={({ field }) => (
+                            <FormItem className="space-y-1.5">
+                              <FormLabel className={labelClass}>
+                                Message *
+                              </FormLabel>
+                              <FormControl>
+                                <Textarea
+                                  placeholder="Tell us more about what you need..."
+                                  className={`${inputClass} min-h-28 resize-y`}
+                                  {...field}
+                                />
+                              </FormControl>
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+
+                        <Button
+                          type="submit"
+                          disabled={isPendingInquiry}
+                          className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 h-11 text-xs font-semibold uppercase tracking-wider disabled:opacity-50"
+                        >
+                          {isPendingInquiry && (
+                            <Loader2 className="w-3.5 h-3.5 mr-2 animate-spin" />
+                          )}
+                          Submit Inquiry
+                          <ArrowRight className="w-3.5 h-3.5 ml-2" />
+                        </Button>
+                      </form>
+                    </Form>
+                  </TabsContent>
+
+                  <TabsContent value="product" className="space-y-5 mt-0">
+                    <Form {...productForm}>
+                      <form
+                        onSubmit={productForm.handleSubmit(onSubmitProduct)}
+                        className="space-y-5"
+                      >
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                          <FormField
+                            control={productForm.control}
+                            name="prodFirstName"
+                            render={({ field }) => (
+                              <FormItem className="space-y-1.5">
+                                <FormLabel className={labelClass}>
+                                  First Name *
+                                </FormLabel>
+                                <FormControl>
+                                  <Input
+                                    placeholder="First Name"
+                                    className={inputClass}
+                                    {...field}
+                                  />
+                                </FormControl>
+                                <FormMessage />
+                              </FormItem>
+                            )}
+                          />
+                          <FormField
+                            control={productForm.control}
+                            name="prodLastName"
+                            render={({ field }) => (
+                              <FormItem className="space-y-1.5">
+                                <FormLabel className={labelClass}>
+                                  Last Name
+                                </FormLabel>
+                                <FormControl>
+                                  <Input
+                                    placeholder="Last Name"
+                                    className={inputClass}
+                                    {...field}
+                                  />
+                                </FormControl>
+                                <FormMessage />
+                              </FormItem>
+                            )}
+                          />
+                        </div>
+
+                        <FormField
+                          control={productForm.control}
+                          name="prodEmail"
+                          render={({ field }) => (
+                            <FormItem className="space-y-1.5">
+                              <FormLabel className={labelClass}>
+                                Email *
+                              </FormLabel>
+                              <FormControl>
+                                <Input
+                                  type="email"
+                                  placeholder="you@company.com"
+                                  className={inputClass}
+                                  {...field}
+                                />
+                              </FormControl>
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+
+                        <FormField
+                          control={productForm.control}
+                          name="orderNumber"
+                          render={({ field }) => (
+                            <FormItem className="space-y-1.5">
+                              <FormLabel className={labelClass}>
+                                Product Name *
+                              </FormLabel>
+                              <FormControl>
+                                <Input
+                                  placeholder="e.g. MacBook Pro M3"
+                                  className={inputClass}
+                                  {...field}
+                                />
+                              </FormControl>
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+
+                        <FormField
+                          control={productForm.control}
+                          name="prodDetails"
+                          render={({ field }) => (
+                            <FormItem className="space-y-1.5">
+                              <FormLabel className={labelClass}>
+                                Order Details *
+                              </FormLabel>
+                              <FormControl>
+                                <Textarea
+                                  placeholder="Quantity, specs, delivery requirements..."
+                                  className={`${inputClass} min-h-28 resize-y`}
+                                  {...field}
+                                />
+                              </FormControl>
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+
+                        <Button
+                          type="submit"
+                          disabled={isPendingProduct}
+                          className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 h-11 text-xs font-semibold uppercase tracking-wider disabled:opacity-50"
+                        >
+                          {isPendingProduct && (
+                            <Loader2 className="w-3.5 h-3.5 mr-2 animate-spin" />
+                          )}
+                          Submit Order Request
+                          <ArrowRight className="w-3.5 h-3.5 ml-2" />
+                        </Button>
+                      </form>
+                    </Form>
+                  </TabsContent>
+                </Tabs>
+              </div>
+            </div>
+          </div>
+
+          {/* Right: Info Sidebar */}
+          <div className="lg:col-span-5 xl:col-span-4 space-y-6">
+            {/* Business Hours */}
+            <div className="border border-border">
+              <div className="px-5 py-4 border-b border-border flex items-center gap-2.5">
+                <Clock className="w-4 h-4 text-primary" />
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-foreground">
+                  Business Hours
+                </h3>
+              </div>
+              <div className="divide-y divide-border">
+                {[
+                  { day: "Monday – Friday", hours: "9:00 AM – 6:00 PM" },
+                  { day: "Saturday", hours: "9:00 AM – 4:00 PM" },
+                  { day: "Sunday", hours: "Closed" },
+                ].map((item, idx) => (
+                  <div
+                    key={idx}
+                    className="flex justify-between px-5 py-3 text-sm"
+                  >
+                    <span className="text-muted-foreground">{item.day}</span>
+                    <span className="font-mono font-medium text-foreground">
+                      {item.hours}
+                    </span>
+                  </div>
                 ))}
               </div>
             </div>
-          ))}
-        </div>
-      </section>
 
-      {/* 3. Main Split Section */}
-      <section className="py-16 px-4 md:px-8 lg:px-16 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">
-        {/* Left Form Area */}
-        <div className="lg:col-span-2 bg-card border border-border rounded-3xl p-8">
-          <h2 className="text-2xl mb-6 text-foreground">Send us Message</h2>
-
-          <Tabs defaultValue="inquiries" className="w-full">
-            <TabsList className="mb-8 p-1 bg-muted/50 rounded-lg inline-flex w-full sm:w-auto h-auto">
-              <TabsTrigger
-                value="inquiries"
-                className="rounded-md px-6 py-2.5 data-[state=active]:bg-background data-[state=active]:text-primary data-[state=active]:shadow-sm transition-all"
-              >
-                Basic Inquiries
-              </TabsTrigger>
-              <TabsTrigger
-                value="product"
-                className="rounded-md px-6 py-2.5 data-[state=active]:bg-background data-[state=active]:text-primary data-[state=active]:shadow-sm transition-all"
-              >
-                Product Order
-              </TabsTrigger>
-            </TabsList>
-
-            <TabsContent
-              value="inquiries"
-              className="space-y-6 animate-in fade-in slide-in-from-bottom-2 duration-500"
-            >
-              <Form {...inquiryForm}>
-                <form
-                  onSubmit={inquiryForm.handleSubmit(onSubmitInquiry)}
-                  className="space-y-6"
+            {/* Location */}
+            <div className="border border-border">
+              <div className="px-5 py-4 border-b border-border flex items-center gap-2.5">
+                <MapPin className="w-4 h-4 text-primary" />
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-foreground">
+                  Our Office
+                </h3>
+              </div>
+              <div className="p-5">
+                <p className="text-sm text-foreground font-medium mb-1">
+                  Blessing Computers Limited
+                </p>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                  No 15, Kodesoh Street,
+                  <br />
+                  Ikeja, Lagos. Nigeria.
+                </p>
+                <a
+                  href="https://maps.google.com/?q=15+Kodesoh+Street+Ikeja+Lagos+Nigeria"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-primary hover:text-primary/80 transition-colors"
                 >
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <FormField
-                      control={inquiryForm.control}
-                      name="firstName"
-                      render={({ field }) => (
-                        <FormItem className="space-y-2">
-                          <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                            First Name *
-                          </FormLabel>
-                          <FormControl>
-                            <Input
-                              placeholder="First Name"
-                              className="rounded-xl bg-background border-border/50 h-12 focus-visible:ring-primary/20"
-                              {...field}
-                            />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={inquiryForm.control}
-                      name="lastName"
-                      render={({ field }) => (
-                        <FormItem className="space-y-2">
-                          <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                            Last Name
-                          </FormLabel>
-                          <FormControl>
-                            <Input
-                              placeholder="Last Name"
-                              className="rounded-xl bg-background border-border/50 h-12 focus-visible:ring-primary/20"
-                              {...field}
-                            />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
+                  View on Map <ArrowRight className="w-3 h-3" />
+                </a>
+              </div>
+            </div>
+
+            {/* Why Us */}
+            <div className="border border-border bg-primary/5">
+              <div className="px-5 py-4 border-b border-border">
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-foreground">
+                  Why Work With Us
+                </h3>
+              </div>
+              <div className="p-5 space-y-4">
+                {[
+                  {
+                    stat: "16,000+",
+                    label: "Products across all categories",
+                  },
+                  {
+                    stat: "20+ Years",
+                    label: "In the electronics industry",
+                  },
+                  {
+                    stat: "Same Day",
+                    label: "Response on all inquiries",
+                  },
+                  {
+                    stat: "Bulk Pricing",
+                    label: "Available for corporate buyers",
+                  },
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-baseline gap-3">
+                    <span className="text-sm font-mono font-bold text-primary shrink-0">
+                      {item.stat}
+                    </span>
+                    <span className="text-xs text-muted-foreground">
+                      {item.label}
+                    </span>
                   </div>
-
-                  <FormField
-                    control={inquiryForm.control}
-                    name="email"
-                    render={({ field }) => (
-                      <FormItem className="space-y-2">
-                        <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                          Email *
-                        </FormLabel>
-                        <FormControl>
-                          <Input
-                            type="email"
-                            placeholder="example@domain.com"
-                            className="rounded-xl bg-background border-border/50 h-12 focus-visible:ring-primary/20"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-
-                  <FormField
-                    control={inquiryForm.control}
-                    name="subject"
-                    render={({ field }) => (
-                      <FormItem className="space-y-2">
-                        <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                          Subject *
-                        </FormLabel>
-                        <FormControl>
-                          <Input
-                            placeholder="How can we help?"
-                            className="rounded-xl bg-background border-border/50 h-12 focus-visible:ring-primary/20"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-
-                  <FormField
-                    control={inquiryForm.control}
-                    name="comments"
-                    render={({ field }) => (
-                      <FormItem className="space-y-2">
-                        <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                          Comments *
-                        </FormLabel>
-                        <FormControl>
-                          <Textarea
-                            placeholder="Please let us know what is on your mind..."
-                            className="rounded-xl bg-background border-border/50 min-h-30
-                            resize-y focus-visible:ring-primary/20"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-
-                  <Button
-                    type="submit"
-                    disabled={isPendingInquiry}
-                    className="w-full disabled:cursor-not-allowed disabled:bg-primary/50 sm:w-auto px-8 h-12 rounded-full 
-                    bg-primary hover:bg-primary/90 text-white font-medium transition-all"
-                  >
-                    {isPendingInquiry && (
-                      <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                    )}
-                    Submit Inquiry
-                  </Button>
-                </form>
-              </Form>
-            </TabsContent>
-
-            <TabsContent
-              value="product"
-              className="space-y-6 animate-in fade-in slide-in-from-bottom-2 duration-500"
-            >
-              <Form {...productForm}>
-                <form
-                  onSubmit={productForm.handleSubmit(onSubmitProduct)}
-                  className="space-y-6"
-                >
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <FormField
-                      control={productForm.control}
-                      name="prodFirstName"
-                      render={({ field }) => (
-                        <FormItem className="space-y-2">
-                          <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                            First Name *
-                          </FormLabel>
-                          <FormControl>
-                            <Input
-                              placeholder="First Name"
-                              className="rounded-xl bg-background border-border/50 h-12 focus-visible:ring-primary/20"
-                              {...field}
-                            />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={productForm.control}
-                      name="prodLastName"
-                      render={({ field }) => (
-                        <FormItem className="space-y-2">
-                          <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                            Last Name
-                          </FormLabel>
-                          <FormControl>
-                            <Input
-                              placeholder="Last Name"
-                              className="rounded-xl bg-background border-border/50 h-12 focus-visible:ring-primary/20"
-                              {...field}
-                            />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                  </div>
-
-                  <FormField
-                    control={productForm.control}
-                    name="prodEmail"
-                    render={({ field }) => (
-                      <FormItem className="space-y-2">
-                        <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                          Email *
-                        </FormLabel>
-                        <FormControl>
-                          <Input
-                            type="email"
-                            placeholder="example@domain.com"
-                            className="rounded-xl bg-background border-border/50 h-12 focus-visible:ring-primary/20"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-
-                  <FormField
-                    control={productForm.control}
-                    name="orderNumber"
-                    render={({ field }) => (
-                      <FormItem className="space-y-2">
-                        <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                          Product Name *
-                        </FormLabel>
-                        <FormControl>
-                          <Input
-                            placeholder="e.g. MacBook Pro M3"
-                            className="rounded-xl bg-background border-border/50 h-12 focus-visible:ring-primary/20"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-
-                  <FormField
-                    control={productForm.control}
-                    name="prodDetails"
-                    render={({ field }) => (
-                      <FormItem className="space-y-2">
-                        <FormLabel className="text-xs text-muted-foreground uppercase font-semibold">
-                          Request Details *
-                        </FormLabel>
-                        <FormControl>
-                          <Textarea
-                            placeholder="Tell us about the product you'd like to order or inquire about..."
-                            className="rounded-xl bg-background border-border/50 min-h-30 resize-y focus-visible:ring-primary/20"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-
-                  <Button
-                    type="submit"
-                    disabled={isPendingProduct}
-                    className="w-full disabled:cursor-not-allowed disabled:bg-primary/50 sm:w-auto px-8 h-12 rounded-full 
-                    bg-primary hover:bg-primary/90 text-white font-medium transition-all"
-                  >
-                    {isPendingProduct && (
-                      <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                    )}
-                    Submit Order Request
-                  </Button>
-                </form>
-              </Form>
-            </TabsContent>
-          </Tabs>
-        </div>
-
-        {/* Right Info Area */}
-        <div className="space-y-8">
-          {/* Business Hours */}
-          <div className="bg-card border border-border rounded-3xl p-6">
-            <div className="flex items-center gap-3 mb-6">
-              <Clock className="w-5 h-5 text-primary" />
-              <h3 className="text-lg">Business Hours</h3>
-            </div>
-            <ul className="space-y-3 text-sm">
-              {[
-                { day: "Monday", hours: "9:00 AM – 6:00 PM" },
-                { day: "Tuesday", hours: "9:00 AM – 6:00 PM" },
-                { day: "Wednesday", hours: "9:00 AM – 6:00 PM" },
-                { day: "Thursday", hours: "9:00 AM – 6:00 PM" },
-                { day: "Friday", hours: "9:00 AM – 6:00 PM" },
-                { day: "Saturday", hours: "9:00 AM – 4:00 PM" },
-                { day: "Sunday", hours: "Closed" },
-              ].map((item, idx) => (
-                <li
-                  key={idx}
-                  className="flex justify-between border-b border-border/50 pb-2 last:border-0 last:pb-0"
-                >
-                  <span className="text-muted-foreground">{item.day}</span>
-                  <span className="font-medium">{item.hours}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* FAQ Link */}
-          <div className="bg-card border border-border rounded-3xl p-6">
-            <div className="flex items-center gap-3 mb-4">
-              <HelpCircle className="w-5 h-5 text-primary" />
-              <h3 className="text-lg">Frequently Asked Questions</h3>
-            </div>
-            <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-              Check out the frequently asked questions and their answers that we
-              receive regularly.
-            </p>
-            <a
-              href="#"
-              className="inline-flex items-center text-sm font-semibold text-primary hover:text-primary/80 transition-colors group"
-            >
-              View FAQ's{" "}
-              <ArrowRight className="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-            </a>
-          </div>
-
-          {/* Follow Us */}
-          <div className="bg-card border border-border rounded-3xl p-6">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="text-primary font-bold">@</span>
-              <h3 className="text-lg">Follow Us</h3>
-            </div>
-            <p className="text-sm text-muted-foreground mb-4">
-              Stay connected for tech tips and special offers.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <a
-                href="#"
-                className="flex items-center gap-2 px-3 py-2 rounded-lg bg-muted hover:bg-secondary/20 transition-colors text-sm font-medium"
-              >
-                <Facebook className="w-4 h-4" /> Facebook
-              </a>
-              <a
-                href="#"
-                className="flex items-center gap-2 px-3 py-2 rounded-lg bg-muted hover:bg-secondary/20 transition-colors text-sm font-medium"
-              >
-                <Twitter className="w-4 h-4" /> Twitter
-              </a>
-              <a
-                href="#"
-                className="flex items-center gap-2 px-3 py-2 rounded-lg bg-muted hover:bg-secondary/20 transition-colors text-sm font-medium"
-              >
-                <Instagram className="w-4 h-4" /> Instagram
-              </a>
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      </section>
-
-      {/* 4. Bottom Accordion Section */}
-      <section className="py-16 px-4 md:px-8 lg:px-16 max-w-4xl mx-auto text-center">
-        {/* <h2 className="text-3xl text-foreground mb-4">
-          Other Important Information
-        </h2>
-        <p className="text-muted-foreground mb-10 max-w-2xl mx-auto">
-          Find essential details regarding parking, transportation options, and
-          what new customers need to know.
-        </p> */}
-
-        {/* <Accordion
-          type="single"
-          collapsible
-          className="w-full text-left space-y-4"
-        >
-          <AccordionItem
-            value="item-1"
-            className="border border-border rounded-xl px-4 bg-card shadow-sm data-[state=open]:border-primary/30 transition-colors"
-          >
-            <AccordionTrigger className="hover:no-underline py-4">
-              <div className="flex items-center gap-4 text-left">
-                <div className="bg-primary/10 p-2.5 rounded-lg">
-                  <Car className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[15px]">Parking</h4>
-                  <p className="text-sm text-muted-foreground font-normal">
-                    Parking Details: Everything You Need to Know
-                  </p>
-                </div>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground pb-4 pt-1 px-14 leading-relaxed">
-              We offer complimentary parking for our customers right behind our
-              main building. Simply pull into the driveway off Tech Lane and
-              follow the signs for Customer Parking. If our lot is full, there
-              is metered street parking available nearby.
-            </AccordionContent>
-          </AccordionItem>
-
-          <AccordionItem
-            value="item-2"
-            className="border border-border rounded-xl px-4 bg-card shadow-sm data-[state=open]:border-primary/30 transition-colors"
-          >
-            <AccordionTrigger className="hover:no-underline py-4">
-              <div className="flex items-center gap-4 text-left">
-                <div className="bg-primary/10 p-2.5 rounded-lg">
-                  <Bus className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[15px]">
-                    Public Transport
-                  </h4>
-                  <p className="text-sm text-muted-foreground font-normal">
-                    Public Transport Information: Essential Insights You Should
-                    Have
-                  </p>
-                </div>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground pb-4 pt-1 px-14 leading-relaxed">
-              Our store is highly accessible via public transportation. We are
-              located just a 5-minute walk from the Innovation City Central
-              Station. The 401, 402, and 405 bus lines also stop directly across
-              the street from our front entrance.
-            </AccordionContent>
-          </AccordionItem>
-
-          <AccordionItem
-            value="item-3"
-            className="border border-border rounded-xl px-4 bg-card shadow-sm data-[state=open]:border-primary/30 transition-colors"
-          >
-            <AccordionTrigger className="hover:no-underline py-4">
-              <div className="flex items-center gap-4 text-left">
-                <div className="bg-primary/10 p-2.5 rounded-lg">
-                  <ShieldCheck className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[15px]">
-                    Returns & Warranty
-                  </h4>
-                  <p className="text-sm text-muted-foreground font-normal">
-                    Return Policy: Key Details You Need to Know
-                  </p>
-                </div>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground pb-4 pt-1 px-14 leading-relaxed">
-              We stand by the quality of our products. Most items come with a
-              standard 1-year manufacturer warranty and a 30-day return window
-              for unopened products. Please bring your original receipt and
-              ensure the item is in its original packaging when requesting a
-              return.
-            </AccordionContent>
-          </AccordionItem>
-        </Accordion> */}
       </section>
     </div>
   );

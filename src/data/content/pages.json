@@ -1,0 +1,557 @@
+[
+  {
+    "id": 9,
+    "title": "Shop",
+    "slug": "shop",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2021-01-09 14:42:09",
+    "modifiedAt": "2021-01-09 14:42:09",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 11,
+    "title": "Checkout",
+    "slug": "checkout",
+    "content": "<!-- wp:shortcode --><!-- /wp:shortcode -->",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2021-01-09 14:42:09",
+    "modifiedAt": "2021-01-09 14:42:09",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 12,
+    "title": "My account",
+    "slug": "my-account",
+    "content": "<!-- wp:shortcode --><!-- /wp:shortcode -->",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2021-01-09 14:42:09",
+    "modifiedAt": "2021-01-09 14:42:09",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 135,
+    "title": "Coming Soon",
+    "slug": "coming-soon",
+    "content": "<p>“Sorry for the dust! We know it’s taking a while but sit tight and we’ll be with you soon.</p>\n<p>You’ll be able to order on our website again from the 13th of January. The first 20 visitors to contact us will get a reasonable discount from our brand new High-end systems!</p>\n<p>In the meantime, check out our products on our social media platforms.”</p>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-11-28 08:28:36",
+    "modifiedAt": "2021-01-11 06:25:49",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 265,
+    "title": "Compare",
+    "slug": "compare",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-06-21 08:08:41",
+    "modifiedAt": "2021-09-22 14:41:32",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 267,
+    "title": "Wishlist",
+    "slug": "wishlist",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-06-21 08:08:52",
+    "modifiedAt": "2021-09-22 16:29:29",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 307,
+    "title": "Blog",
+    "slug": "blog",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2014-09-18 14:32:20",
+    "modifiedAt": "2024-04-03 05:03:41",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 648,
+    "title": "Contact Us",
+    "slug": "contact-us",
+    "content": "<p>We will answer any questions you may have about our online sales, rights or partnership service right here.</p>\n<p>Do you find yourself wondering how our team's expertise can significantly boost your company's growth trajectory?</p>\n<p>Simply shoot us an email, and we'll eagerly engage with you to delve into tailored solutions crafted specifically to address the distinct needs of your business.</p>\n<p>Rest assured, your success is paramount to us, and we stand ready to offer unwavering support and guidance at every stage of your journey toward achieving your goals.</p>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-06-26 14:50:33",
+    "modifiedAt": "2025-03-20 12:57:34",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 658,
+    "title": "FAQs",
+    "slug": "faqs",
+    "content": "A placerat ac vestibulum integer vehicula suspendisse nostra aptent fermentum tempor a magna erat ligula parturient curae sem conubia vestibulum ac inceptos sodales condimentum cursus nunc mi consectetur condimentum.\n\nTristique parturient nulla ullamcorper at ullamcorper non orci iaculis neque augue.Parturient ullamcorper et sagittis faucibus dui eu tortor ac parturient ridiculus vel hac condimentum scelerisque libero class.\n\nPulvinar in dictumst suspendisse ullamcorper cras cum urna eget nibh facilisi eu a vestibulum morbi porttitor platea metus vestibulum.Ante ullamcorper adipiscing.Parturient viverra enim torquent elit sociosqu sociis consectetur pretium suspendisse sem scelerisque risus magna est consectetur ullamcorper nunc.\n\nPorta sapien nulla maecenas quis condimentum curabitur suscipit dolor est phasellus dui sociis fringilla a dignissim quisque ullamcorper nec eu eros.Elit consectetur non parturient tempus adipiscing nullam metus.Et malesuada fermentum fames dapibus ac accumsan a varius nibh suspendisse bibendum a at fames sed nibh ullamcorper himenaeos litora egestas pulvinar at id egestas sapien mattis et eros.Scelerisque urna a leo parturient lacinia a purus hac.Parturient sociosqu in vestibulum vivamus accumsan nam tellus curae a at a dapibus a natoque lacus vestibulum hac elementum morbi morbi maecenas eros lorem in a vestibulum imperdiet in.\n\nAdipiscing primis torquent vivamus ut a condimentum neque ac.Vestibulum a fringilla scelerisque ante nisl id taciti parturient praesent suscipit mi at id vestibulum cum vel purus suspendisse egestas ad aenean a penatibus urna.Dignissim senectus metus sodales euismod.Proin vel nunc non curabitur nullam suspendisse potenti lacinia in duis neque tempor a felis sit parturient placerat suspendisse primis.\n\nCondimentum parturient aenean aliquam quis auctor dictumst condimentum nec ad non urna accumsan hendrerit pretium potenti adipiscing adipiscing a sapien hendrerit ullamcorper accumsan risus mi et porta.\n\nAc et condimentum potenti condimentum.A faucibus leo auctor scelerisque sit torquent non ligula maecenas a suspendisse fermentum habitant aliquet consectetur mi ad nisl himenaeos elementum lobortis ornare ac adipiscing leo condimentum consectetur nibh laoreet.\n\nDictum a elit ridiculus odio montes.Enim adipiscing commodo vestibulum condimentum parturient vulputate gravida phasellus scelerisque tellus lobortis scelerisque hac metus tincidunt mi.\n\nVestibulum vestibulum parturient inceptos scelerisque neque a facilisis posuere sem ullamcorper scelerisque ac.Dignissim id a at adipiscing aptent nunc a dui dis quis est arcu parturient conubia lacinia adipiscing pulvinar nullam mi etiam leo molestie at elementum.\n\nQuis nam per sem facilisis a a parturient consectetur mauris scelerisque parturient adipiscing pretium ac eget consectetur.\n\nCondimentum nascetur sagittis eu himenaeos pharetra natoque bibendum pharetra nec vel a turpis dis phasellus ultrices sapien.",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-06-27 06:45:25",
+    "modifiedAt": "2021-09-22 15:20:25",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 712,
+    "title": "Titles",
+    "slug": "titles",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-07-04 06:45:07",
+    "modifiedAt": "2017-07-04 06:45:07",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 736,
+    "title": "Instagram",
+    "slug": "instagram",
+    "content": "<p><strong><a class=\"color-primary\" href=\"#\">INSTAGRAM ON THE PRODUCT PAGE</a></strong></p>\n\n<h4><strong>INSTSTAGRAM</strong></h4>\n<h6><span>@NAME_ACCOUNT</span></h6>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-07-04 09:21:10",
+    "modifiedAt": "2017-07-04 09:21:10",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 809,
+    "title": "Recent Products",
+    "slug": "recent-products",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-07-04 14:55:10",
+    "modifiedAt": "2017-07-04 14:55:10",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 826,
+    "title": "Sale Products",
+    "slug": "sale-products",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-07-05 06:59:58",
+    "modifiedAt": "2017-07-05 06:59:58",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 996,
+    "title": "services",
+    "slug": "services",
+    "content": "<p>Don't let a malfunctioning computer slow you down.</p>\n<h4><span class=\"S1PPyQ\">Is your computer giving you trouble?</span></h4>\n<p><span class=\"S1PPyQ\">We've got you covered! Let us get your device up and running again.</span></p>\n<h4><span class=\"S1PPyQ\">Don't worry, we can help!</span></h4>\n<p><span class=\"S1PPyQ\">From broken screens to water damage, we have the expertise to fix it all.</span></p>\n<h4><span class=\"S1PPyQ\">Our experienced technicians can fix any problem!</span></h4>\n<p><span class=\"S1PPyQ\">Our repairs are fast, reliable, and affordable.</span></p>\n<h4><span class=\"S1PPyQ\">Don't let computer problems slow you down.</span></h4>\n<p><span class=\"S1PPyQ\">Contact us today!</span></p>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-09-22 13:16:43",
+    "modifiedAt": "2023-04-09 14:52:04",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 1070,
+    "title": "Christmas Maintenance",
+    "slug": "christmas-maintenance",
+    "content": "COMING SOONThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.COMING SOON",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-10-23 12:09:43",
+    "modifiedAt": "2017-10-23 12:09:43",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 1532,
+    "title": "Custom-404",
+    "slug": "custom-404",
+    "content": "This is somewhat embarrassing, isn’t it? It looks like nothing was found at this location.50 East 52nd Street\nBrooklyn, NY 10022\nUnited States+1322224332\n+1323345455<a href=\"http://themedemo.commercegurus.com/economist/#\">info@economist.com</a>\n<a href=\"http://themedemo.commercegurus.com/economist/#\">support@economist.com</a>Do you have questions about how Economist can help your company? Send us an email and we’ll get in touch shortly.",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2018-05-10 09:31:22",
+    "modifiedAt": "2021-09-22 15:18:21",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 1629,
+    "title": "Privacy Policy",
+    "slug": "privacy-policy-2",
+    "content": "<p>Our website address is: <a href=\"https://woodmart.xtemos.com\">https://woodmart.xtemos.com</a>.</p>\n<p>Thank you for visiting XTemos Studio. We are a company, creating products to enhance your website building experience. Please read this Privacy Policy, providing consent to document in order to have permission to use our services.</p>\n<span class=\"color-primary\">1.</span> COMMENTSWhen visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.\n\nAn anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: <a href=\"https://automattic.com/privacy/\">https://automattic.com/privacy/</a>. After approval of your comment, your profile picture is visible to the public in the context of your comment.<span class=\"color-primary\">2.</span> MEDIAIf you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.<span class=\"color-primary\">3.</span> CONTACT FORMSIf you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.\n\nIf you have an account and you log in to this site, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.\n\nWhen you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.\n\nIf you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.<span class=\"color-primary\">4.</span> EMBEDDED CONTENT FROM OTHER WEBSITESArticles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.\n\nThese websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website.<span class=\"color-primary\">5.</span> HOW LONG WE RETAIN YOUR DATAIf you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.\n\nFor users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.<span class=\"color-primary\">6.</span> WHAT RIGHTS YOU HAVE OVER YOUR DATAIf you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.<span class=\"color-primary\">7.</span> WHERE WE SEND YOUR DATAVisitor comments may be checked through an automated spam detection service.",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2018-07-06 13:15:50",
+    "modifiedAt": "2018-07-06 13:15:50",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 2042,
+    "title": "Order Tracking",
+    "slug": "order-tracking",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-12-20 08:40:53",
+    "modifiedAt": "2017-12-20 08:40:53",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 2181,
+    "title": "Track your Order",
+    "slug": "track-your-order",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-02-28 08:21:03",
+    "modifiedAt": "2016-02-28 08:21:03",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 2183,
+    "title": "Terms and Conditions",
+    "slug": "terms-and-conditions",
+    "content": "<section class=\"section inner-bottom-xs\">\n<h2>Intellectual Propertly</h2>\n<ol>\n\t<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis diam erat. Duis velit lectus, posuere a blandit sit amet, tempor at lorem. Donec ultricies, lorem sed ultrices interdum.</li>\n\t<li>Leo metus luctus sem, vel vulputate diam ipsum sed lorem. Donec tempor arcu nisl, et molestie massa scelerisque ut. Nunc at rutrum leo. Mauris metus mauris, tristique quis sapien eu, rutrum vulputate enim.</li>\n\t<li>Mauris tempus erat laoreet turpis lobortis, eu tincidunt erat fermentum.</li>\n\t<li>Aliquam non tincidunt urna. Integer tincidunt nec nisl vitae ullamcorper. Proin sed ultrices erat. Praesent varius ultrices massa at faucibus.</li>\n\t<li>Aenean dignissim, orci sed faucibus pharetra, dui mi dignissim tortor, sit amet condimentum mi ligula sit amet augue.</li>\n\t<li>Pellentesque vitae eros eget enim mollis placerat.</li>\n</ol>\n</section><section class=\"section inner-bottom-xs\">\n<h2>Termination</h2>\n<ol>\n\t<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis diam erat. Duis velit lectus, posuere a blandit sit amet, tempor at lorem. Donec ultricies, lorem sed ultrices interdum.</li>\n\t<li>Leo metus luctus sem, vel vulputate diam ipsum sed lorem. Donec tempor arcu nisl, et molestie massa scelerisque ut. Nunc at rutrum leo. Mauris metus mauris, tristique quis sapien eu, rutrum vulputate enim.</li>\n\t<li>Mauris tempus erat laoreet turpis lobortis, eu tincidunt erat fermentum.</li>\n\t<li>Aliquam non tincidunt urna. Integer tincidunt nec nisl vitae ullamcorper. Proin sed ultrices erat. Praesent varius ultrices massa at faucibus.</li>\n\t<li>Aenean dignissim, orci sed faucibus pharetra, dui mi dignissim tortor, sit amet condimentum mi ligula sit amet augue.</li>\n\t<li>Pellentesque vitae eros eget enim mollis placerat.</li>\n</ol>\n</section><section class=\"section inner-bottom-xs\">\n<h2>Changes To This Agreement</h2>\nWe reserve the right, at our sole discretion, to modify or replace these Terms and Conditions by posting the updated terms on the Site. Your continued use of the Site after any such changes constitutes your acceptance of the new Terms and Conditions.\n\n</section><section class=\"section intellectual-property\">\n<h2>Contact Us</h2>\nIf you have any questions about this Agreement, please contact us filling this <a href=\"#\"><strong>contact form</strong></a>\n\n</section>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-02-28 08:28:22",
+    "modifiedAt": "2016-02-28 08:28:22",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 2281,
+    "title": "Your Recently Viewed",
+    "slug": "your-recent-viewed",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2018-01-02 04:50:55",
+    "modifiedAt": "2018-01-02 04:50:55",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 2505,
+    "title": "FAQ",
+    "slug": "faq",
+    "content": "<h3 class=\"faq-title\">What Shipping Methods Are Available?</h3>\n<div class=\"text-content\">\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sapien lorem, consectetur et turpis id, blandit interdum metus. Morbi sed ligula id elit mollis efficitur ut nec ligula. Proin erat magna, pellentesque at elementum at, eleifend a tortor.\n\n</div>\n\n<h3 class=\"faq-title\">How Long Will it Take To Get My Package?</h3>\n<div class=\"text-content\">\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sapien lorem, consectetur et turpis id, blandit interdum metus. Morbi sed ligula id elit mollis efficitur ut nec ligula. Proin erat magna, pellentesque at elementum at, eleifend a tortor.\n\n</div>\n\n<h3 class=\"faq-title\">How Do I Track My Order?</h3>\n<div class=\"text-content\">\n\nInteger ex turpis, venenatis vitae nibh vel, vestibulum maximus quam. Ut pretium orci ac vestibulum porttitor. Fusce tempus diam quis justo porttitor gravida.\n\n</div>\n\n<h3 class=\"faq-title\">Do I Need A Account To Place Order?</h3>\n<div class=\"text-content\">\n\nInteger ex turpis, venenatis vitae nibh vel, vestibulum maximus quam. Ut pretium orci ac vestibulum porttitor. Fusce tempus diam quis justo porttitor gravida.\n\n</div>\nIn egestas, libero vitae scelerisque tristique, turpis augue faucibus dolor, at aliquet ligula massa at justo. Donec viverra tortor quis tortor pretium, in pretium risus finibus. Integer viverra pretium auctor. Aliquam eget convallis eros, varius sagittis nulla. Suspendisse potenti. Aenean consequat ex sit amet metus ultrices tristique. Nam ac nunc augue. Suspendisse finibus in dolor eget volutpat.In egestas, libero vitae scelerisque tristique, turpis augue faucibus dolor, at aliquet ligula massa at justo. Donec viverra tortor quis tortor pretium, in pretium risus finibus. Integer viverra pretium auctor. Aliquam eget convallis eros, varius sagittis nulla. Suspendisse potenti. Aenean consequat ex sit amet metus ultrices tristique. Nam ac nunc augue. Suspendisse finibus in dolor eget volutpat.In egestas, libero vitae scelerisque tristique, turpis augue faucibus dolor, at aliquet ligula massa at justo. Donec viverra tortor quis tortor pretium, in pretium risus finibus. Integer viverra pretium auctor. Aliquam eget convallis eros, varius sagittis nulla. Suspendisse potenti. Aenean consequat ex sit amet metus ultrices tristique. Nam ac nunc augue. Suspendisse finibus in dolor eget volutpat.In egestas, libero vitae scelerisque tristique, turpis augue faucibus dolor, at aliquet ligula massa at justo. Donec viverra tortor quis tortor pretium, in pretium risus finibus. Integer viverra pretium auctor. Aliquam eget convallis eros, varius sagittis nulla. Suspendisse potenti. Aenean consequat ex sit amet metus ultrices tristique. Nam ac nunc augue. Suspendisse finibus in dolor eget volutpat.In egestas, libero vitae scelerisque tristique, turpis augue faucibus dolor, at aliquet ligula massa at justo. Donec viverra tortor quis tortor pretium, in pretium risus finibus. Integer viverra pretium auctor. Aliquam eget convallis eros, varius sagittis nulla. Suspendisse potenti. Aenean consequat ex sit amet metus ultrices tristique. Nam ac nunc augue. Suspendisse finibus in dolor eget volutpat.In egestas, libero vitae scelerisque tristique, turpis augue faucibus dolor, at aliquet ligula massa at justo. Donec viverra tortor quis tortor pretium, in pretium risus finibus. Integer viverra pretium auctor. Aliquam eget convallis eros, varius sagittis nulla. Suspendisse potenti. Aenean consequat ex sit amet metus ultrices tristique. Nam ac nunc augue. Suspendisse finibus in dolor eget volutpat.",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-03-09 05:58:27",
+    "modifiedAt": "2016-03-09 05:58:27",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 2508,
+    "title": "Contact v1",
+    "slug": "contact-v1",
+    "content": "<h2 class=\"contact-page-title\">Leave us a Message</h2>\n<p>Maecenas dolor elit, semper a sem sed, pulvinar molestie lacus. Aliquam dignissim, elit non mattis ultrices,<br />\nneque odio ultricies tellus, eu porttitor nisl ipsum eu massa.</p>\n<h2 class=\"contact-page-title\">Our Store</h2>\n<address>17 Princess Road<br />\nLondon, Greater London<br />\nNW1 8JR, UK</address>\n<h3>Hours of Operation</h3>\n<ul class=\"list-unstyled operation-hours inner-right-md\">\n<li class=\"clearfix\"><span class=\"day\">Monday:</span><span class=\"pull-right flip hours\">12-6 PM</span></li>\n<li class=\"clearfix\"><span class=\"day\">Tuesday:</span><span class=\"pull-right flip hours\">12-6 PM</span></li>\n<li class=\"clearfix\"><span class=\"day\">Wednesday:</span><span class=\"pull-right flip hours\">12-6 PM</span></li>\n<li class=\"clearfix\"><span class=\"day\">Thursday:</span><span class=\"pull-right flip hours\">12-6 PM</span></li>\n<li class=\"clearfix\"><span class=\"day\">Friday:</span><span class=\"pull-right flip hours\">12-6 PM</span></li>\n<li class=\"clearfix\"><span class=\"day\">Saturday:</span><span class=\"pull-right flip hours\">12-6 PM</span></li>\n<li class=\"clearfix\"><span class=\"day\">Sunday</span><span class=\"pull-right flip hours\">Closed</span></li>\n</ul>\n<h3>Careers</h3>\n<p class=\"inner-right-md\">If you're interested in employment opportunities at Electro, please email us: <a href=\"mailto:contact@yourstore.com\">contact@yourstore.com</a></p>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-03-09 06:02:55",
+    "modifiedAt": "2016-03-09 06:02:55",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 2513,
+    "title": "Contact v2",
+    "slug": "contact-v2",
+    "content": "<h2 class=\"contact-page-title\">Leave us a Message</h2>\n<p>Aenean massa diam, viverra vitae luctus sed, gravida eget est. Etiam nec ipsum porttitor, consequat libero eu, dignissim eros. Nulla auctor lacinia enim id mollis. Curabitur luctus interdum eleifend. Ut tempor lorem a turpis fermentum,.</p>\n<h2 class=\"contact-page-title\">Our Address</h2>\n<p>17 Princess Road London, Greater London NW1 8JR, UK<br />\nSupport(+800)856 800 604<br />\nEmail: <a href=\"mailto:contact@yourstore.com\">info@electro.com</a></p>\n<h3>Opening Hours</h3>\n<p>Monday to Friday: 9am-9pm<br />\nSaturday to Sunday: 9am-11pm</p>\n<h3>Careers</h3>\n<p>If you're interested in employment opportunities at Electro, please email us: <a href=\"mailto:contact@yourstore.com\">contact@yourstore.com</a></p>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-03-09 06:45:35",
+    "modifiedAt": "2016-03-09 06:45:35",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 2842,
+    "title": "Shopping Cart",
+    "slug": "cart-2",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2017-09-01 06:39:49",
+    "modifiedAt": "2017-09-01 06:39:49",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 3134,
+    "title": "Cart",
+    "slug": "cart-3",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-02-16 11:41:47",
+    "modifiedAt": "2016-02-16 11:41:47",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 3853,
+    "title": "Shop",
+    "slug": "shop-2",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-02-16 11:41:47",
+    "modifiedAt": "2016-02-16 11:41:47",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 5124,
+    "title": "Home - Technocrat Nigeria",
+    "slug": "technocrat-nigeria",
+    "content": "",
+    "featuredImage": "https://www.technocratng.com/wp-content/uploads/2024/03/Technocrat-Logo.png",
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2019-07-09 13:55:44",
+    "modifiedAt": "2025-04-27 23:36:28",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 20904,
+    "title": "About Us",
+    "slug": "about-us",
+    "content": "<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.She packed her seven versalia, put her initial into the belt and made herself on the way.<em>Risus suspendisse a orci penatibus a felis suscipit consectetur vestibulum sodales dui cum ultricies lacus interdum.</em>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff.</p>\n<p>Dictumst per ante cras suscipit nascetur ullamcorper in nullam fermentum condimentum torquent iaculis reden posuere potenti viverra condimentum dictumst id tellus suspendisse<br />\nconvallis condimentum.<a href=\"http://xtemos.com\"><strong><em>Developed by <span>X</span>temos Studio @ 2021.</em></strong></a><em>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</em><em>A wonderful serenity has taken possession of my entire soul,like these sweet mornings of spring which I enjoy with my whole heart.</em></p>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2021-03-30 11:56:02",
+    "modifiedAt": "2021-09-23 08:15:42",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 42044,
+    "title": "About",
+    "slug": "about",
+    "content": "<h2 class=\"align-top\">What we really do?</h2>\n<p>Donec libero dolor, tincidunt id laoreet vitae,<br />\nullamcorper eu tortor. Maecenas pellentesque,<br />\ndui vitae iaculis mattis, tortor nisi faucibus magna,<br />\nvitae ultrices lacus purus vitae metus.</p>\n<h2 class=\"align-top\">Our Vision</h2>\n<p>Donec libero dolor, tincidunt id laoreet vitae,<br />\nullamcorper eu tortor. Maecenas pellentesque,<br />\ndui vitae iaculis mattis, tortor nisi faucibus magna,<br />\nvitae ultrices lacus purus vitae metus.</p>\n<h2 class=\"align-top\">History of Beginning</h2>\n<p>Donec libero dolor, tincidunt id laoreet vitae,<br />\nullamcorper eu tortor. Maecenas pellentesque,<br />\ndui vitae iaculis mattis, tortor nisi faucibus magna,<br />\nvitae ultrices lacus purus vitae metus.</p>\n<h3 class=\"highlight\">What we really do?</h3>\n<p>Donec libero dolor, tincidunt id laoreet vitae, ullamcorper eu tortor. Maecenas pellentesque, dui vitae iaculis mattis, tortor nisi faucibus magna, vitae ultrices lacus purus vitae metus. Ut nec odio facilisis, ultricies nunc eget, fringilla orci.</p>\n<h3 class=\"highlight\">Our Vision</h3>\n<p>Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur. Vestibulum velit nibh, egestas vel faucibus vitae.</p>\n<h3 class=\"highlight\">History of the Company</h3>\n<p>Mauris rhoncus aliquet purus, a ornare nisi euismod in. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam imperdiet eu metus vel ornare. Nullam in risus vel orci feugiat vestibulum. In sed aliquam mi. Nullam condimentum sollicitudin dui.</p>\n<h3 class=\"highlight\">Cooperate with Us!</h3>\n<p>Donec libero dolor, tincidunt id laoreet vitae, ullamcorper eu tortor. Maecenas pellentesque, dui vitae iaculis mattis, tortor nisi faucibus magna, vitae ultrices lacus purus vitae metus. Ut nec odio facilisis, ultricies nunc eget, fringilla orci.Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur.JTNDc3R5bGUlMjB0eXBlJTNEJTIydGV4dCUyRmNzcyUyMiUzRS5wYWdlJTIwLmVudHJ5LWhlYWRlci5oZWFkZXItd2l0aC1jb3Zlci1pbWFnZSUyMCU3QiUyMGJhY2tncm91bmQtcG9zaXRpb24lM0ElMjBjZW50ZXIlMjAtMTU3cHglM0IlMjAlN0QlM0MlMkZzdHlsZSUzRQ==</p>",
+    "featuredImage": "https://www.technocratng.com/wp-content/uploads/2021/02/APPLE-MAGIC-KEYBOARD-MQ052B_A-with.png",
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-03-09 05:41:44",
+    "modifiedAt": "2016-03-09 05:41:44",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 42052,
+    "title": "Store Directory",
+    "slug": "store-directory",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-03-24 12:57:35",
+    "modifiedAt": "2016-03-24 12:57:35",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 42053,
+    "title": "Compare",
+    "slug": "compare-2",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2016-03-26 13:44:35",
+    "modifiedAt": "2016-03-26 13:44:35",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 42064,
+    "title": "Home v2 Mobile VC",
+    "slug": "home-v2-mobile-vc",
+    "content": "",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2019-07-09 15:26:43",
+    "modifiedAt": "2019-07-09 15:26:43",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 51421,
+    "title": "Compare",
+    "slug": "yith-compare",
+    "content": "<!-- wp:shortcode --><!-- /wp:shortcode -->",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2025-05-12 21:12:27",
+    "modifiedAt": "2025-05-12 21:12:27",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 51422,
+    "title": "Compare",
+    "slug": "yith-compare",
+    "content": "<!-- wp:shortcode --><!-- /wp:shortcode -->",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2025-05-12 21:12:27",
+    "modifiedAt": "2025-05-12 21:12:27",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 56373,
+    "title": "Privacy Policy",
+    "slug": "privacy-policy",
+    "content": "<p>Last Updated: 23/10/2025</p>\n<p>This Privacy Policy explains how Technocrat Online Stores Ltd. (“we,” “our,” or “us”) collects, uses, discloses, and protects your personal information when you use our Lease Management System (“the Platform”).</p>\n<h2>1. Information We Collect</h2>\n<p>We collect personal information (name, phone number, email,NIN), verification data (OTPs), financial data (wallet and transaction history), and device/usage data (device type, IP address, usage analytics).</p>\n<h2>2. How We Use Your Information</h2>\n<p>We use collected data to verify your identity, process OTP confirmations, facilitate wallet funding and lease transactions, manage applications, communicate updates, and improve services.</p>\n<h2>3. Data Sharing and Disclosure</h2>\n<p>We may share information with financial institutions, service providers, and regulatory authorities as required by law. We do not sell or rent your information.</p>\n<h2>4. Data Security</h2>\n<p>We implement encryption and secure servers to protect your data from unauthorized access, disclosure, or alteration.</p>\n<h2>5. Data Retention</h2>\n<p>We retain data only as long as necessary for operational or legal purposes and delete or anonymize it thereafter.</p>\n<h2>6. Your Rights</h2>\n<p>You can access, correct, or delete your data, withdraw consent, and opt out of marketing communications by contacting our support team at <span><a href=\"support@technocratng.com\">support@technocratng.com</a></span></p>\n<h2>7. Cookies and Tracking</h2>\n<p>We may use cookies or analytics tools to enhance functionality and analyze usage trends. You can disable cookies in your device settings.</p>\n<h2>8. Third-Party Links</h2>\n<p>Our Platform may contain external links. We are not responsible for the privacy practices or content of those sites.</p>\n<h2>9. Changes to This Policy</h2>\n<p>We may update this Privacy Policy periodically. Updates will be posted with a revised “Last Updated” date.</p>\n<h2>10. Contact Us</h2>\n<p>Technocrat Online Stores Ltd.<br />\nEmail: <span><a href=\"mailto:info@technocratng.com\">info@technocratng.com</a></span><br />\nAddress: 15/17 kodesho ikeja</p>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2025-11-19 06:53:37",
+    "modifiedAt": "2025-11-19 07:06:28",
+    "parent": 0,
+    "menuOrder": 0
+  },
+  {
+    "id": 56378,
+    "title": "TERMS OF USE",
+    "slug": "terms-of-use",
+    "content": "<p>Last Updated: 23/10/2025</p>\n<p>Welcome to the Lease Management System (“the Platform”) operated by Technocrat Online Stores Ltd. (“we,” “our,” or “us”). These Terms of Use govern your access to and use of our mobile application and related services. By using this Platform, you agree to be bound by these Terms. If you do not agree, please discontinue use immediately.</p>\n<h2>1. Eligibility</h2>\n<p>You must be at least 18 years old and have the legal capacity to enter into binding agreements to use the Platform. By registering, you represent and warrant that the information you provide is true, accurate, and complete.</p>\n<h2>2. Account Registration and Verification</h2>\n<p>Customers are onboarded using their mobile phone number. A One-Time Password (OTP) will be sent to your registered number to verify your identity during registration and for sensitive account-related changes. You are responsible for maintaining the confidentiality of your login credentials and for all activities under your account.</p>\n<h2>3. Wallet and Payment Services</h2>\n<p>The Platform provides a wallet feature integrated with a partner bank via a one-time virtual account number to facilitate wallet funding and payments. All wallet credits are processed through secure banking integrations. You agree to comply with any banking regulations and terms of our partner financial institutions. We are not responsible for delays or failures caused by third-party payment processors or banks.</p>\n<h2>4. Lease Services</h2>\n<p>The Platform allows users to submit lease applications for available products or services, and track the approval, rejection, or cancellation status of their applications. Approval decisions are based on our internal evaluation criteria, and we reserve the right to accept or reject any application at our sole discretion.</p>\n<h2>5. User Responsibilities</h2>\n<p>You agree to provide accurate and updated personal and financial information, use the Platform only for lawful purposes, and not misuse, reverse-engineer, or disrupt the functionality of the Platform. We reserve the right to suspend or terminate your account if you violate these Terms or engage in fraudulent or abusive activities.</p>\n<h2>6. Data Accuracy and Availability</h2>\n<p>We strive to keep the Platform accurate and available at all times, but we do not guarantee uninterrupted access or error-free operation. Maintenance, upgrades, or unforeseen circumstances may cause temporary downtime.</p>\n<h2>7. Intellectual Property</h2>\n<p>All content, designs, and software on this Platform are the property of Technocrat Online Stores Ltd. and protected by applicable intellectual property laws. You may not reproduce, modify, or distribute any part of the Platform without prior written consent.</p>\n<h2>8. Limitation of Liability</h2>\n<p>Technocrat Online Stores Ltd. is not liable for losses due to unauthorized access to your account caused by your negligence, service interruptions, transaction failures, or delays caused by third parties, or indirect, incidental, or consequential damages arising from your use of the Platform.</p>\n<h2>9. Termination</h2>\n<p>We reserve the right to suspend or terminate your access to the Platform without notice if you violate these Terms or applicable laws.</p>\n<h2>10. Changes to Terms</h2>\n<p>We may update these Terms periodically. Updated versions will be posted on the Platform, and continued use after changes constitutes your acceptance of the revised Terms.</p>\n<h2>11. Governing Law</h2>\n<p>These Terms are governed by the laws of the Federal Republic of Nigeria, and disputes shall be resolved in the competent courts of Lagos State.</p>",
+    "featuredImage": null,
+    "author": {
+      "id": 1,
+      "name": "AbrahamsHub"
+    },
+    "createdAt": "2025-11-19 07:08:23",
+    "modifiedAt": "2025-11-19 07:09:48",
+    "parent": 0,
+    "menuOrder": 0
+  }
+]

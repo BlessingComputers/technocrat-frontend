@@ -1,13 +1,25 @@
 import fs from "fs";
 import path from "path";
 import { Product, Category } from "@/features/catalog/types/catalog";
+import type { BlogPost, Page } from "@/features/catalog/types/content";
+// import { BlogPost, Page } from "@/features/catalog/types/content";
 
-const PRODUCTS_PATH = path.join(process.cwd(), "src/data/products.json");
-const CATEGORIES_PATH = path.join(process.cwd(), "src/data/categories.json");
+const PRODUCTS_PATH = path.join(
+  process.cwd(),
+  "src/data/content/products.json",
+);
+const CATEGORIES_PATH = path.join(
+  process.cwd(),
+  "src/data/content/categories.json",
+);
+const POSTS_PATH = path.join(process.cwd(), "src/data/content/posts.json");
+const PAGES_PATH = path.join(process.cwd(), "src/data/content/pages.json");
 
 // Cache data in memory (since these are static JSON files)
 let productsCache: Product[] | null = null;
 let categoriesCache: Category[] | null = null;
+let postsCache: BlogPost[] | null = null;
+let pagesCache: Page[] | null = null;
 
 export function getAllProducts(): Product[] {
   if (!productsCache) {
@@ -27,13 +39,37 @@ export function getPaginatedProducts(
   page: number,
   limit: number,
   categorySlug?: string,
+  sort: "featured" | "name-asc" | "name-desc" | "newest" = "featured",
 ): { products: Product[]; total: number; totalPages: number } {
-  let allProducts = getAllProducts();
+  let allProducts = getAllProducts().filter(hasRealImage);
 
   if (categorySlug) {
     allProducts = allProducts.filter((p) =>
       p.categories.some((c) => c.slug === categorySlug),
     );
+  }
+
+  switch (sort) {
+    case "name-asc":
+      allProducts = [...allProducts].sort((a, b) =>
+        a.name.localeCompare(b.name),
+      );
+      break;
+    case "name-desc":
+      allProducts = [...allProducts].sort((a, b) =>
+        b.name.localeCompare(a.name),
+      );
+      break;
+    case "newest":
+      allProducts = [...allProducts].sort(
+        (a, b) =>
+          new Date(b.date_created).getTime() -
+          new Date(a.date_created).getTime(),
+      );
+      break;
+    case "featured":
+    default:
+      break;
   }
 
   const start = (page - 1) * limit;
@@ -62,9 +98,19 @@ export function getProductById(slug: string): Product | undefined {
   return product;
 }
 
+const PLACEHOLDER_IMAGE =
+  "https://demo.madrasthemes.com/demo-2/wp-content/uploads/sites/50/2018/10/electro-placeholder.png";
+
+function hasRealImage(p: Product): boolean {
+  return p.images.length > 0 && p.images[0] !== PLACEHOLDER_IMAGE;
+}
+
 export function getFeaturedProducts(limit = 8): Product[] {
   return getAllProducts()
-    .filter((p) => p.meta.featured || p.status === "publish") // Defaulting to publish for now if featured isn't set strictly
+    .filter(
+      (p) =>
+        (p.meta.featured || p.status === "publish") && hasRealImage(p),
+    )
     .slice(0, limit);
 }
 
@@ -114,4 +160,63 @@ export function getAccessoriesProducts(): Product[] {
   ).slice(0, 4);
 
   return shuffle([...mobile, ...computer]);
+}
+
+// ---- Blog Posts ----
+
+export function getAllPosts(): BlogPost[] {
+  if (!postsCache) {
+    try {
+      const fileContent = fs.readFileSync(POSTS_PATH, "utf8");
+      postsCache = JSON.parse(fileContent);
+    } catch {
+      return [];
+    }
+  }
+  return postsCache || [];
+}
+
+export function getPaginatedPosts(
+  page: number,
+  limit: number,
+): { posts: BlogPost[]; total: number; totalPages: number } {
+  const allPosts = getAllPosts();
+  const start = (page - 1) * limit;
+  const end = start + limit;
+  return {
+    posts: allPosts.slice(start, end),
+    total: allPosts.length,
+    totalPages: Math.ceil(allPosts.length / limit),
+  };
+}
+
+export function getPostBySlug(slug: string): BlogPost | undefined {
+  return getAllPosts().find((p) => p.slug === slug);
+}
+
+export function getRecentPosts(limit = 5): BlogPost[] {
+  return getAllPosts()
+    .sort(
+      (a, b) =>
+        new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
+    )
+    .slice(0, limit);
+}
+
+// ---- Pages ----
+
+export function getAllPages(): Page[] {
+  if (!pagesCache) {
+    try {
+      const fileContent = fs.readFileSync(PAGES_PATH, "utf8");
+      pagesCache = JSON.parse(fileContent);
+    } catch {
+      return [];
+    }
+  }
+  return pagesCache || [];
+}
+
+export function getPageBySlug(slug: string): Page | undefined {
+  return getAllPages().find((p) => p.slug === slug);
 }

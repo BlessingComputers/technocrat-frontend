@@ -1,27 +1,29 @@
 import Link from "next/link";
 import { Container } from "../templates/container";
-import { Button } from "../ui/button";
 
 export function ContactBanner() {
   return (
-    <Container
-      innerStyle="bg-gradient-to-r from-primary to-[#ff9ea2] rounded-xl p-8 via-[] flex flex-col lg:flex-row items-center justify-between
-    "
-    >
-      <div className="flex flex-col gap-2 justify-center lg:justify-start">
-        <h1 className="text-4xl text-white font-bold text-center lg:text-left">
-          Need help choosing the{" "}
-          <span className="text-white">right product?</span>
-        </h1>
-        <p className="text-white text-center lg:text-left">
-          Contact us for expert advice and recommendations.
-        </p>
-      </div>
-      <Link href="/contact">
-        <Button className="bg-primary w-full lg:w-auto mt-4 lg:mt-0 text-white hover:bg-primary/70 transition-colors duration-300 rounded-full">
+    <Container>
+      <div className="bg-secondary text-secondary-foreground border-t border-border p-8 lg:p-12 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+        <div>
+          <span className="text-[10px] font-semibold uppercase tracking-[0.15em] text-primary block mb-2">
+            Expert Assistance
+          </span>
+          <h2 className="text-2xl lg:text-3xl font-bold tracking-tight mb-2">
+            Need help choosing the right product?
+          </h2>
+          <p className="text-sm text-muted-foreground max-w-lg">
+            Contact us for expert advice and recommendations tailored to your
+            business needs.
+          </p>
+        </div>
+        <Link
+          href="/contact"
+          className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 text-xs font-semibold uppercase tracking-wider hover:bg-primary/90 transition-colors shrink-0"
+        >
           Contact Us
-        </Button>
-      </Link>
+        </Link>
+      </div>
     </Container>
   );
 }

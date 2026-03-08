@@ -1,16 +1,16 @@
 import { getProductById, getRelatedProducts } from "@/lib/data";
 import { notFound } from "next/navigation";
-import { Container } from "@/components/templates/container";
 import { ProductGallery } from "@/components/organisms/product-detail/product-gallery";
 import { ProductInfo } from "@/components/organisms/product-detail/product-info";
-import { ProductTabs } from "@/components/organisms/product-detail/product-tabs";
+import { ProductDetails } from "@/components/organisms/product-detail/product-tabs";
 import { ProductCard } from "@/components/molecules/product-card";
 import { ProductDetailSkeleton } from "@/components/organisms/product-detail/product-detail-skeleton";
 import { Suspense } from "react";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Product Detail | Blessing Computers",
+  title: "Product Detail | Technocrat",
   description: "View product details and specifications.",
 };
 
@@ -34,72 +34,110 @@ async function ProductContent({
   const relatedProducts = getRelatedProducts(product, 4);
 
   return (
-    <>
-      <div className="mb-8">
-        {/* Breadcrumb Navigation */}
-        <nav className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-gray-400">
-          <a href="/" className="hover:text-primary transition-colors">
-            Home
-          </a>
-          <span>/</span>
-          <a
-            href={`/product${product.categories[0]?.slug ? `?category=${product.categories[0]?.slug}` : ""}`}
-            className="hover:text-primary transition-colors"
-          >
-            {product.categories[0]?.name || "Shop"}
-          </a>
-          <span>/</span>
-          <span className="text-gray-900 dark:text-white">{product.name}</span>
-        </nav>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start mb-24">
-        <div className="lg:sticky lg:top-32">
-          <ProductGallery images={product.images} name={product.name} />
+    <div className="min-h-screen bg-background">
+      {/* Breadcrumb Bar */}
+      <div className="border-b border-border">
+        <div className="container mx-auto px-4 lg:px-8 py-3">
+          <nav className="flex items-center gap-2 text-[11px] text-muted-foreground">
+            <Link
+              href="/"
+              className="font-semibold uppercase tracking-wider hover:text-primary transition-colors"
+            >
+              Home
+            </Link>
+            <span>/</span>
+            <Link
+              href="/product"
+              className="font-semibold uppercase tracking-wider hover:text-primary transition-colors"
+            >
+              Products
+            </Link>
+            {product.categories[0] && (
+              <>
+                <span>/</span>
+                <Link
+                  href={`/product?category=${product.categories[0].slug}`}
+                  className="font-semibold uppercase tracking-wider hover:text-primary transition-colors"
+                >
+                  {product.categories[0].name}
+                </Link>
+              </>
+            )}
+            <span>/</span>
+            <span className="text-foreground truncate max-w-[200px] sm:max-w-none">
+              {product.name}
+            </span>
+          </nav>
         </div>
-        <div>
-          <ProductInfo product={product} />
-        </div>
       </div>
 
-      <div className="mb-32">
-        <ProductTabs description={product.description} />
-      </div>
+      {/* Gallery + Info — Full-width gallery on top, info below on mobile; side-by-side on desktop */}
+      <section className="container mx-auto px-4 lg:px-8 py-8 lg:py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+          {/* Gallery */}
+          <div className="lg:col-span-7">
+            <ProductGallery images={product.images} name={product.name} />
+          </div>
 
-      {/* Related Products Section */}
-      <section className="border-t border-gray-100 dark:border-white/10 pt-16 pb-12 mt-8">
-        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white mb-10">
-          You might also like
-        </h2>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {relatedProducts.map((p) => (
-            <div key={p.slug}>
-              <ProductCard
-                id={p.id}
-                slug={p.slug}
-                title={p.name}
-                price={parseInt(p.price)}
-                image={p.images[0] || ""}
-                description={p.short_description || ""}
-                brand={p.categories[0]?.name}
-              />
+          {/* Info */}
+          <div className="lg:col-span-5">
+            <div className="lg:sticky lg:top-20">
+              <ProductInfo product={product} />
             </div>
-          ))}
+          </div>
         </div>
       </section>
-    </>
+
+      {/* Specs + Description — side by side */}
+      <section className="container mx-auto px-4 lg:px-8 pb-12 lg:pb-16">
+        <ProductDetails description={product.description} />
+      </section>
+
+      {/* Related Products */}
+      {relatedProducts.length > 0 && (
+        <section className="border-t border-border">
+          <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
+            <div className="flex items-end justify-between pb-4 border-b border-border mb-8">
+              <div>
+                <span className="text-[11px] font-medium uppercase tracking-[0.15em] text-primary block mb-2">
+                  Similar Items
+                </span>
+                <h2 className="text-xl font-semibold tracking-tight text-foreground">
+                  You Might Also Like
+                </h2>
+              </div>
+              <Link
+                href={`/product${product.categories[0] ? `?category=${product.categories[0].slug}` : ""}`}
+                className="hidden sm:inline-flex items-center gap-2 border border-border px-5 py-2 text-xs font-semibold uppercase tracking-wider text-foreground hover:border-primary hover:text-primary transition-colors"
+              >
+                View All
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              {relatedProducts.map((p) => (
+                <ProductCard
+                  key={p.slug}
+                  id={p.id}
+                  slug={p.slug}
+                  title={p.name}
+                  price={p.price ? parseInt(p.price) : null}
+                  image={p.images[0] || "/assets/placeholder.png"}
+                  description={p.short_description || ""}
+                  brand={p.categories[0]?.name}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+    </div>
   );
 }
 
 export default function ProductPage({ params }: ProductPageProps) {
   return (
-    <div className="bg-white dark:bg-background">
-      <Container outerStyle="py-8">
-        <Suspense fallback={<ProductDetailSkeleton />}>
-          <ProductContent params={params} />
-        </Suspense>
-      </Container>
-    </div>
+    <Suspense fallback={<ProductDetailSkeleton />}>
+      <ProductContent params={params} />
+    </Suspense>
   );
 }

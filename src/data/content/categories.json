@@ -1,0 +1,7866 @@
+[
+  {
+    "id": 15,
+    "term_id": 15,
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "parent": 0,
+    "count": 1363
+  },
+  {
+    "id": 1135,
+    "term_id": 1135,
+    "name": "LAPTOPS",
+    "slug": "laptops",
+    "parent": 0,
+    "count": 1096
+  },
+  {
+    "id": 1136,
+    "term_id": 1136,
+    "name": "HP",
+    "slug": "hp-laptop",
+    "parent": 1135,
+    "count": 882
+  },
+  {
+    "id": 1137,
+    "term_id": 1137,
+    "name": "DELL",
+    "slug": "dell-laptop",
+    "parent": 1135,
+    "count": 192
+  },
+  {
+    "id": 1138,
+    "term_id": 1138,
+    "name": "LENOVO",
+    "slug": "lenovo-laptop",
+    "parent": 1135,
+    "count": 168
+  },
+  {
+    "id": 1139,
+    "term_id": 1139,
+    "name": "MICROSOFT",
+    "slug": "microsoft-laptop",
+    "parent": 1135,
+    "count": 70
+  },
+  {
+    "id": 1140,
+    "term_id": 1140,
+    "name": "ACER",
+    "slug": "acer-laptop",
+    "parent": 1135,
+    "count": 8
+  },
+  {
+    "id": 1141,
+    "term_id": 1141,
+    "name": "MSI",
+    "slug": "msi-laptop",
+    "parent": 1135,
+    "count": 17
+  },
+  {
+    "id": 1142,
+    "term_id": 1142,
+    "name": "ASUS",
+    "slug": "asus-laptop",
+    "parent": 1135,
+    "count": 66
+  },
+  {
+    "id": 1143,
+    "term_id": 1143,
+    "name": "DESKTOPS",
+    "slug": "desktop",
+    "parent": 0,
+    "count": 290
+  },
+  {
+    "id": 1144,
+    "term_id": 1144,
+    "name": "HP",
+    "slug": "hp-desktop",
+    "parent": 1143,
+    "count": 254
+  },
+  {
+    "id": 1145,
+    "term_id": 1145,
+    "name": "DELL",
+    "slug": "dell-desktop",
+    "parent": 1143,
+    "count": 45
+  },
+  {
+    "id": 1146,
+    "term_id": 1146,
+    "name": "LENOVO",
+    "slug": "lenovo-desktop",
+    "parent": 1143,
+    "count": 9
+  },
+  {
+    "id": 1147,
+    "term_id": 1147,
+    "name": "ACER",
+    "slug": "acer-desktop",
+    "parent": 1143,
+    "count": 0
+  },
+  {
+    "id": 1148,
+    "term_id": 1148,
+    "name": "ASUS",
+    "slug": "asus-desktop",
+    "parent": 1143,
+    "count": 1
+  },
+  {
+    "id": 1149,
+    "term_id": 1149,
+    "name": "MONITOR",
+    "slug": "monitor",
+    "parent": 0,
+    "count": 145
+  },
+  {
+    "id": 1150,
+    "term_id": 1150,
+    "name": "HP",
+    "slug": "hp-monitor",
+    "parent": 1149,
+    "count": 229
+  },
+  {
+    "id": 1151,
+    "term_id": 1151,
+    "name": "DELL",
+    "slug": "dell-monitor",
+    "parent": 1149,
+    "count": 91
+  },
+  {
+    "id": 1152,
+    "term_id": 1152,
+    "name": "LENOVO",
+    "slug": "lenovo-monitor",
+    "parent": 1149,
+    "count": 12
+  },
+  {
+    "id": 1153,
+    "term_id": 1153,
+    "name": "ACER",
+    "slug": "acer-monitor",
+    "parent": 1149,
+    "count": 7
+  },
+  {
+    "id": 1154,
+    "term_id": 1154,
+    "name": "ASUS",
+    "slug": "asus-monitor",
+    "parent": 1149,
+    "count": 11
+  },
+  {
+    "id": 1155,
+    "term_id": 1155,
+    "name": "LG",
+    "slug": "lg",
+    "parent": 1149,
+    "count": 31
+  },
+  {
+    "id": 1156,
+    "term_id": 1156,
+    "name": "MSI",
+    "slug": "msi-monitor",
+    "parent": 1149,
+    "count": 7
+  },
+  {
+    "id": 1157,
+    "term_id": 1157,
+    "name": "COMPUTER ACCESSORIES",
+    "slug": "computer-accessories-2",
+    "parent": 0,
+    "count": 239
+  },
+  {
+    "id": 1158,
+    "term_id": 1158,
+    "name": "STORAGE DEVICE",
+    "slug": "storage-device",
+    "parent": 1157,
+    "count": 48
+  },
+  {
+    "id": 1159,
+    "term_id": 1159,
+    "name": "SANDISK",
+    "slug": "sandisk-storage-device",
+    "parent": 1158,
+    "count": 7
+  },
+  {
+    "id": 1160,
+    "term_id": 1160,
+    "name": "TRANSCEND",
+    "slug": "transcend-storage-device",
+    "parent": 1158,
+    "count": 6
+  },
+  {
+    "id": 1161,
+    "term_id": 1161,
+    "name": "WESTERN DIGITAL",
+    "slug": "western-digital-storage-device",
+    "parent": 1158,
+    "count": 4
+  },
+  {
+    "id": 1162,
+    "term_id": 1162,
+    "name": "SEAGATE",
+    "slug": "seagate-storage-device",
+    "parent": 1158,
+    "count": 4
+  },
+  {
+    "id": 1163,
+    "term_id": 1163,
+    "name": "BAGS",
+    "slug": "bags",
+    "parent": 1157,
+    "count": 33
+  },
+  {
+    "id": 1164,
+    "term_id": 1164,
+    "name": "HP",
+    "slug": "hp-bags",
+    "parent": 1163,
+    "count": 14
+  },
+  {
+    "id": 1165,
+    "term_id": 1165,
+    "name": "DELL",
+    "slug": "dell-bags",
+    "parent": 1163,
+    "count": 5
+  },
+  {
+    "id": 1166,
+    "term_id": 1166,
+    "name": "LENOVO",
+    "slug": "lenovo-bags",
+    "parent": 1163,
+    "count": 6
+  },
+  {
+    "id": 1167,
+    "term_id": 1167,
+    "name": "TARGUS",
+    "slug": "targus",
+    "parent": 1163,
+    "count": 2
+  },
+  {
+    "id": 1168,
+    "term_id": 1168,
+    "name": "APPLE",
+    "slug": "apple-bags",
+    "parent": 1163,
+    "count": 1
+  },
+  {
+    "id": 1169,
+    "term_id": 1169,
+    "name": "SAMSUNG",
+    "slug": "samsung-bags",
+    "parent": 1163,
+    "count": 1
+  },
+  {
+    "id": 1170,
+    "term_id": 1170,
+    "name": "KEYBOARD &amp; MOUSE",
+    "slug": "keyboard-mouse",
+    "parent": 1157,
+    "count": 77
+  },
+  {
+    "id": 1171,
+    "term_id": 1171,
+    "name": "HP",
+    "slug": "hp-keyboard-mouse",
+    "parent": 1170,
+    "count": 22
+  },
+  {
+    "id": 1172,
+    "term_id": 1172,
+    "name": "LENOVO",
+    "slug": "lenovo-keyboard-mouse",
+    "parent": 1170,
+    "count": 5
+  },
+  {
+    "id": 1173,
+    "term_id": 1173,
+    "name": "MICROSOFT",
+    "slug": "microsoft-keyboard-mouse",
+    "parent": 1170,
+    "count": 7
+  },
+  {
+    "id": 1174,
+    "term_id": 1174,
+    "name": "DELL",
+    "slug": "dell-keyboard-mouse",
+    "parent": 1170,
+    "count": 8
+  },
+  {
+    "id": 1175,
+    "term_id": 1175,
+    "name": "LOGITECH",
+    "slug": "logitech-keyboard-mouse",
+    "parent": 1170,
+    "count": 9
+  },
+  {
+    "id": 1176,
+    "term_id": 1176,
+    "name": "GRAPHICS CARDS",
+    "slug": "graphics-cards",
+    "parent": 1157,
+    "count": 6
+  },
+  {
+    "id": 1177,
+    "term_id": 1177,
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "parent": 1176,
+    "count": 1
+  },
+  {
+    "id": 1178,
+    "term_id": 1178,
+    "name": "ASUS",
+    "slug": "asus-graphics-cards",
+    "parent": 1176,
+    "count": 0
+  },
+  {
+    "id": 1179,
+    "term_id": 1179,
+    "name": "MSI",
+    "slug": "msi-graphics-cards",
+    "parent": 1176,
+    "count": 0
+  },
+  {
+    "id": 1180,
+    "term_id": 1180,
+    "name": "AMD RADEON",
+    "slug": "amd-radeon",
+    "parent": 1176,
+    "count": 0
+  },
+  {
+    "id": 1181,
+    "term_id": 1181,
+    "name": "PHONES",
+    "slug": "phones",
+    "parent": 0,
+    "count": 154
+  },
+  {
+    "id": 1182,
+    "term_id": 1182,
+    "name": "SAMSUNG",
+    "slug": "samsung-phones",
+    "parent": 1181,
+    "count": 1
+  },
+  {
+    "id": 1183,
+    "term_id": 1183,
+    "name": "APPLE",
+    "slug": "apple-phones",
+    "parent": 1181,
+    "count": 80
+  },
+  {
+    "id": 1184,
+    "term_id": 1184,
+    "name": "OPPO",
+    "slug": "oppo",
+    "parent": 1181,
+    "count": 2
+  },
+  {
+    "id": 1185,
+    "term_id": 1185,
+    "name": "TECNO",
+    "slug": "tecno",
+    "parent": 1181,
+    "count": 18
+  },
+  {
+    "id": 1186,
+    "term_id": 1186,
+    "name": "REDMI",
+    "slug": "redmi",
+    "parent": 1181,
+    "count": 8
+  },
+  {
+    "id": 1187,
+    "term_id": 1187,
+    "name": "HAUWEI",
+    "slug": "hauwei",
+    "parent": 1181,
+    "count": 0
+  },
+  {
+    "id": 1188,
+    "term_id": 1188,
+    "name": "INFINIX",
+    "slug": "infinix",
+    "parent": 1181,
+    "count": 6
+  },
+  {
+    "id": 1189,
+    "term_id": 1189,
+    "name": "TABLETS",
+    "slug": "tablets",
+    "parent": 0,
+    "count": 28
+  },
+  {
+    "id": 1190,
+    "term_id": 1190,
+    "name": "SAMSUNG",
+    "slug": "samsung-tablets-2",
+    "parent": 1189,
+    "count": 0
+  },
+  {
+    "id": 1191,
+    "term_id": 1191,
+    "name": "APPLE",
+    "slug": "apple-tablets-2",
+    "parent": 1189,
+    "count": 1
+  },
+  {
+    "id": 1192,
+    "term_id": 1192,
+    "name": "AMAZON",
+    "slug": "amazon-tablets-2",
+    "parent": 1189,
+    "count": 0
+  },
+  {
+    "id": 1193,
+    "term_id": 1193,
+    "name": "MOBILE ACCESSORIES",
+    "slug": "mobile-accessories",
+    "parent": 0,
+    "count": 644
+  },
+  {
+    "id": 1194,
+    "term_id": 1194,
+    "name": "SMARTWATCH",
+    "slug": "smartwatch",
+    "parent": 1193,
+    "count": 57
+  },
+  {
+    "id": 1195,
+    "term_id": 1195,
+    "name": "APPLE",
+    "slug": "apple-smartwatch",
+    "parent": 1194,
+    "count": 11
+  },
+  {
+    "id": 1196,
+    "term_id": 1196,
+    "name": "SAMSUNG",
+    "slug": "samsung-smartwatch",
+    "parent": 1194,
+    "count": 13
+  },
+  {
+    "id": 1197,
+    "term_id": 1197,
+    "name": "HAVIT",
+    "slug": "havit-smartwatch",
+    "parent": 1194,
+    "count": 1
+  },
+  {
+    "id": 1198,
+    "term_id": 1198,
+    "name": "ORAIMO",
+    "slug": "oraimo-smartwatch",
+    "parent": 1194,
+    "count": 8
+  },
+  {
+    "id": 1199,
+    "term_id": 1199,
+    "name": "CHARGERS",
+    "slug": "chargers",
+    "parent": 1193,
+    "count": 31
+  },
+  {
+    "id": 1200,
+    "term_id": 1200,
+    "name": "SAMSUNG",
+    "slug": "samsung-chargers",
+    "parent": 1199,
+    "count": 1
+  },
+  {
+    "id": 1201,
+    "term_id": 1201,
+    "name": "APPLE",
+    "slug": "apple-chargers",
+    "parent": 1199,
+    "count": 9
+  },
+  {
+    "id": 1202,
+    "term_id": 1202,
+    "name": "ORAIMO",
+    "slug": "oraimo-chargers",
+    "parent": 1199,
+    "count": 13
+  },
+  {
+    "id": 1203,
+    "term_id": 1203,
+    "name": "HAVIT",
+    "slug": "havit-chargers",
+    "parent": 1199,
+    "count": 0
+  },
+  {
+    "id": 1204,
+    "term_id": 1204,
+    "name": "BUDI",
+    "slug": "budi",
+    "parent": 1199,
+    "count": 0
+  },
+  {
+    "id": 1205,
+    "term_id": 1205,
+    "name": "NEW AGE",
+    "slug": "new-age",
+    "parent": 1199,
+    "count": 0
+  },
+  {
+    "id": 1206,
+    "term_id": 1206,
+    "name": "GENERIC",
+    "slug": "generic",
+    "parent": 1199,
+    "count": 1
+  },
+  {
+    "id": 1207,
+    "term_id": 1207,
+    "name": "CABLES &amp; ADAPTERS",
+    "slug": "cables-adapters",
+    "parent": 1193,
+    "count": 148
+  },
+  {
+    "id": 1209,
+    "term_id": 1209,
+    "name": "APPLE",
+    "slug": "apple-cables-adapters",
+    "parent": 1207,
+    "count": 50
+  },
+  {
+    "id": 1210,
+    "term_id": 1210,
+    "name": "ORAIMO",
+    "slug": "oraimo-cables-adapters",
+    "parent": 1207,
+    "count": 8
+  },
+  {
+    "id": 1211,
+    "term_id": 1211,
+    "name": "HAVIT",
+    "slug": "havit-cables-adapters",
+    "parent": 1207,
+    "count": 4
+  },
+  {
+    "id": 1212,
+    "term_id": 1212,
+    "name": "BUDI",
+    "slug": "budi-cables-adapters",
+    "parent": 1207,
+    "count": 1
+  },
+  {
+    "id": 1213,
+    "term_id": 1213,
+    "name": "NEW AGE",
+    "slug": "new-age-cables-adapters",
+    "parent": 1207,
+    "count": 0
+  },
+  {
+    "id": 1214,
+    "term_id": 1214,
+    "name": "GENERIC",
+    "slug": "generic-cables-adapters",
+    "parent": 1207,
+    "count": 21
+  },
+  {
+    "id": 1215,
+    "term_id": 1215,
+    "name": "SCREEN PROTECTORS",
+    "slug": "screen-protectors",
+    "parent": 1193,
+    "count": 11
+  },
+  {
+    "id": 1216,
+    "term_id": 1216,
+    "name": "BLUETOOTH HEADSETS",
+    "slug": "bluetooth-headsets",
+    "parent": 1193,
+    "count": 100
+  },
+  {
+    "id": 1217,
+    "term_id": 1217,
+    "name": "SAMSUNG",
+    "slug": "samsung-bluetooth-headsets",
+    "parent": 1216,
+    "count": 4
+  },
+  {
+    "id": 1218,
+    "term_id": 1218,
+    "name": "APPLE",
+    "slug": "apple-bluetooth-headsets",
+    "parent": 1216,
+    "count": 4
+  },
+  {
+    "id": 1219,
+    "term_id": 1219,
+    "name": "ORAIMO",
+    "slug": "oraimo-bluetooth-headsets",
+    "parent": 1216,
+    "count": 15
+  },
+  {
+    "id": 1220,
+    "term_id": 1220,
+    "name": "HAVIT",
+    "slug": "havit-bluetooth-headsets",
+    "parent": 1216,
+    "count": 40
+  },
+  {
+    "id": 1221,
+    "term_id": 1221,
+    "name": "BUDI",
+    "slug": "budi-bluetooth-headsets",
+    "parent": 1216,
+    "count": 0
+  },
+  {
+    "id": 1222,
+    "term_id": 1222,
+    "name": "NEW AGE",
+    "slug": "new-age-bluetooth-headsets",
+    "parent": 1216,
+    "count": 0
+  },
+  {
+    "id": 1223,
+    "term_id": 1223,
+    "name": "GENERIC",
+    "slug": "generic-bluetooth-headsets",
+    "parent": 1216,
+    "count": 18
+  },
+  {
+    "id": 1224,
+    "term_id": 1224,
+    "name": "HEADSETS &amp; EARPHONES",
+    "slug": "headsets-earphones",
+    "parent": 1193,
+    "count": 48
+  },
+  {
+    "id": 1226,
+    "term_id": 1226,
+    "name": "APPLE",
+    "slug": "apple-headsets-earphones",
+    "parent": 1224,
+    "count": 4
+  },
+  {
+    "id": 1227,
+    "term_id": 1227,
+    "name": "ORAIMO",
+    "slug": "oraimo-headsets-earphones",
+    "parent": 1224,
+    "count": 9
+  },
+  {
+    "id": 1228,
+    "term_id": 1228,
+    "name": "HAVIT",
+    "slug": "havit-headsets-earphones",
+    "parent": 1224,
+    "count": 18
+  },
+  {
+    "id": 1229,
+    "term_id": 1229,
+    "name": "BUDI",
+    "slug": "budi-headsets-earphones",
+    "parent": 1224,
+    "count": 0
+  },
+  {
+    "id": 1230,
+    "term_id": 1230,
+    "name": "NEW AGE",
+    "slug": "new-age-headsets-earphones",
+    "parent": 1224,
+    "count": 0
+  },
+  {
+    "id": 1231,
+    "term_id": 1231,
+    "name": "GENERIC",
+    "slug": "generic-headsets-earphones",
+    "parent": 1224,
+    "count": 2
+  },
+  {
+    "id": 1232,
+    "term_id": 1232,
+    "name": "POWERBANKS",
+    "slug": "powerbanks",
+    "parent": 1193,
+    "count": 30
+  },
+  {
+    "id": 1233,
+    "term_id": 1233,
+    "name": "SAMSUNG",
+    "slug": "samsung-powerbanks",
+    "parent": 1232,
+    "count": 1
+  },
+  {
+    "id": 1234,
+    "term_id": 1234,
+    "name": "APPLE",
+    "slug": "apple-powerbanks",
+    "parent": 1232,
+    "count": 5
+  },
+  {
+    "id": 1235,
+    "term_id": 1235,
+    "name": "ORAIMO",
+    "slug": "oraimo-powerbanks",
+    "parent": 1232,
+    "count": 15
+  },
+  {
+    "id": 1236,
+    "term_id": 1236,
+    "name": "HAVIT",
+    "slug": "havit-powerbanks",
+    "parent": 1232,
+    "count": 1
+  },
+  {
+    "id": 1237,
+    "term_id": 1237,
+    "name": "BUDI",
+    "slug": "budi-powerbanks",
+    "parent": 1232,
+    "count": 0
+  },
+  {
+    "id": 1238,
+    "term_id": 1238,
+    "name": "NEW AGE",
+    "slug": "new-age-powerbanks",
+    "parent": 1232,
+    "count": 0
+  },
+  {
+    "id": 1239,
+    "term_id": 1239,
+    "name": "GENERIC",
+    "slug": "generic-powerbanks",
+    "parent": 1232,
+    "count": 5
+  },
+  {
+    "id": 1240,
+    "term_id": 1240,
+    "name": "PRINTERS",
+    "slug": "printers",
+    "parent": 0,
+    "count": 309
+  },
+  {
+    "id": 1241,
+    "term_id": 1241,
+    "name": "HP",
+    "slug": "hp-printers",
+    "parent": 1240,
+    "count": 188
+  },
+  {
+    "id": 1242,
+    "term_id": 1242,
+    "name": "CANON",
+    "slug": "canon",
+    "parent": 1240,
+    "count": 30
+  },
+  {
+    "id": 1243,
+    "term_id": 1243,
+    "name": "SHARP",
+    "slug": "sharp",
+    "parent": 1240,
+    "count": 0
+  },
+  {
+    "id": 1244,
+    "term_id": 1244,
+    "name": "INKS &amp; TONER",
+    "slug": "inks-toner",
+    "parent": 1240,
+    "count": 100
+  },
+  {
+    "id": 1245,
+    "term_id": 1245,
+    "name": "HP",
+    "slug": "hp-inks-toner",
+    "parent": 1244,
+    "count": 37
+  },
+  {
+    "id": 1246,
+    "term_id": 1246,
+    "name": "CANON",
+    "slug": "canon-inks-toner",
+    "parent": 1244,
+    "count": 25
+  },
+  {
+    "id": 1247,
+    "term_id": 1247,
+    "name": "SHARP",
+    "slug": "sharp-inks-toner",
+    "parent": 1244,
+    "count": 0
+  },
+  {
+    "id": 1248,
+    "term_id": 1248,
+    "name": "SCANNERS &amp; PHOTOCOPIERS",
+    "slug": "scanners-photocopiers",
+    "parent": 1240,
+    "count": 21
+  },
+  {
+    "id": 1249,
+    "term_id": 1249,
+    "name": "HP",
+    "slug": "hp-scanners-photocopiers",
+    "parent": 1248,
+    "count": 15
+  },
+  {
+    "id": 1250,
+    "term_id": 1250,
+    "name": "CANON",
+    "slug": "canon-scanners-photocopiers",
+    "parent": 1248,
+    "count": 2
+  },
+  {
+    "id": 1251,
+    "term_id": 1251,
+    "name": "SHARP",
+    "slug": "sharp-scanners-photocopiers",
+    "parent": 1248,
+    "count": 2
+  },
+  {
+    "id": 1252,
+    "term_id": 1252,
+    "name": "PROJECTORS",
+    "slug": "projectors",
+    "parent": 0,
+    "count": 94
+  },
+  {
+    "id": 1253,
+    "term_id": 1253,
+    "name": "DELL",
+    "slug": "dell-projectors",
+    "parent": 1252,
+    "count": 17
+  },
+  {
+    "id": 1254,
+    "term_id": 1254,
+    "name": "INFOCUS",
+    "slug": "infocus",
+    "parent": 1252,
+    "count": 3
+  },
+  {
+    "id": 1255,
+    "term_id": 1255,
+    "name": "ACER",
+    "slug": "acer-projectors",
+    "parent": 1252,
+    "count": 8
+  },
+  {
+    "id": 1256,
+    "term_id": 1256,
+    "name": "NEC",
+    "slug": "nec",
+    "parent": 1252,
+    "count": 16
+  },
+  {
+    "id": 1257,
+    "term_id": 1257,
+    "name": "LG",
+    "slug": "lg-projectors",
+    "parent": 1252,
+    "count": 0
+  },
+  {
+    "id": 1258,
+    "term_id": 1258,
+    "name": "GAMING CONSOLES &amp; ACCESSORIES",
+    "slug": "gaming-consoles-accessories",
+    "parent": 0,
+    "count": 89
+  },
+  {
+    "id": 1259,
+    "term_id": 1259,
+    "name": "PLAYSTATION",
+    "slug": "playstation-gaming-consoles-accessories",
+    "parent": 1258,
+    "count": 8
+  },
+  {
+    "id": 1260,
+    "term_id": 1260,
+    "name": "XBOX",
+    "slug": "xbox",
+    "parent": 1258,
+    "count": 1
+  },
+  {
+    "id": 1261,
+    "term_id": 1261,
+    "name": "NITENDO",
+    "slug": "nitendo",
+    "parent": 1258,
+    "count": 0
+  },
+  {
+    "id": 1262,
+    "term_id": 1262,
+    "name": "SUVILLENACE &amp; DRONES",
+    "slug": "suvillenace-drones",
+    "parent": 0,
+    "count": 22
+  },
+  {
+    "id": 1263,
+    "term_id": 1263,
+    "name": "HIKVISON",
+    "slug": "hikvison",
+    "parent": 1262,
+    "count": 1
+  },
+  {
+    "id": 1264,
+    "term_id": 1264,
+    "name": "DJI",
+    "slug": "dji",
+    "parent": 1262,
+    "count": 1
+  },
+  {
+    "id": 1265,
+    "term_id": 1265,
+    "name": "PREMAX",
+    "slug": "premax",
+    "parent": 1262,
+    "count": 13
+  },
+  {
+    "id": 1266,
+    "term_id": 1266,
+    "name": "POWER",
+    "slug": "power-2",
+    "parent": 0,
+    "count": 98
+  },
+  {
+    "id": 1267,
+    "term_id": 1267,
+    "name": "UNINTERRUPTED POWER SUPPLY (UPs)",
+    "slug": "uninterrupted-power-supply-ups",
+    "parent": 1266,
+    "count": 50
+  },
+  {
+    "id": 1268,
+    "term_id": 1268,
+    "name": "BLUEGATE",
+    "slug": "bluegate",
+    "parent": 1267,
+    "count": 5
+  },
+  {
+    "id": 1269,
+    "term_id": 1269,
+    "name": "MERCURY",
+    "slug": "mercury",
+    "parent": 1267,
+    "count": 0
+  },
+  {
+    "id": 1270,
+    "term_id": 1270,
+    "name": "APC",
+    "slug": "apc-uninterrupted-power-supply-ups",
+    "parent": 1267,
+    "count": 35
+  },
+  {
+    "id": 1271,
+    "term_id": 1271,
+    "name": "CROWN",
+    "slug": "crown",
+    "parent": 1267,
+    "count": 3
+  },
+  {
+    "id": 1272,
+    "term_id": 1272,
+    "name": "STABILZERS",
+    "slug": "stabilzers",
+    "parent": 1266,
+    "count": 24
+  },
+  {
+    "id": 1273,
+    "term_id": 1273,
+    "name": "MERCURY",
+    "slug": "mercury-stabilzers",
+    "parent": 1272,
+    "count": 19
+  },
+  {
+    "id": 1274,
+    "term_id": 1274,
+    "name": "APC",
+    "slug": "apc-stabilzers",
+    "parent": 1272,
+    "count": 1
+  },
+  {
+    "id": 1275,
+    "term_id": 1275,
+    "name": "EXTENSIONS",
+    "slug": "extensions",
+    "parent": 1266,
+    "count": 23
+  },
+  {
+    "id": 1276,
+    "term_id": 1276,
+    "name": "APC",
+    "slug": "apc-extensions",
+    "parent": 1275,
+    "count": 16
+  },
+  {
+    "id": 1277,
+    "term_id": 1277,
+    "name": "HAVIT",
+    "slug": "havit-extensions",
+    "parent": 1275,
+    "count": 1
+  },
+  {
+    "id": 1278,
+    "term_id": 1278,
+    "name": "ORAIMO",
+    "slug": "oraimo-extensions",
+    "parent": 1275,
+    "count": 3
+  },
+  {
+    "id": 1280,
+    "term_id": 1280,
+    "name": "MOTHERBOARD",
+    "slug": "motherboard",
+    "parent": 1605,
+    "count": 70
+  },
+  {
+    "id": 1281,
+    "term_id": 1281,
+    "name": "HP",
+    "slug": "hp-motherboard",
+    "parent": 1280,
+    "count": 40
+  },
+  {
+    "id": 1282,
+    "term_id": 1282,
+    "name": "DELL",
+    "slug": "dell-motherboard",
+    "parent": 1280,
+    "count": 12
+  },
+  {
+    "id": 1283,
+    "term_id": 1283,
+    "name": "LENOVO",
+    "slug": "lenovo-motherboard",
+    "parent": 1280,
+    "count": 8
+  },
+  {
+    "id": 1284,
+    "term_id": 1284,
+    "name": "ASUS",
+    "slug": "asus-motherboard",
+    "parent": 1280,
+    "count": 9
+  },
+  {
+    "id": 1285,
+    "term_id": 1285,
+    "name": "ACER",
+    "slug": "acer-motherboard",
+    "parent": 1280,
+    "count": 0
+  },
+  {
+    "id": 1286,
+    "term_id": 1286,
+    "name": "APPLE",
+    "slug": "apple-motherboard",
+    "parent": 1280,
+    "count": 0
+  },
+  {
+    "id": 1287,
+    "term_id": 1287,
+    "name": "KEYBOARDS",
+    "slug": "keyboards-replacement-parts-2",
+    "parent": 1605,
+    "count": 109
+  },
+  {
+    "id": 1288,
+    "term_id": 1288,
+    "name": "HP",
+    "slug": "hp-keyboards-replacement-parts",
+    "parent": 1287,
+    "count": 60
+  },
+  {
+    "id": 1289,
+    "term_id": 1289,
+    "name": "DELL",
+    "slug": "dell-keyboards-replacement-parts-2",
+    "parent": 1287,
+    "count": 12
+  },
+  {
+    "id": 1290,
+    "term_id": 1290,
+    "name": "LENOVO",
+    "slug": "lenovo-keyboards-replacement-parts",
+    "parent": 1287,
+    "count": 26
+  },
+  {
+    "id": 1291,
+    "term_id": 1291,
+    "name": "ASUS",
+    "slug": "asus-keyboards-replacement-parts-2",
+    "parent": 1287,
+    "count": 7
+  },
+  {
+    "id": 1292,
+    "term_id": 1292,
+    "name": "ACER",
+    "slug": "acer-keyboards-replacement-parts-2",
+    "parent": 1287,
+    "count": 1
+  },
+  {
+    "id": 1293,
+    "term_id": 1293,
+    "name": "APPLE",
+    "slug": "apple-keyboards-replacement-parts-2",
+    "parent": 1287,
+    "count": 0
+  },
+  {
+    "id": 1294,
+    "term_id": 1294,
+    "name": "CHARGERS",
+    "slug": "chargers-replacement-parts",
+    "parent": 1605,
+    "count": 90
+  },
+  {
+    "id": 1295,
+    "term_id": 1295,
+    "name": "HP",
+    "slug": "hp-chargers-replacement-parts",
+    "parent": 1294,
+    "count": 44
+  },
+  {
+    "id": 1296,
+    "term_id": 1296,
+    "name": "DEL",
+    "slug": "dell-chargers-replacement-parts",
+    "parent": 1294,
+    "count": 14
+  },
+  {
+    "id": 1297,
+    "term_id": 1297,
+    "name": "LENOVO",
+    "slug": "lenovo-chargers-replacement-parts",
+    "parent": 1294,
+    "count": 9
+  },
+  {
+    "id": 1298,
+    "term_id": 1298,
+    "name": "ASUS",
+    "slug": "asus-chargers-replacement-parts-2",
+    "parent": 1294,
+    "count": 7
+  },
+  {
+    "id": 1299,
+    "term_id": 1299,
+    "name": "ACER",
+    "slug": "acer-chargers-replacement-parts-2",
+    "parent": 1294,
+    "count": 1
+  },
+  {
+    "id": 1300,
+    "term_id": 1300,
+    "name": "APPLE",
+    "slug": "apple-chargers-replacement-parts-2",
+    "parent": 1294,
+    "count": 8
+  },
+  {
+    "id": 1301,
+    "term_id": 1301,
+    "name": "BATTERIES",
+    "slug": "batteries",
+    "parent": 1605,
+    "count": 72
+  },
+  {
+    "id": 1302,
+    "term_id": 1302,
+    "name": "HP",
+    "slug": "hp-batteries",
+    "parent": 1301,
+    "count": 48
+  },
+  {
+    "id": 1303,
+    "term_id": 1303,
+    "name": "DELL",
+    "slug": "dell-batteries",
+    "parent": 1301,
+    "count": 11
+  },
+  {
+    "id": 1304,
+    "term_id": 1304,
+    "name": "LENOVO",
+    "slug": "lenovo-batteries",
+    "parent": 1301,
+    "count": 10
+  },
+  {
+    "id": 1305,
+    "term_id": 1305,
+    "name": "ASUS",
+    "slug": "asus-batteries",
+    "parent": 1301,
+    "count": 7
+  },
+  {
+    "id": 1306,
+    "term_id": 1306,
+    "name": "ACER",
+    "slug": "acer-batteries",
+    "parent": 1301,
+    "count": 0
+  },
+  {
+    "id": 1307,
+    "term_id": 1307,
+    "name": "APPLE",
+    "slug": "apple-batteries",
+    "parent": 1301,
+    "count": 0
+  },
+  {
+    "id": 1308,
+    "term_id": 1308,
+    "name": "SCREENS",
+    "slug": "screens-replacement-parts",
+    "parent": 1605,
+    "count": 72
+  },
+  {
+    "id": 1309,
+    "term_id": 1309,
+    "name": "HP",
+    "slug": "hp-screens-replacement-parts",
+    "parent": 1308,
+    "count": 44
+  },
+  {
+    "id": 1310,
+    "term_id": 1310,
+    "name": "DELL",
+    "slug": "dell-screens-replacement-parts",
+    "parent": 1308,
+    "count": 11
+  },
+  {
+    "id": 1311,
+    "term_id": 1311,
+    "name": "LENOVO",
+    "slug": "lenovo-screens-replacement-parts",
+    "parent": 1308,
+    "count": 8
+  },
+  {
+    "id": 1312,
+    "term_id": 1312,
+    "name": "ASUS",
+    "slug": "asus-screens-replacement-parts-2",
+    "parent": 1308,
+    "count": 7
+  },
+  {
+    "id": 1313,
+    "term_id": 1313,
+    "name": "ACER",
+    "slug": "acer-screens-replacement-parts-2",
+    "parent": 1308,
+    "count": 0
+  },
+  {
+    "id": 1314,
+    "term_id": 1314,
+    "name": "APPLE",
+    "slug": "apple-screens-replacement-parts-2",
+    "parent": 1308,
+    "count": 0
+  },
+  {
+    "id": 1315,
+    "term_id": 1315,
+    "name": "RAMS",
+    "slug": "rams",
+    "parent": 1605,
+    "count": 88
+  },
+  {
+    "id": 1316,
+    "term_id": 1316,
+    "name": "CRUCIAL",
+    "slug": "crucial-rams",
+    "parent": 1315,
+    "count": 5
+  },
+  {
+    "id": 1318,
+    "term_id": 1318,
+    "name": "HINIX",
+    "slug": "hinix",
+    "parent": 1315,
+    "count": 0
+  },
+  {
+    "id": 1321,
+    "term_id": 1321,
+    "name": "SEAGATE",
+    "slug": "seagate-hard-drives",
+    "parent": 1157,
+    "count": 3
+  },
+  {
+    "id": 1322,
+    "term_id": 1322,
+    "name": "WESTERN DIGITAL",
+    "slug": "western-digital-hard-drives",
+    "parent": 1158,
+    "count": 2
+  },
+  {
+    "id": 1323,
+    "term_id": 1323,
+    "name": "CRUCIAL",
+    "slug": "crucial-hard-drives",
+    "parent": 1611,
+    "count": 2
+  },
+  {
+    "id": 1324,
+    "term_id": 1324,
+    "name": "NETWORKING",
+    "slug": "networking-2",
+    "parent": 0,
+    "count": 109
+  },
+  {
+    "id": 1325,
+    "term_id": 1325,
+    "name": "SERVER",
+    "slug": "server-networking",
+    "parent": 1324,
+    "count": 40
+  },
+  {
+    "id": 1326,
+    "term_id": 1326,
+    "name": "HP",
+    "slug": "hp",
+    "parent": 1325,
+    "count": 17
+  },
+  {
+    "id": 1327,
+    "term_id": 1327,
+    "name": "DELL",
+    "slug": "dell-server-networking",
+    "parent": 1325,
+    "count": 3
+  },
+  {
+    "id": 1328,
+    "term_id": 1328,
+    "name": "LENOVO",
+    "slug": "lenovo-server-networking",
+    "parent": 1325,
+    "count": 0
+  },
+  {
+    "id": 1329,
+    "term_id": 1329,
+    "name": "CISCO",
+    "slug": "cisco",
+    "parent": 1325,
+    "count": 0
+  },
+  {
+    "id": 1330,
+    "term_id": 1330,
+    "name": "ROUTERS",
+    "slug": "routers-networking",
+    "parent": 1324,
+    "count": 18
+  },
+  {
+    "id": 1331,
+    "term_id": 1331,
+    "name": "TP-LINK",
+    "slug": "tp-link-routers-networking",
+    "parent": 1330,
+    "count": 16
+  },
+  {
+    "id": 1332,
+    "term_id": 1332,
+    "name": "D-LINK",
+    "slug": "d-link-routers-networking-2",
+    "parent": 1330,
+    "count": 0
+  },
+  {
+    "id": 1333,
+    "term_id": 1333,
+    "name": "CISCO",
+    "slug": "cisco-routers-networking",
+    "parent": 1330,
+    "count": 0
+  },
+  {
+    "id": 1334,
+    "term_id": 1334,
+    "name": "SWITCHES",
+    "slug": "switches-networking",
+    "parent": 1324,
+    "count": 20
+  },
+  {
+    "id": 1335,
+    "term_id": 1335,
+    "name": "TP-LINK",
+    "slug": "tp-link-switches-networking",
+    "parent": 1334,
+    "count": 6
+  },
+  {
+    "id": 1336,
+    "term_id": 1336,
+    "name": "D-LINK",
+    "slug": "d-link-switches-networking",
+    "parent": 1334,
+    "count": 6
+  },
+  {
+    "id": 1337,
+    "term_id": 1337,
+    "name": "CISCO",
+    "slug": "cisco-switches-networking",
+    "parent": 1334,
+    "count": 2
+  },
+  {
+    "id": 1338,
+    "term_id": 1338,
+    "name": "ACCESS POINT",
+    "slug": "access-point-networking-2",
+    "parent": 1324,
+    "count": 10
+  },
+  {
+    "id": 1339,
+    "term_id": 1339,
+    "name": "TP-LINK",
+    "slug": "tp-link-access-point-networking",
+    "parent": 1338,
+    "count": 20
+  },
+  {
+    "id": 1340,
+    "term_id": 1340,
+    "name": "D-LINK",
+    "slug": "d-link-access-point-networking",
+    "parent": 1338,
+    "count": 4
+  },
+  {
+    "id": 1341,
+    "term_id": 1341,
+    "name": "CISCO",
+    "slug": "cisco-access-point-networking",
+    "parent": 1338,
+    "count": 0
+  },
+  {
+    "id": 1342,
+    "term_id": 1342,
+    "name": "TELEPHONY &amp;PABX",
+    "slug": "telephony-pabx-networking",
+    "parent": 1324,
+    "count": 1
+  },
+  {
+    "id": 1343,
+    "term_id": 1343,
+    "name": "TP-LINK",
+    "slug": "tp-link-telephony-pabx-networking",
+    "parent": 1342,
+    "count": 0
+  },
+  {
+    "id": 1344,
+    "term_id": 1344,
+    "name": "D-LINK",
+    "slug": "d-link-telephony-pabx-networking",
+    "parent": 1342,
+    "count": 0
+  },
+  {
+    "id": 1345,
+    "term_id": 1345,
+    "name": "CISCO",
+    "slug": "cisco-telephony-pabx-networking",
+    "parent": 1342,
+    "count": 0
+  },
+  {
+    "id": 1346,
+    "term_id": 1346,
+    "name": "NETWORKING ACCESSORIES",
+    "slug": "networking-accessories",
+    "parent": 1324,
+    "count": 23
+  },
+  {
+    "id": 1347,
+    "term_id": 1347,
+    "name": "CABLES &amp; CONNECTORS",
+    "slug": "cables-connectors",
+    "parent": 1346,
+    "count": 11
+  },
+  {
+    "id": 1348,
+    "term_id": 1348,
+    "name": "MODERMS",
+    "slug": "moderms",
+    "parent": 1347,
+    "count": 8
+  },
+  {
+    "id": 1349,
+    "term_id": 1349,
+    "name": "TP-LINK",
+    "slug": "tp-link-moderms",
+    "parent": 1348,
+    "count": 7
+  },
+  {
+    "id": 1350,
+    "term_id": 1350,
+    "name": "D-LINK",
+    "slug": "d-link-moderms",
+    "parent": 1348,
+    "count": 1
+  },
+  {
+    "id": 1351,
+    "term_id": 1351,
+    "name": "CISCO",
+    "slug": "cisco-moderms",
+    "parent": 1348,
+    "count": 0
+  },
+  {
+    "id": 1353,
+    "term_id": 1353,
+    "name": "Apple",
+    "slug": "apple-laptop-2",
+    "parent": 1135,
+    "count": 74
+  },
+  {
+    "id": 1354,
+    "term_id": 1354,
+    "name": "APPLE",
+    "slug": "apple",
+    "parent": 1170,
+    "count": 21
+  },
+  {
+    "id": 1355,
+    "term_id": 1355,
+    "name": "APPLE",
+    "slug": "apple-desktop",
+    "parent": 1143,
+    "count": 27
+  },
+  {
+    "id": 1356,
+    "term_id": 1356,
+    "name": "ACCESSORIES",
+    "slug": "accessories",
+    "parent": 0,
+    "count": 301
+  },
+  {
+    "id": 1357,
+    "term_id": 1357,
+    "name": "WIRELESS SPEAKER",
+    "slug": "wireless-speaker-accessories",
+    "parent": 1356,
+    "count": 35
+  },
+  {
+    "id": 1358,
+    "term_id": 1358,
+    "name": "APPLE",
+    "slug": "apple-wireless-speaker-accessories",
+    "parent": 1357,
+    "count": 1
+  },
+  {
+    "id": 1359,
+    "term_id": 1359,
+    "name": "HAVIT",
+    "slug": "havit-wireless-speaker-accessories",
+    "parent": 1357,
+    "count": 7
+  },
+  {
+    "id": 1360,
+    "term_id": 1360,
+    "name": "ORAIMO",
+    "slug": "oraimo-wireless-speaker-accessories",
+    "parent": 1357,
+    "count": 2
+  },
+  {
+    "id": 1361,
+    "term_id": 1361,
+    "name": "JBL",
+    "slug": "jbl-wireless-speaker-accessories",
+    "parent": 1357,
+    "count": 5
+  },
+  {
+    "id": 1362,
+    "term_id": 1362,
+    "name": "SOFTWARES",
+    "slug": "softwares",
+    "parent": 0,
+    "count": 67
+  },
+  {
+    "id": 1363,
+    "term_id": 1363,
+    "name": "NORTON",
+    "slug": "norton",
+    "parent": 1362,
+    "count": 7
+  },
+  {
+    "id": 1364,
+    "term_id": 1364,
+    "name": "KASPERSKY",
+    "slug": "kaspersky",
+    "parent": 1362,
+    "count": 6
+  },
+  {
+    "id": 1365,
+    "term_id": 1365,
+    "name": "QUICK HEAL",
+    "slug": "quick-heal",
+    "parent": 1362,
+    "count": 9
+  },
+  {
+    "id": 1366,
+    "term_id": 1366,
+    "name": "MCAFEE",
+    "slug": "mcafee",
+    "parent": 1362,
+    "count": 0
+  },
+  {
+    "id": 1367,
+    "term_id": 1367,
+    "name": "ADOBE",
+    "slug": "adobe",
+    "parent": 1362,
+    "count": 4
+  },
+  {
+    "id": 1368,
+    "term_id": 1368,
+    "name": "COREL",
+    "slug": "corel",
+    "parent": 1362,
+    "count": 0
+  },
+  {
+    "id": 1369,
+    "term_id": 1369,
+    "name": "HARMAN",
+    "slug": "harman",
+    "parent": 1357,
+    "count": 5
+  },
+  {
+    "id": 1370,
+    "term_id": 1370,
+    "name": "SMART HOME DEVICES",
+    "slug": "smart-home-devices",
+    "parent": 1356,
+    "count": 49
+  },
+  {
+    "id": 1371,
+    "term_id": 1371,
+    "name": "GOOGLE",
+    "slug": "google",
+    "parent": 1370,
+    "count": 21
+  },
+  {
+    "id": 1372,
+    "term_id": 1372,
+    "name": "AMAZON",
+    "slug": "amazon",
+    "parent": 1370,
+    "count": 15
+  },
+  {
+    "id": 1381,
+    "term_id": 1381,
+    "name": "GARMIN",
+    "slug": "garmin",
+    "parent": 1194,
+    "count": 2
+  },
+  {
+    "id": 1382,
+    "term_id": 1382,
+    "name": "FITBIT",
+    "slug": "fitbit",
+    "parent": 1194,
+    "count": 17
+  },
+  {
+    "id": 1391,
+    "term_id": 1391,
+    "name": "ESET",
+    "slug": "eset",
+    "parent": 1362,
+    "count": 2
+  },
+  {
+    "id": 1392,
+    "term_id": 1392,
+    "name": "EARLDOM",
+    "slug": "earldom",
+    "parent": 1216,
+    "count": 3
+  },
+  {
+    "id": 1393,
+    "term_id": 1393,
+    "name": "EARLDOM",
+    "slug": "earldom-cables-adapters",
+    "parent": 1207,
+    "count": 1
+  },
+  {
+    "id": 1478,
+    "term_id": 1478,
+    "name": "SAMSUNG",
+    "slug": "samsung",
+    "parent": 1149,
+    "count": 36
+  },
+  {
+    "id": 1490,
+    "term_id": 1490,
+    "name": "EPSON",
+    "slug": "epson",
+    "parent": 1252,
+    "count": 18
+  },
+  {
+    "id": 1510,
+    "term_id": 1510,
+    "name": "GENERIC",
+    "slug": "generic-computer-accessories-2",
+    "parent": 1157,
+    "count": 3
+  },
+  {
+    "id": 1534,
+    "term_id": 1534,
+    "name": "MICROSOFT",
+    "slug": "microsoft",
+    "parent": 1362,
+    "count": 6
+  },
+  {
+    "id": 1571,
+    "term_id": 1571,
+    "name": "MAXWELL",
+    "slug": "maxwell",
+    "parent": 1252,
+    "count": 3
+  },
+  {
+    "id": 1574,
+    "term_id": 1574,
+    "name": "ERGONOMIC",
+    "slug": "ergonomic",
+    "parent": 1170,
+    "count": 1
+  },
+  {
+    "id": 1604,
+    "term_id": 1604,
+    "name": "HPE",
+    "slug": "hpe",
+    "parent": 1325,
+    "count": 28
+  },
+  {
+    "id": 1605,
+    "term_id": 1605,
+    "name": "REPLACEMENT PARTS",
+    "slug": "replacement-parts-new",
+    "parent": 0,
+    "count": 1219
+  },
+  {
+    "id": 1606,
+    "term_id": 1606,
+    "name": "CHARGERS ( NEW )",
+    "slug": "chargers-new",
+    "parent": 1605,
+    "count": 222
+  },
+  {
+    "id": 1607,
+    "term_id": 1607,
+    "name": "APPLE ( NEW )",
+    "slug": "apple-new",
+    "parent": 1606,
+    "count": 1
+  },
+  {
+    "id": 1608,
+    "term_id": 1608,
+    "name": "MICROSOFT ( NEW )",
+    "slug": "microsoft-new",
+    "parent": 1606,
+    "count": 6
+  },
+  {
+    "id": 1609,
+    "term_id": 1609,
+    "name": "UNINTERRUPTED POWER SUPPLY(UPs) ( NEW )",
+    "slug": "uninterrupted-power-supplyups-new",
+    "parent": 1266,
+    "count": 6
+  },
+  {
+    "id": 1610,
+    "term_id": 1610,
+    "name": "BLUEGATE ( NEW )",
+    "slug": "bluegate-new",
+    "parent": 1609,
+    "count": 7
+  },
+  {
+    "id": 1611,
+    "term_id": 1611,
+    "name": "HARD DRIVES",
+    "slug": "hard-drives-new",
+    "parent": 1605,
+    "count": 163
+  },
+  {
+    "id": 1612,
+    "term_id": 1612,
+    "name": "RAMS ( NEW )",
+    "slug": "rams-new",
+    "parent": 1605,
+    "count": 132
+  },
+  {
+    "id": 1613,
+    "term_id": 1613,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new",
+    "parent": 1606,
+    "count": 36
+  },
+  {
+    "id": 1615,
+    "term_id": 1615,
+    "name": "MICROSOFT ( NEW )",
+    "slug": "microsoft-new-software-new",
+    "parent": 1362,
+    "count": 18
+  },
+  {
+    "id": 1619,
+    "term_id": 1619,
+    "name": "HP ( NEW )",
+    "slug": "hp-new",
+    "parent": 1606,
+    "count": 118
+  },
+  {
+    "id": 1620,
+    "term_id": 1620,
+    "name": "KEYBOARDS ( NEW )",
+    "slug": "keyboards-new",
+    "parent": 1605,
+    "count": 146
+  },
+  {
+    "id": 1621,
+    "term_id": 1621,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new",
+    "parent": 1620,
+    "count": 39
+  },
+  {
+    "id": 1622,
+    "term_id": 1622,
+    "name": "BATTERIES ( NEW )",
+    "slug": "batteries-new",
+    "parent": 1605,
+    "count": 165
+  },
+  {
+    "id": 1623,
+    "term_id": 1623,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-batteries-new",
+    "parent": 1622,
+    "count": 66
+  },
+  {
+    "id": 1624,
+    "term_id": 1624,
+    "name": "QUICK HEAL ( new )",
+    "slug": "quick-heal-new",
+    "parent": 1362,
+    "count": 5
+  },
+  {
+    "id": 1625,
+    "term_id": 1625,
+    "name": "NORTON ( NEW )",
+    "slug": "norton-new",
+    "parent": 1362,
+    "count": 11
+  },
+  {
+    "id": 1627,
+    "term_id": 1627,
+    "name": "SCREENS ( NEW )",
+    "slug": "screens-new",
+    "parent": 1605,
+    "count": 185
+  },
+  {
+    "id": 1628,
+    "term_id": 1628,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-screens-new",
+    "parent": 1627,
+    "count": 91
+  },
+  {
+    "id": 1629,
+    "term_id": 1629,
+    "name": "MOTHERBOARD ( NEW )",
+    "slug": "motherboard-new",
+    "parent": 1605,
+    "count": 185
+  },
+  {
+    "id": 1630,
+    "term_id": 1630,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-motherboard-new",
+    "parent": 1629,
+    "count": 79
+  },
+  {
+    "id": 1631,
+    "term_id": 1631,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-keyboards-new",
+    "parent": 1620,
+    "count": 63
+  },
+  {
+    "id": 1632,
+    "term_id": 1632,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-batteries-new",
+    "parent": 1622,
+    "count": 24
+  },
+  {
+    "id": 1633,
+    "term_id": 1633,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-batteries-new",
+    "parent": 1622,
+    "count": 56
+  },
+  {
+    "id": 1634,
+    "term_id": 1634,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-screens-new",
+    "parent": 1627,
+    "count": 55
+  },
+  {
+    "id": 1635,
+    "term_id": 1635,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-motherboard-new",
+    "parent": 1629,
+    "count": 46
+  },
+  {
+    "id": 1636,
+    "term_id": 1636,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-chargers-new",
+    "parent": 1606,
+    "count": 43
+  },
+  {
+    "id": 1637,
+    "term_id": 1637,
+    "name": "SAMSUNG ( NEW )",
+    "slug": "samsung-new",
+    "parent": 1612,
+    "count": 1
+  },
+  {
+    "id": 1638,
+    "term_id": 1638,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new",
+    "parent": 1627,
+    "count": 9
+  },
+  {
+    "id": 1639,
+    "term_id": 1639,
+    "name": "CRUCIAL ( NEW )",
+    "slug": "crucial-new",
+    "parent": 1612,
+    "count": 5
+  },
+  {
+    "id": 1640,
+    "term_id": 1640,
+    "name": "CRUCIAL ( NEW )",
+    "slug": "crucial-new-hard-drives-new",
+    "parent": 1611,
+    "count": 1
+  },
+  {
+    "id": 1641,
+    "term_id": 1641,
+    "name": "SEAGATE ( NEW )",
+    "slug": "seagate-new",
+    "parent": 1611,
+    "count": 3
+  },
+  {
+    "id": 1642,
+    "term_id": 1642,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-batteries-new",
+    "parent": 1622,
+    "count": 15
+  },
+  {
+    "id": 1645,
+    "term_id": 1645,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-keyboards-new",
+    "parent": 1620,
+    "count": 22
+  },
+  {
+    "id": 1646,
+    "term_id": 1646,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-screens-new",
+    "parent": 1627,
+    "count": 30
+  },
+  {
+    "id": 1647,
+    "term_id": 1647,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-motherboard-new",
+    "parent": 1629,
+    "count": 36
+  },
+  {
+    "id": 1648,
+    "term_id": 1648,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-keyboards-new",
+    "parent": 1620,
+    "count": 10
+  },
+  {
+    "id": 1649,
+    "term_id": 1649,
+    "name": "CROWN ( NEW )",
+    "slug": "crown-new",
+    "parent": 1609,
+    "count": 1
+  },
+  {
+    "id": 1650,
+    "term_id": 1650,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-motherboard-new",
+    "parent": 1629,
+    "count": 22
+  },
+  {
+    "id": 1651,
+    "term_id": 1651,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-chargers-new",
+    "parent": 1606,
+    "count": 11
+  },
+  {
+    "id": 1652,
+    "term_id": 1652,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new",
+    "parent": 1606,
+    "count": 2
+  },
+  {
+    "id": 1653,
+    "term_id": 1653,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new-keyboards-new",
+    "parent": 1620,
+    "count": 10
+  },
+  {
+    "id": 1654,
+    "term_id": 1654,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new-batteries-new",
+    "parent": 1622,
+    "count": 2
+  },
+  {
+    "id": 1729,
+    "term_id": 1729,
+    "name": "COOLBELL",
+    "slug": "coolbell",
+    "parent": 1163,
+    "count": 1
+  },
+  {
+    "id": 1733,
+    "term_id": 1733,
+    "name": "HP",
+    "slug": "hp-headsets-earphones",
+    "parent": 1224,
+    "count": 1
+  },
+  {
+    "id": 1740,
+    "term_id": 1740,
+    "name": "LONOVO",
+    "slug": "lonovo",
+    "parent": 1224,
+    "count": 1
+  },
+  {
+    "id": 1742,
+    "term_id": 1742,
+    "name": "Tripp Lite",
+    "slug": "tripp-lite",
+    "parent": 1267,
+    "count": 3
+  },
+  {
+    "id": 1801,
+    "term_id": 1801,
+    "name": "DELL",
+    "slug": "dell",
+    "parent": 1189,
+    "count": 1
+  },
+  {
+    "id": 1803,
+    "term_id": 1803,
+    "name": "TOSHIBA",
+    "slug": "toshiba",
+    "parent": 1158,
+    "count": 4
+  },
+  {
+    "id": 1804,
+    "term_id": 1804,
+    "name": "BLUEGATE",
+    "slug": "bluegate-stabilzers",
+    "parent": 1272,
+    "count": 2
+  },
+  {
+    "id": 1805,
+    "term_id": 1805,
+    "name": "Optoma",
+    "slug": "optoma",
+    "parent": 1252,
+    "count": 21
+  },
+  {
+    "id": 1806,
+    "term_id": 1806,
+    "name": "PANASONIC",
+    "slug": "panasonic",
+    "parent": 1252,
+    "count": 5
+  },
+  {
+    "id": 1807,
+    "term_id": 1807,
+    "name": "MICROSOFT ( NEW )",
+    "slug": "microsoft-new-batteries-new",
+    "parent": 1622,
+    "count": 1
+  },
+  {
+    "id": 1808,
+    "term_id": 1808,
+    "name": "MICROSOFT ( NEW )",
+    "slug": "microsoft-new-motherboard-new",
+    "parent": 1629,
+    "count": 3
+  },
+  {
+    "id": 1809,
+    "term_id": 1809,
+    "name": "MICROSOFT ( NEW )",
+    "slug": "microsoft-new-screens-new",
+    "parent": 1627,
+    "count": 13
+  },
+  {
+    "id": 1810,
+    "term_id": 1810,
+    "name": "BENQ",
+    "slug": "benq",
+    "parent": 1252,
+    "count": 11
+  },
+  {
+    "id": 1811,
+    "term_id": 1811,
+    "name": "BARCO",
+    "slug": "barco",
+    "parent": 1252,
+    "count": 2
+  },
+  {
+    "id": 1812,
+    "term_id": 1812,
+    "name": "CANON",
+    "slug": "canon-projectors",
+    "parent": 1252,
+    "count": 1
+  },
+  {
+    "id": 1813,
+    "term_id": 1813,
+    "name": "CASIO",
+    "slug": "casio",
+    "parent": 1252,
+    "count": 6
+  },
+  {
+    "id": 1814,
+    "term_id": 1814,
+    "name": "RICOH",
+    "slug": "ricoh",
+    "parent": 1252,
+    "count": 2
+  },
+  {
+    "id": 1815,
+    "term_id": 1815,
+    "name": "SONY",
+    "slug": "sony",
+    "parent": 1252,
+    "count": 2
+  },
+  {
+    "id": 1816,
+    "term_id": 1816,
+    "name": "AOC",
+    "slug": "aoc",
+    "parent": 1149,
+    "count": 10
+  },
+  {
+    "id": 1817,
+    "term_id": 1817,
+    "name": "SMART",
+    "slug": "smart",
+    "parent": 1252,
+    "count": 2
+  },
+  {
+    "id": 1818,
+    "term_id": 1818,
+    "name": "VIEWSONIC",
+    "slug": "viewsonic",
+    "parent": 1252,
+    "count": 8
+  },
+  {
+    "id": 1819,
+    "term_id": 1819,
+    "name": "HITACHI",
+    "slug": "hitachi",
+    "parent": 1252,
+    "count": 1
+  },
+  {
+    "id": 1820,
+    "term_id": 1820,
+    "name": "TRANSCEND",
+    "slug": "transcend",
+    "parent": 1158,
+    "count": 1
+  },
+  {
+    "id": 1821,
+    "term_id": 1821,
+    "name": "LOGITECH",
+    "slug": "logitech",
+    "parent": 1224,
+    "count": 1
+  },
+  {
+    "id": 1822,
+    "term_id": 1822,
+    "name": "HPE",
+    "slug": "hpe-switches-networking",
+    "parent": 1334,
+    "count": 6
+  },
+  {
+    "id": 1823,
+    "term_id": 1823,
+    "name": "EPSON",
+    "slug": "epson-printers",
+    "parent": 1240,
+    "count": 6
+  },
+  {
+    "id": 1824,
+    "term_id": 1824,
+    "name": "SWITZ",
+    "slug": "switz",
+    "parent": 1362,
+    "count": 1
+  },
+  {
+    "id": 1825,
+    "term_id": 1825,
+    "name": "Acer",
+    "slug": "acer",
+    "parent": 1252,
+    "count": 1
+  },
+  {
+    "id": 1826,
+    "term_id": 1826,
+    "name": "MAXELL",
+    "slug": "maxell",
+    "parent": 1252,
+    "count": 2
+  },
+  {
+    "id": 1827,
+    "term_id": 1827,
+    "name": "Replacement part",
+    "slug": "replacement-part",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1828,
+    "term_id": 1828,
+    "name": "HP",
+    "slug": "hp-replacement-part",
+    "parent": 1827,
+    "count": 1378
+  },
+  {
+    "id": 1829,
+    "term_id": 1829,
+    "name": "Others",
+    "slug": "others",
+    "parent": 0,
+    "count": 4
+  },
+  {
+    "id": 1830,
+    "term_id": 1830,
+    "name": "Philips",
+    "slug": "philips",
+    "parent": 1149,
+    "count": 4
+  },
+  {
+    "id": 1831,
+    "term_id": 1831,
+    "name": "Dell",
+    "slug": "dell-monitor-2",
+    "parent": 1149,
+    "count": 1
+  },
+  {
+    "id": 1832,
+    "term_id": 1832,
+    "name": "Laptop",
+    "slug": "laptop",
+    "parent": 0,
+    "count": 119
+  },
+  {
+    "id": 1833,
+    "term_id": 1833,
+    "name": "DELL",
+    "slug": "dell-laptop-2",
+    "parent": 1832,
+    "count": 136
+  },
+  {
+    "id": 1834,
+    "term_id": 1834,
+    "name": "Acer",
+    "slug": "acer-monitor-2",
+    "parent": 1149,
+    "count": 0
+  },
+  {
+    "id": 1835,
+    "term_id": 1835,
+    "name": "BenQ",
+    "slug": "benq-monitor",
+    "parent": 1149,
+    "count": 5
+  },
+  {
+    "id": 1836,
+    "term_id": 1836,
+    "name": "Phone",
+    "slug": "phone",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1837,
+    "term_id": 1837,
+    "name": "LG",
+    "slug": "lg-phone",
+    "parent": 1836,
+    "count": 1
+  },
+  {
+    "id": 1838,
+    "term_id": 1838,
+    "name": "Oneplus",
+    "slug": "oneplus",
+    "parent": 1836,
+    "count": 1
+  },
+  {
+    "id": 1839,
+    "term_id": 1839,
+    "name": "Doogee mix",
+    "slug": "doogee-mix",
+    "parent": 1836,
+    "count": 1
+  },
+  {
+    "id": 1840,
+    "term_id": 1840,
+    "name": "Honor",
+    "slug": "honor",
+    "parent": 1836,
+    "count": 2
+  },
+  {
+    "id": 1841,
+    "term_id": 1841,
+    "name": "Tablet Accessories",
+    "slug": "tablet-accessories",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1842,
+    "term_id": 1842,
+    "name": "Samsung",
+    "slug": "samsung-tablet-accessories",
+    "parent": 1841,
+    "count": 1
+  },
+  {
+    "id": 1843,
+    "term_id": 1843,
+    "name": "Tablet",
+    "slug": "tablet",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1844,
+    "term_id": 1844,
+    "name": "Samsung",
+    "slug": "samsung-tablet",
+    "parent": 1843,
+    "count": 13
+  },
+  {
+    "id": 1845,
+    "term_id": 1845,
+    "name": "Samsung",
+    "slug": "samsung-tablet-2",
+    "parent": 1843,
+    "count": 0
+  },
+  {
+    "id": 1846,
+    "term_id": 1846,
+    "name": "SmartWatch",
+    "slug": "smartwatch-2",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 1847,
+    "term_id": 1847,
+    "name": "Samsung",
+    "slug": "samsung-smartwatch-2",
+    "parent": 1846,
+    "count": 2
+  },
+  {
+    "id": 1848,
+    "term_id": 1848,
+    "name": "Samsung",
+    "slug": "samsung-smartwatch-2-2",
+    "parent": 1846,
+    "count": 0
+  },
+  {
+    "id": 1849,
+    "term_id": 1849,
+    "name": "APPLE",
+    "slug": "apple-smartwatch-2",
+    "parent": 1846,
+    "count": 4
+  },
+  {
+    "id": 1850,
+    "term_id": 1850,
+    "name": "Lenovo",
+    "slug": "lenovo",
+    "parent": 1827,
+    "count": 401
+  },
+  {
+    "id": 1851,
+    "term_id": 1851,
+    "name": "ASUS",
+    "slug": "asus",
+    "parent": 1827,
+    "count": 42
+  },
+  {
+    "id": 1852,
+    "term_id": 1852,
+    "name": "POS Cash Register",
+    "slug": "pos-cash-register",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 1853,
+    "term_id": 1853,
+    "name": "POS Hardware",
+    "slug": "pos-hardware",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 1854,
+    "term_id": 1854,
+    "name": "POS System",
+    "slug": "pos-system",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 1855,
+    "term_id": 1855,
+    "name": "All In One Computer",
+    "slug": "all-in-one-computer",
+    "parent": 0,
+    "count": 4
+  },
+  {
+    "id": 1856,
+    "term_id": 1856,
+    "name": "lenovo",
+    "slug": "lenovo-all-in-one-computer",
+    "parent": 1855,
+    "count": 1
+  },
+  {
+    "id": 1857,
+    "term_id": 1857,
+    "name": "Airpods pro",
+    "slug": "airpods-pro",
+    "parent": 1358,
+    "count": 1
+  },
+  {
+    "id": 1858,
+    "term_id": 1858,
+    "name": "Speaker",
+    "slug": "speaker",
+    "parent": 0,
+    "count": 14
+  },
+  {
+    "id": 1859,
+    "term_id": 1859,
+    "name": "Havit",
+    "slug": "havit",
+    "parent": 1858,
+    "count": 22
+  },
+  {
+    "id": 1860,
+    "term_id": 1860,
+    "name": "Havit",
+    "slug": "havit-suvillenace-drones",
+    "parent": 1262,
+    "count": 1
+  },
+  {
+    "id": 1861,
+    "term_id": 1861,
+    "name": "HAVIT",
+    "slug": "havit-keyboard-mouse",
+    "parent": 1170,
+    "count": 2
+  },
+  {
+    "id": 1862,
+    "term_id": 1862,
+    "name": "MICROSOFT",
+    "slug": "microsoft-bags",
+    "parent": 1163,
+    "count": 1
+  },
+  {
+    "id": 1863,
+    "term_id": 1863,
+    "name": "VELECTRONICS",
+    "slug": "velectronics",
+    "parent": 1267,
+    "count": 1
+  },
+  {
+    "id": 1864,
+    "term_id": 1864,
+    "name": "HIK VISION",
+    "slug": "hik-vision",
+    "parent": 1158,
+    "count": 1
+  },
+  {
+    "id": 1865,
+    "term_id": 1865,
+    "name": "AFOX",
+    "slug": "afox",
+    "parent": 1176,
+    "count": 1
+  },
+  {
+    "id": 1866,
+    "term_id": 1866,
+    "name": "Hp",
+    "slug": "hp-laptop-2",
+    "parent": 1832,
+    "count": 637
+  },
+  {
+    "id": 1867,
+    "term_id": 1867,
+    "name": "REPLACEMENT PARTS ( NEW )",
+    "slug": "replacement-parts-new-2",
+    "parent": 0,
+    "count": 56
+  },
+  {
+    "id": 1868,
+    "term_id": 1868,
+    "name": "BATTERIES ( NEW )",
+    "slug": "batteries-new-replacement-parts-new-2",
+    "parent": 1867,
+    "count": 51
+  },
+  {
+    "id": 1869,
+    "term_id": 1869,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-batteries-new-replacement-parts-new-2",
+    "parent": 1868,
+    "count": 140
+  },
+  {
+    "id": 1870,
+    "term_id": 1870,
+    "name": "CHARGERS ( NEW )",
+    "slug": "chargers-new-replacement-parts-new-2",
+    "parent": 1867,
+    "count": 8
+  },
+  {
+    "id": 1871,
+    "term_id": 1871,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-chargers-new-replacement-parts-new-2",
+    "parent": 1870,
+    "count": 130
+  },
+  {
+    "id": 1872,
+    "term_id": 1872,
+    "name": "SCREENS ( NEW )",
+    "slug": "screens-new-replacement-parts-new-2",
+    "parent": 1867,
+    "count": 8
+  },
+  {
+    "id": 1873,
+    "term_id": 1873,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-screens-new-replacement-parts-new-2",
+    "parent": 1872,
+    "count": 130
+  },
+  {
+    "id": 1874,
+    "term_id": 1874,
+    "name": "KEYBOARDS ( NEW )",
+    "slug": "keyboards-new-replacement-parts-new-2",
+    "parent": 1867,
+    "count": 7
+  },
+  {
+    "id": 1875,
+    "term_id": 1875,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-keyboards-new-replacement-parts-new-2",
+    "parent": 1874,
+    "count": 130
+  },
+  {
+    "id": 1876,
+    "term_id": 1876,
+    "name": "RAMS ( NEW )",
+    "slug": "rams-new-replacement-parts-new-2",
+    "parent": 1867,
+    "count": 7
+  },
+  {
+    "id": 1877,
+    "term_id": 1877,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-rams-new-replacement-parts-new-2",
+    "parent": 1876,
+    "count": 1
+  },
+  {
+    "id": 1878,
+    "term_id": 1878,
+    "name": "HARD DRIVES ( NEW )",
+    "slug": "hard-drives-new-replacement-parts-new-2",
+    "parent": 1867,
+    "count": 13
+  },
+  {
+    "id": 1879,
+    "term_id": 1879,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-hard-drives-new-replacement-parts-new-2",
+    "parent": 1878,
+    "count": 125
+  },
+  {
+    "id": 1880,
+    "term_id": 1880,
+    "name": "MOTHERBOARD ( NEW )",
+    "slug": "motherboard-new-replacement-parts-new-2",
+    "parent": 1867,
+    "count": 9
+  },
+  {
+    "id": 1881,
+    "term_id": 1881,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-motherboard-new-replacement-parts-new-2",
+    "parent": 1880,
+    "count": 126
+  },
+  {
+    "id": 1882,
+    "term_id": 1882,
+    "name": "RAM ( NEW )",
+    "slug": "ram-new",
+    "parent": 1867,
+    "count": 1
+  },
+  {
+    "id": 1883,
+    "term_id": 1883,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-ram-new",
+    "parent": 1882,
+    "count": 127
+  },
+  {
+    "id": 1884,
+    "term_id": 1884,
+    "name": "DELL",
+    "slug": "dell-keyboards-new-replacement-parts-new-2",
+    "parent": 1874,
+    "count": 7
+  },
+  {
+    "id": 1885,
+    "term_id": 1885,
+    "name": "DELL",
+    "slug": "dell-batteries-new-replacement-parts-new-2",
+    "parent": 1868,
+    "count": 7
+  },
+  {
+    "id": 1886,
+    "term_id": 1886,
+    "name": "DELL",
+    "slug": "dell-screens-new-replacement-parts-new-2",
+    "parent": 1872,
+    "count": 7
+  },
+  {
+    "id": 1887,
+    "term_id": 1887,
+    "name": "DELL",
+    "slug": "dell-hard-drives-new-replacement-parts-new-2",
+    "parent": 1878,
+    "count": 9
+  },
+  {
+    "id": 1888,
+    "term_id": 1888,
+    "name": "DELL",
+    "slug": "dell-motherboard-new-replacement-parts-new-2",
+    "parent": 1880,
+    "count": 7
+  },
+  {
+    "id": 1889,
+    "term_id": 1889,
+    "name": "DELL",
+    "slug": "dell-chargers-new-replacement-parts-new-2",
+    "parent": 1870,
+    "count": 7
+  },
+  {
+    "id": 1890,
+    "term_id": 1890,
+    "name": "DELL",
+    "slug": "dell-ram-new",
+    "parent": 1882,
+    "count": 7
+  },
+  {
+    "id": 1891,
+    "term_id": 1891,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-batteries-new-replacement-parts-new-2",
+    "parent": 1868,
+    "count": 27
+  },
+  {
+    "id": 1892,
+    "term_id": 1892,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-chargers-new-replacement-parts-new-2",
+    "parent": 1870,
+    "count": 27
+  },
+  {
+    "id": 1893,
+    "term_id": 1893,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-screens-new-replacement-parts-new-2",
+    "parent": 1872,
+    "count": 28
+  },
+  {
+    "id": 1894,
+    "term_id": 1894,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-keyboards-new-replacement-parts-new-2",
+    "parent": 1874,
+    "count": 28
+  },
+  {
+    "id": 1895,
+    "term_id": 1895,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-ram-new",
+    "parent": 1882,
+    "count": 27
+  },
+  {
+    "id": 1896,
+    "term_id": 1896,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-hard-drives-new-replacement-parts-new-2",
+    "parent": 1878,
+    "count": 26
+  },
+  {
+    "id": 1897,
+    "term_id": 1897,
+    "name": "DELL ( NEW )",
+    "slug": "dell-new-motherboard-new-replacement-parts-new-2",
+    "parent": 1880,
+    "count": 27
+  },
+  {
+    "id": 1898,
+    "term_id": 1898,
+    "name": "Dell",
+    "slug": "dell-laptops",
+    "parent": 1135,
+    "count": 1
+  },
+  {
+    "id": 1899,
+    "term_id": 1899,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new-batteries-new-replacement-parts-new-2",
+    "parent": 1868,
+    "count": 3
+  },
+  {
+    "id": 1900,
+    "term_id": 1900,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new-chargers-new-replacement-parts-new-2",
+    "parent": 1870,
+    "count": 3
+  },
+  {
+    "id": 1901,
+    "term_id": 1901,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new-screens-new-replacement-parts-new-2",
+    "parent": 1872,
+    "count": 3
+  },
+  {
+    "id": 1902,
+    "term_id": 1902,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new-keyboards-new-replacement-parts-new-2",
+    "parent": 1874,
+    "count": 3
+  },
+  {
+    "id": 1903,
+    "term_id": 1903,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new-ram-new",
+    "parent": 1882,
+    "count": 3
+  },
+  {
+    "id": 1904,
+    "term_id": 1904,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new-hard-drives-new-replacement-parts-new-2",
+    "parent": 1878,
+    "count": 3
+  },
+  {
+    "id": 1905,
+    "term_id": 1905,
+    "name": "ACER ( NEW )",
+    "slug": "acer-new-motherboard-new-replacement-parts-new-2",
+    "parent": 1880,
+    "count": 3
+  },
+  {
+    "id": 1906,
+    "term_id": 1906,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-batteries-new-replacement-parts-new-2",
+    "parent": 1868,
+    "count": 13
+  },
+  {
+    "id": 1907,
+    "term_id": 1907,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-chargers-new-replacement-parts-new-2",
+    "parent": 1870,
+    "count": 13
+  },
+  {
+    "id": 1908,
+    "term_id": 1908,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-screens-new-replacement-parts-new-2",
+    "parent": 1872,
+    "count": 13
+  },
+  {
+    "id": 1909,
+    "term_id": 1909,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-keyboards-new-replacement-parts-new-2",
+    "parent": 1874,
+    "count": 13
+  },
+  {
+    "id": 1910,
+    "term_id": 1910,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-ram-new",
+    "parent": 1882,
+    "count": 13
+  },
+  {
+    "id": 1911,
+    "term_id": 1911,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-hard-drives-new-replacement-parts-new-2",
+    "parent": 1878,
+    "count": 12
+  },
+  {
+    "id": 1912,
+    "term_id": 1912,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-motherboard-new-replacement-parts-new-2",
+    "parent": 1880,
+    "count": 13
+  },
+  {
+    "id": 1913,
+    "term_id": 1913,
+    "name": "HARD DRIVE ( NEW )",
+    "slug": "hard-drive-new",
+    "parent": 1867,
+    "count": 0
+  },
+  {
+    "id": 1914,
+    "term_id": 1914,
+    "name": "ASUS ( NEW )",
+    "slug": "asus-new-hard-drive-new",
+    "parent": 1913,
+    "count": 1
+  },
+  {
+    "id": 1915,
+    "term_id": 1915,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-batteries-new-replacement-parts-new-2",
+    "parent": 1868,
+    "count": 44
+  },
+  {
+    "id": 1916,
+    "term_id": 1916,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-chargers-new-replacement-parts-new-2",
+    "parent": 1870,
+    "count": 39
+  },
+  {
+    "id": 1917,
+    "term_id": 1917,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-screens-new-replacement-parts-new-2",
+    "parent": 1872,
+    "count": 42
+  },
+  {
+    "id": 1918,
+    "term_id": 1918,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-keyboards-new-replacement-parts-new-2",
+    "parent": 1874,
+    "count": 42
+  },
+  {
+    "id": 1919,
+    "term_id": 1919,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-ram-new",
+    "parent": 1882,
+    "count": 42
+  },
+  {
+    "id": 1920,
+    "term_id": 1920,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-hard-drives-new-replacement-parts-new-2",
+    "parent": 1878,
+    "count": 42
+  },
+  {
+    "id": 1921,
+    "term_id": 1921,
+    "name": "LENOVO ( NEW )",
+    "slug": "lenovo-new-motherboard-new-replacement-parts-new-2",
+    "parent": 1880,
+    "count": 47
+  },
+  {
+    "id": 1925,
+    "term_id": 1925,
+    "name": "( NEW )",
+    "slug": "new",
+    "parent": 1878,
+    "count": 2
+  },
+  {
+    "id": 1926,
+    "term_id": 1926,
+    "name": "HP",
+    "slug": "hp-storage-device",
+    "parent": 1158,
+    "count": 6
+  },
+  {
+    "id": 1927,
+    "term_id": 1927,
+    "name": "LENOVO",
+    "slug": "lenovo-laptop-2",
+    "parent": 1832,
+    "count": 203
+  },
+  {
+    "id": 1928,
+    "term_id": 1928,
+    "name": "APPLE",
+    "slug": "apple-laptop-3",
+    "parent": 1832,
+    "count": 8
+  },
+  {
+    "id": 1929,
+    "term_id": 1929,
+    "name": "MICROSOFT",
+    "slug": "microsoft-laptop-2",
+    "parent": 1832,
+    "count": 5
+  },
+  {
+    "id": 1930,
+    "term_id": 1930,
+    "name": "SCANNERS &amp; PHOTOCOPIERS ( NEW )",
+    "slug": "scanners-photocopiers-new",
+    "parent": 1240,
+    "count": 0
+  },
+  {
+    "id": 1931,
+    "term_id": 1931,
+    "name": "CANON ( NEW )",
+    "slug": "canon-new",
+    "parent": 1930,
+    "count": 2
+  },
+  {
+    "id": 1932,
+    "term_id": 1932,
+    "name": "Desktops",
+    "slug": "desktops",
+    "parent": 0,
+    "count": 12
+  },
+  {
+    "id": 1933,
+    "term_id": 1933,
+    "name": "HP",
+    "slug": "hp-desktops",
+    "parent": 1932,
+    "count": 0
+  },
+  {
+    "id": 1934,
+    "term_id": 1934,
+    "name": "MSI",
+    "slug": "msi",
+    "parent": 1827,
+    "count": 147
+  },
+  {
+    "id": 1937,
+    "term_id": 1937,
+    "name": "DELL",
+    "slug": "dell-replacement-part",
+    "parent": 1827,
+    "count": 323
+  },
+  {
+    "id": 1938,
+    "term_id": 1938,
+    "name": "DESKTOP",
+    "slug": "desktop-2",
+    "parent": 0,
+    "count": 10
+  },
+  {
+    "id": 1939,
+    "term_id": 1939,
+    "name": "LENOVO",
+    "slug": "lenovo-desktop-2",
+    "parent": 1938,
+    "count": 47
+  },
+  {
+    "id": 1940,
+    "term_id": 1940,
+    "name": "HP",
+    "slug": "hp-desktop-2",
+    "parent": 1938,
+    "count": 361
+  },
+  {
+    "id": 1941,
+    "term_id": 1941,
+    "name": "DELL",
+    "slug": "dell-desktop-2",
+    "parent": 1938,
+    "count": 74
+  },
+  {
+    "id": 1942,
+    "term_id": 1942,
+    "name": "PROJECTOR",
+    "slug": "projector",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1943,
+    "term_id": 1943,
+    "name": "ACER",
+    "slug": "acer-projector",
+    "parent": 1942,
+    "count": 4
+  },
+  {
+    "id": 1944,
+    "term_id": 1944,
+    "name": "MOUSE",
+    "slug": "mouse",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1945,
+    "term_id": 1945,
+    "name": "HP",
+    "slug": "hp-mouse",
+    "parent": 1944,
+    "count": 4
+  },
+  {
+    "id": 1946,
+    "term_id": 1946,
+    "name": "FLASH DRIVES",
+    "slug": "flash-drives",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1947,
+    "term_id": 1947,
+    "name": "VIVATECH",
+    "slug": "vivatech",
+    "parent": 1946,
+    "count": 2
+  },
+  {
+    "id": 1948,
+    "term_id": 1948,
+    "name": "Switches/Routers",
+    "slug": "switches-routers",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1949,
+    "term_id": 1949,
+    "name": "D-LINK",
+    "slug": "d-link",
+    "parent": 1948,
+    "count": 2
+  },
+  {
+    "id": 1950,
+    "term_id": 1950,
+    "name": "HP",
+    "slug": "hp-laptop-3",
+    "parent": 1832,
+    "count": 0
+  },
+  {
+    "id": 1951,
+    "term_id": 1951,
+    "name": "TOWER",
+    "slug": "tower",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1952,
+    "term_id": 1952,
+    "name": "DELL",
+    "slug": "dell-tower",
+    "parent": 1951,
+    "count": 1
+  },
+  {
+    "id": 1953,
+    "term_id": 1953,
+    "name": "BENQ",
+    "slug": "benq-projector",
+    "parent": 1942,
+    "count": 4
+  },
+  {
+    "id": 1954,
+    "term_id": 1954,
+    "name": "BARCO",
+    "slug": "barco-projector",
+    "parent": 1942,
+    "count": 1
+  },
+  {
+    "id": 1955,
+    "term_id": 1955,
+    "name": "CASIO",
+    "slug": "casio-projector",
+    "parent": 1942,
+    "count": 2
+  },
+  {
+    "id": 1956,
+    "term_id": 1956,
+    "name": "DELL",
+    "slug": "dell-projector",
+    "parent": 1942,
+    "count": 11
+  },
+  {
+    "id": 1957,
+    "term_id": 1957,
+    "name": "EPSON",
+    "slug": "epson-projector",
+    "parent": 1942,
+    "count": 6
+  },
+  {
+    "id": 1958,
+    "term_id": 1958,
+    "name": "NEC",
+    "slug": "nec-projector",
+    "parent": 1942,
+    "count": 1
+  },
+  {
+    "id": 1959,
+    "term_id": 1959,
+    "name": "MAXELL",
+    "slug": "maxell-projector",
+    "parent": 1942,
+    "count": 2
+  },
+  {
+    "id": 1960,
+    "term_id": 1960,
+    "name": "OPTOMA",
+    "slug": "optoma-projector",
+    "parent": 1942,
+    "count": 2
+  },
+  {
+    "id": 1961,
+    "term_id": 1961,
+    "name": "INFOCUS",
+    "slug": "infocus-projector",
+    "parent": 1942,
+    "count": 2
+  },
+  {
+    "id": 1962,
+    "term_id": 1962,
+    "name": "HITACHI",
+    "slug": "hitachi-projector",
+    "parent": 1942,
+    "count": 2
+  },
+  {
+    "id": 1963,
+    "term_id": 1963,
+    "name": "RICOH",
+    "slug": "ricoh-projector",
+    "parent": 1942,
+    "count": 1
+  },
+  {
+    "id": 1964,
+    "term_id": 1964,
+    "name": "SMART",
+    "slug": "smart-projector",
+    "parent": 1942,
+    "count": 1
+  },
+  {
+    "id": 1965,
+    "term_id": 1965,
+    "name": "VIEWSONIC",
+    "slug": "viewsonic-projector",
+    "parent": 1942,
+    "count": 1
+  },
+  {
+    "id": 1966,
+    "term_id": 1966,
+    "name": "SONY",
+    "slug": "sony-projector",
+    "parent": 1942,
+    "count": 1
+  },
+  {
+    "id": 1967,
+    "term_id": 1967,
+    "name": "ACCESSORIES",
+    "slug": "accessories-projector",
+    "parent": 1942,
+    "count": 7
+  },
+  {
+    "id": 1968,
+    "term_id": 1968,
+    "name": "Relacement Part",
+    "slug": "relacement-part",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1969,
+    "term_id": 1969,
+    "name": "HP",
+    "slug": "hp-relacement-part",
+    "parent": 1968,
+    "count": 119
+  },
+  {
+    "id": 1970,
+    "term_id": 1970,
+    "name": "LENOVO",
+    "slug": "lenovo-relacement-part",
+    "parent": 1968,
+    "count": 18
+  },
+  {
+    "id": 1971,
+    "term_id": 1971,
+    "name": "ASUS",
+    "slug": "asus-laptop-2",
+    "parent": 1832,
+    "count": 63
+  },
+  {
+    "id": 1972,
+    "term_id": 1972,
+    "name": "ACER",
+    "slug": "acer-laptop-2",
+    "parent": 1832,
+    "count": 7
+  },
+  {
+    "id": 1973,
+    "term_id": 1973,
+    "name": "MERCURY ( NEW )",
+    "slug": "mercury-new",
+    "parent": 1609,
+    "count": 1
+  },
+  {
+    "id": 1977,
+    "term_id": 1977,
+    "name": "MikroTik",
+    "slug": "mikrotik",
+    "parent": 1324,
+    "count": 52
+  },
+  {
+    "id": 1978,
+    "term_id": 1978,
+    "name": "PRINTER",
+    "slug": "printer",
+    "parent": 0,
+    "count": 152
+  },
+  {
+    "id": 1979,
+    "term_id": 1979,
+    "name": "HP ( NEW )",
+    "slug": "hp-new-printer",
+    "parent": 1978,
+    "count": 88
+  },
+  {
+    "id": 1980,
+    "term_id": 1980,
+    "name": "Lenovo",
+    "slug": "lenovo-laptop-3",
+    "parent": 1832,
+    "count": 1
+  },
+  {
+    "id": 1981,
+    "term_id": 1981,
+    "name": "TOSHIBA",
+    "slug": "toshiba-laptop",
+    "parent": 1832,
+    "count": 2
+  },
+  {
+    "id": 1982,
+    "term_id": 1982,
+    "name": "TOSHIBA",
+    "slug": "toshiba-replacement-part",
+    "parent": 1827,
+    "count": 14
+  },
+  {
+    "id": 1983,
+    "term_id": 1983,
+    "name": "APPLE",
+    "slug": "apple-desktop-2",
+    "parent": 1938,
+    "count": 4
+  },
+  {
+    "id": 1984,
+    "term_id": 1984,
+    "name": "RAM",
+    "slug": "ram",
+    "parent": 0,
+    "count": 12
+  },
+  {
+    "id": 1985,
+    "term_id": 1985,
+    "name": "SERVER",
+    "slug": "server",
+    "parent": 1984,
+    "count": 0
+  },
+  {
+    "id": 1986,
+    "term_id": 1986,
+    "name": "HPE",
+    "slug": "hpe-server",
+    "parent": 1985,
+    "count": 5
+  },
+  {
+    "id": 1987,
+    "term_id": 1987,
+    "name": "PROCESSORS",
+    "slug": "processors",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1988,
+    "term_id": 1988,
+    "name": "HARD DRIVES ( NEW )",
+    "slug": "hard-drives-new-2",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1989,
+    "term_id": 1989,
+    "name": "HP",
+    "slug": "hp-hard-drives-new-2",
+    "parent": 1988,
+    "count": 6
+  },
+  {
+    "id": 1990,
+    "term_id": 1990,
+    "name": "HPE",
+    "slug": "hpe-hard-drives-new-2",
+    "parent": 1988,
+    "count": 10
+  },
+  {
+    "id": 1991,
+    "term_id": 1991,
+    "name": "HPE",
+    "slug": "hpe-processors",
+    "parent": 1987,
+    "count": 16
+  },
+  {
+    "id": 1992,
+    "term_id": 1992,
+    "name": "APPLE",
+    "slug": "apple-tablet",
+    "parent": 1843,
+    "count": 1
+  },
+  {
+    "id": 1993,
+    "term_id": 1993,
+    "name": "SMART ARRAY CONTROLLERS",
+    "slug": "smart-array-controllers",
+    "parent": 1604,
+    "count": 0
+  },
+  {
+    "id": 1994,
+    "term_id": 1994,
+    "name": "POWER SUPPLY",
+    "slug": "power-supply",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1995,
+    "term_id": 1995,
+    "name": "HPE",
+    "slug": "hpe-power-supply",
+    "parent": 1994,
+    "count": 2
+  },
+  {
+    "id": 1996,
+    "term_id": 1996,
+    "name": "HPE",
+    "slug": "hpe-networking-2",
+    "parent": 1324,
+    "count": 8
+  },
+  {
+    "id": 1997,
+    "term_id": 1997,
+    "name": "SMART ARRAY CONTROLLERS",
+    "slug": "smart-array-controllers-2",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 1998,
+    "term_id": 1998,
+    "name": "HPE",
+    "slug": "hpe-smart-array-controllers-2",
+    "parent": 1997,
+    "count": 5
+  },
+  {
+    "id": 1999,
+    "term_id": 1999,
+    "name": "CRUCIAL",
+    "slug": "crucial",
+    "parent": 1984,
+    "count": 0
+  },
+  {
+    "id": 2000,
+    "term_id": 2000,
+    "name": "SAMSUNG",
+    "slug": "samsung-crucial",
+    "parent": 1999,
+    "count": 1
+  },
+  {
+    "id": 2001,
+    "term_id": 2001,
+    "name": "SAMSUNG ( NEW )",
+    "slug": "samsung-new-ram",
+    "parent": 1984,
+    "count": 1
+  },
+  {
+    "id": 2002,
+    "term_id": 2002,
+    "name": "HARD DRIVES",
+    "slug": "hard-drives",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2003,
+    "term_id": 2003,
+    "name": "SSD",
+    "slug": "ssd",
+    "parent": 2002,
+    "count": 0
+  },
+  {
+    "id": 2004,
+    "term_id": 2004,
+    "name": "SAMSUNG/CRUCIAL/WD",
+    "slug": "samsung-crucial-wd",
+    "parent": 2003,
+    "count": 1
+  },
+  {
+    "id": 2005,
+    "term_id": 2005,
+    "name": "WD",
+    "slug": "wd",
+    "parent": 2003,
+    "count": 2
+  },
+  {
+    "id": 2006,
+    "term_id": 2006,
+    "name": "MICRON",
+    "slug": "micron",
+    "parent": 2003,
+    "count": 1
+  },
+  {
+    "id": 2007,
+    "term_id": 2007,
+    "name": "INTEL",
+    "slug": "intel",
+    "parent": 2003,
+    "count": 1
+  },
+  {
+    "id": 2008,
+    "term_id": 2008,
+    "name": "HGST",
+    "slug": "hgst",
+    "parent": 2002,
+    "count": 1
+  },
+  {
+    "id": 2009,
+    "term_id": 2009,
+    "name": "SEAGATE",
+    "slug": "seagate",
+    "parent": 2002,
+    "count": 2
+  },
+  {
+    "id": 2010,
+    "term_id": 2010,
+    "name": "DELL/HP",
+    "slug": "dell-hp",
+    "parent": 2002,
+    "count": 0
+  },
+  {
+    "id": 2011,
+    "term_id": 2011,
+    "name": "TRAY",
+    "slug": "tray",
+    "parent": 2010,
+    "count": 1
+  },
+  {
+    "id": 2012,
+    "term_id": 2012,
+    "name": "DELL",
+    "slug": "dell-2",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2013,
+    "term_id": 2013,
+    "name": "HEATSINK",
+    "slug": "heatsink",
+    "parent": 2012,
+    "count": 1
+  },
+  {
+    "id": 2014,
+    "term_id": 2014,
+    "name": "DELL",
+    "slug": "dell-hard-drives",
+    "parent": 2002,
+    "count": 0
+  },
+  {
+    "id": 2015,
+    "term_id": 2015,
+    "name": "TRAY",
+    "slug": "tray-dell-hard-drives",
+    "parent": 2014,
+    "count": 2
+  },
+  {
+    "id": 2016,
+    "term_id": 2016,
+    "name": "HP",
+    "slug": "hp-hard-drives",
+    "parent": 2002,
+    "count": 0
+  },
+  {
+    "id": 2017,
+    "term_id": 2017,
+    "name": "TRAY",
+    "slug": "tray-hp-hard-drives",
+    "parent": 2016,
+    "count": 3
+  },
+  {
+    "id": 2018,
+    "term_id": 2018,
+    "name": "HP",
+    "slug": "hp-2",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2019,
+    "term_id": 2019,
+    "name": "DVD RW DRIVE",
+    "slug": "dvd-rw-drive",
+    "parent": 2018,
+    "count": 1
+  },
+  {
+    "id": 2020,
+    "term_id": 2020,
+    "name": "CPU COOLING FAN",
+    "slug": "cpu-cooling-fan",
+    "parent": 1827,
+    "count": 1
+  },
+  {
+    "id": 2021,
+    "term_id": 2021,
+    "name": "All In One",
+    "slug": "all-in-one",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2022,
+    "term_id": 2022,
+    "name": "HP",
+    "slug": "hp-all-in-one",
+    "parent": 2021,
+    "count": 7
+  },
+  {
+    "id": 2023,
+    "term_id": 2023,
+    "name": "LENOVO",
+    "slug": "lenovo-all-in-one",
+    "parent": 2021,
+    "count": 3
+  },
+  {
+    "id": 2024,
+    "term_id": 2024,
+    "name": "SERVER",
+    "slug": "server-2",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2025,
+    "term_id": 2025,
+    "name": "HPE",
+    "slug": "hpe-server-2",
+    "parent": 2024,
+    "count": 9
+  },
+  {
+    "id": 2026,
+    "term_id": 2026,
+    "name": "DELL",
+    "slug": "dell-server-2",
+    "parent": 2024,
+    "count": 4
+  },
+  {
+    "id": 2027,
+    "term_id": 2027,
+    "name": "HPE RAM",
+    "slug": "hpe-ram",
+    "parent": 2024,
+    "count": 5
+  },
+  {
+    "id": 2028,
+    "term_id": 2028,
+    "name": "HPE",
+    "slug": "hpe-2",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2029,
+    "term_id": 2029,
+    "name": "HARD DISK DRIVES",
+    "slug": "hard-disk-drives",
+    "parent": 2028,
+    "count": 17
+  },
+  {
+    "id": 2030,
+    "term_id": 2030,
+    "name": "PROCESSORS",
+    "slug": "processors-hpe-2",
+    "parent": 2028,
+    "count": 8
+  },
+  {
+    "id": 2031,
+    "term_id": 2031,
+    "name": "POWER SUPPLIES",
+    "slug": "power-supplies",
+    "parent": 2028,
+    "count": 2
+  },
+  {
+    "id": 2032,
+    "term_id": 2032,
+    "name": "HPE NETWORKING",
+    "slug": "hpe-networking",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2033,
+    "term_id": 2033,
+    "name": "NETWORKING",
+    "slug": "networking",
+    "parent": 2028,
+    "count": 2
+  },
+  {
+    "id": 2034,
+    "term_id": 2034,
+    "name": "SMART ARRAY CONTROLLERS",
+    "slug": "smart-array-controllers-hpe-2",
+    "parent": 2028,
+    "count": 3
+  },
+  {
+    "id": 2035,
+    "term_id": 2035,
+    "name": "SAS EXPANDER",
+    "slug": "sas-expander",
+    "parent": 2028,
+    "count": 1
+  },
+  {
+    "id": 2036,
+    "term_id": 2036,
+    "name": "SMART STORAGE BATTERY",
+    "slug": "smart-storage-battery",
+    "parent": 2028,
+    "count": 1
+  },
+  {
+    "id": 2037,
+    "term_id": 2037,
+    "name": "CRUCIAL/SAMSUNG",
+    "slug": "crucial-samsung",
+    "parent": 1984,
+    "count": 1
+  },
+  {
+    "id": 2038,
+    "term_id": 2038,
+    "name": "SAMSUNG",
+    "slug": "samsung-ram",
+    "parent": 1984,
+    "count": 7
+  },
+  {
+    "id": 2039,
+    "term_id": 2039,
+    "name": "SSD",
+    "slug": "ssd-2",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2040,
+    "term_id": 2040,
+    "name": "CRUCIAL/SAMSUNG/WD",
+    "slug": "crucial-samsung-wd",
+    "parent": 2039,
+    "count": 1
+  },
+  {
+    "id": 2041,
+    "term_id": 2041,
+    "name": "WD",
+    "slug": "wd-ssd-2",
+    "parent": 2039,
+    "count": 4
+  },
+  {
+    "id": 2042,
+    "term_id": 2042,
+    "name": "MICRON",
+    "slug": "micron-ssd-2",
+    "parent": 2039,
+    "count": 1
+  },
+  {
+    "id": 2043,
+    "term_id": 2043,
+    "name": "INTEL",
+    "slug": "intel-ssd-2",
+    "parent": 2039,
+    "count": 1
+  },
+  {
+    "id": 2044,
+    "term_id": 2044,
+    "name": "HDD TRAY",
+    "slug": "hdd-tray",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2045,
+    "term_id": 2045,
+    "name": "HGST",
+    "slug": "hgst-hdd-tray",
+    "parent": 2044,
+    "count": 1
+  },
+  {
+    "id": 2046,
+    "term_id": 2046,
+    "name": "SEAGATE SATA",
+    "slug": "seagate-sata",
+    "parent": 2044,
+    "count": 2
+  },
+  {
+    "id": 2047,
+    "term_id": 2047,
+    "name": "DELL/HP",
+    "slug": "dell-hp-2",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2048,
+    "term_id": 2048,
+    "name": "TRAY",
+    "slug": "tray-dell-hp-2",
+    "parent": 2047,
+    "count": 1
+  },
+  {
+    "id": 2049,
+    "term_id": 2049,
+    "name": "ANTIVIRUS",
+    "slug": "antivirus",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2050,
+    "term_id": 2050,
+    "name": "NORTON",
+    "slug": "norton-antivirus",
+    "parent": 2049,
+    "count": 9
+  },
+  {
+    "id": 2051,
+    "term_id": 2051,
+    "name": "QUICK HEAL",
+    "slug": "quick-heal-antivirus",
+    "parent": 2049,
+    "count": 7
+  },
+  {
+    "id": 2052,
+    "term_id": 2052,
+    "name": "DESKTOP",
+    "slug": "desktop-all-in-one",
+    "parent": 2021,
+    "count": 0
+  },
+  {
+    "id": 2053,
+    "term_id": 2053,
+    "name": "HP",
+    "slug": "hp-desktop-all-in-one",
+    "parent": 2052,
+    "count": 29
+  },
+  {
+    "id": 2054,
+    "term_id": 2054,
+    "name": "DELL",
+    "slug": "dell-desktop-all-in-one",
+    "parent": 2052,
+    "count": 6
+  },
+  {
+    "id": 2055,
+    "term_id": 2055,
+    "name": "LENOVO",
+    "slug": "lenovo-desktop-all-in-one",
+    "parent": 2052,
+    "count": 6
+  },
+  {
+    "id": 2056,
+    "term_id": 2056,
+    "name": "UK used laptops",
+    "slug": "uk-used-laptops",
+    "parent": 0,
+    "count": 81
+  },
+  {
+    "id": 2057,
+    "term_id": 2057,
+    "name": "MONITOR",
+    "slug": "monitor-desktop-2",
+    "parent": 1938,
+    "count": 0
+  },
+  {
+    "id": 2058,
+    "term_id": 2058,
+    "name": "HP",
+    "slug": "hp-monitor-desktop-2",
+    "parent": 2057,
+    "count": 1
+  },
+  {
+    "id": 2059,
+    "term_id": 2059,
+    "name": "BACKPACK",
+    "slug": "backpack",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2060,
+    "term_id": 2060,
+    "name": "DELL",
+    "slug": "dell-backpack",
+    "parent": 2059,
+    "count": 7
+  },
+  {
+    "id": 2061,
+    "term_id": 2061,
+    "name": "EARPHONES/AIRBUDS",
+    "slug": "earphones-airbuds",
+    "parent": 0,
+    "count": 14
+  },
+  {
+    "id": 2062,
+    "term_id": 2062,
+    "name": "BT HEADSET",
+    "slug": "bt-headset",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2063,
+    "term_id": 2063,
+    "name": "SPEAKERS",
+    "slug": "speakers",
+    "parent": 0,
+    "count": 7
+  },
+  {
+    "id": 2065,
+    "term_id": 2065,
+    "name": "BLUETOOTH SPEAKERS",
+    "slug": "bluetooth-speakers",
+    "parent": 0,
+    "count": 3
+  },
+  {
+    "id": 2066,
+    "term_id": 2066,
+    "name": "CABLES",
+    "slug": "cables",
+    "parent": 0,
+    "count": 14
+  },
+  {
+    "id": 2067,
+    "term_id": 2067,
+    "name": "CAR CHARGERS",
+    "slug": "car-chargers",
+    "parent": 0,
+    "count": 6
+  },
+  {
+    "id": 2068,
+    "term_id": 2068,
+    "name": "CHARGERS",
+    "slug": "chargers-2",
+    "parent": 0,
+    "count": 19
+  },
+  {
+    "id": 2069,
+    "term_id": 2069,
+    "name": "Clippers",
+    "slug": "clippers",
+    "parent": 0,
+    "count": 5
+  },
+  {
+    "id": 2070,
+    "term_id": 2070,
+    "name": "Shaver",
+    "slug": "shaver",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2071,
+    "term_id": 2071,
+    "name": "Trimmer",
+    "slug": "trimmer",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2072,
+    "term_id": 2072,
+    "name": "EARPIECE",
+    "slug": "earpiece",
+    "parent": 0,
+    "count": 4
+  },
+  {
+    "id": 2073,
+    "term_id": 2073,
+    "name": "POWERBANKS",
+    "slug": "powerbanks-2",
+    "parent": 0,
+    "count": 13
+  },
+  {
+    "id": 2074,
+    "term_id": 2074,
+    "name": "SMARTWATCH",
+    "slug": "smartwatch-3",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2075,
+    "term_id": 2075,
+    "name": "EXTENSION",
+    "slug": "extension",
+    "parent": 0,
+    "count": 3
+  },
+  {
+    "id": 2076,
+    "term_id": 2076,
+    "name": "BLENDER",
+    "slug": "blender",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2077,
+    "term_id": 2077,
+    "name": "ORAIMO BAG",
+    "slug": "oraimo-bag",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2078,
+    "term_id": 2078,
+    "name": "KETTLE",
+    "slug": "kettle",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2079,
+    "term_id": 2079,
+    "name": "SCALE",
+    "slug": "scale",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2080,
+    "term_id": 2080,
+    "name": "KEYBOARD",
+    "slug": "keyboard",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2081,
+    "term_id": 2081,
+    "name": "APPLE",
+    "slug": "apple-replacement-part",
+    "parent": 1827,
+    "count": 7
+  },
+  {
+    "id": 2082,
+    "term_id": 2082,
+    "name": "HP",
+    "slug": "hp-printer",
+    "parent": 1978,
+    "count": 213
+  },
+  {
+    "id": 2118,
+    "term_id": 2118,
+    "name": "Cameras &amp; Photography",
+    "slug": "cameras-photography",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2119,
+    "term_id": 2119,
+    "name": "Car Electronic &amp; GPS",
+    "slug": "car-electronic-gps",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2120,
+    "term_id": 2120,
+    "name": "Cases",
+    "slug": "cases",
+    "parent": 1356,
+    "count": 1
+  },
+  {
+    "id": 2123,
+    "term_id": 2123,
+    "name": "Computer Components",
+    "slug": "computer-components",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2125,
+    "term_id": 2125,
+    "name": "Ending Offers",
+    "slug": "ending-offers",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2127,
+    "term_id": 2127,
+    "name": "Gadgets",
+    "slug": "gadgets",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2128,
+    "term_id": 2128,
+    "name": "Gadgets &amp; Accesories",
+    "slug": "gadgets-accesories",
+    "parent": 2127,
+    "count": 0
+  },
+  {
+    "id": 2129,
+    "term_id": 2129,
+    "name": "Gadgets &amp; Accesories",
+    "slug": "gadgets-accesories-2",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2133,
+    "term_id": 2133,
+    "name": "GPS &amp; Navi",
+    "slug": "gps-navi",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2135,
+    "term_id": 2135,
+    "name": "Headphone Accessories",
+    "slug": "headphone-accessories",
+    "parent": 1356,
+    "count": 1
+  },
+  {
+    "id": 2136,
+    "term_id": 2136,
+    "name": "Headphone Cases",
+    "slug": "headphone-cases",
+    "parent": 1356,
+    "count": 1
+  },
+  {
+    "id": 2137,
+    "term_id": 2137,
+    "name": "Headphones",
+    "slug": "headphones",
+    "parent": 1356,
+    "count": 5
+  },
+  {
+    "id": 2138,
+    "term_id": 2138,
+    "name": "Home Entertainment",
+    "slug": "home-entertainment",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2139,
+    "term_id": 2139,
+    "name": "Home Theatres",
+    "slug": "home-theatres",
+    "parent": 2138,
+    "count": 0
+  },
+  {
+    "id": 2143,
+    "term_id": 2143,
+    "name": "Kids' Headphones",
+    "slug": "kids-headphones",
+    "parent": 2137,
+    "count": 0
+  },
+  {
+    "id": 2144,
+    "term_id": 2144,
+    "name": "Laptops &amp; Computers",
+    "slug": "laptops-computers",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2150,
+    "term_id": 2150,
+    "name": "Mac Computers",
+    "slug": "mac-computers-laptops",
+    "parent": 2144,
+    "count": 1
+  },
+  {
+    "id": 2156,
+    "term_id": 2156,
+    "name": "Monitors",
+    "slug": "monitors",
+    "parent": 2123,
+    "count": 5
+  },
+  {
+    "id": 2157,
+    "term_id": 2157,
+    "name": "Notebooks",
+    "slug": "notebooks",
+    "parent": 2144,
+    "count": 0
+  },
+  {
+    "id": 2158,
+    "term_id": 2158,
+    "name": "Office Supplies",
+    "slug": "office-supplies",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2159,
+    "term_id": 2159,
+    "name": "Over-Ear and On-Ear",
+    "slug": "over-ear-and-on-ear",
+    "parent": 2137,
+    "count": 0
+  },
+  {
+    "id": 2160,
+    "term_id": 2160,
+    "name": "PC Gaming Headsets",
+    "slug": "pc-gaming-headsets",
+    "parent": 2137,
+    "count": 0
+  },
+  {
+    "id": 2161,
+    "term_id": 2161,
+    "name": "Pendrives",
+    "slug": "pendrives",
+    "parent": 1356,
+    "count": 2
+  },
+  {
+    "id": 2162,
+    "term_id": 2162,
+    "name": "Peripherals",
+    "slug": "peripherals",
+    "parent": 2144,
+    "count": 1
+  },
+  {
+    "id": 2163,
+    "term_id": 2163,
+    "name": "Photo Cameras",
+    "slug": "photo-cameras",
+    "parent": 2118,
+    "count": 0
+  },
+  {
+    "id": 2164,
+    "term_id": 2164,
+    "name": "Photo Cameras",
+    "slug": "photo-cameras-2",
+    "parent": 2118,
+    "count": 0
+  },
+  {
+    "id": 2166,
+    "term_id": 2166,
+    "name": "Power Banks",
+    "slug": "power-banks",
+    "parent": 1356,
+    "count": 3
+  },
+  {
+    "id": 2167,
+    "term_id": 2167,
+    "name": "Printers &amp; Ink",
+    "slug": "printers-ink",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2168,
+    "term_id": 2168,
+    "name": "Pro &amp; DJ Headphones",
+    "slug": "pro-dj-headphones",
+    "parent": 2137,
+    "count": 0
+  },
+  {
+    "id": 2171,
+    "term_id": 2171,
+    "name": "Refurbished Headphones",
+    "slug": "refurbished-headphones",
+    "parent": 2137,
+    "count": 0
+  },
+  {
+    "id": 2172,
+    "term_id": 2172,
+    "name": "Refurbished Headphones",
+    "slug": "sports-headphones",
+    "parent": 2137,
+    "count": 0
+  },
+  {
+    "id": 2173,
+    "term_id": 2173,
+    "name": "Refurbished Laptops",
+    "slug": "refurbished-laptops",
+    "parent": 2144,
+    "count": 0
+  },
+  {
+    "id": 2175,
+    "term_id": 2175,
+    "name": "Servers",
+    "slug": "servers",
+    "parent": 2144,
+    "count": 1
+  },
+  {
+    "id": 2176,
+    "term_id": 2176,
+    "name": "Smart Phones &amp; Tablets",
+    "slug": "smart-phones-tablets",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2177,
+    "term_id": 2177,
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "parent": 2176,
+    "count": 16
+  },
+  {
+    "id": 2178,
+    "term_id": 2178,
+    "name": "Smartphones &amp; Tablets",
+    "slug": "smartphones-tablets",
+    "parent": 2176,
+    "count": 0
+  },
+  {
+    "id": 2179,
+    "term_id": 2179,
+    "name": "Smartphones &amp; Tablets",
+    "slug": "smartphones-tablets-2",
+    "parent": 2176,
+    "count": 0
+  },
+  {
+    "id": 2180,
+    "term_id": 2180,
+    "name": "Smartwatches",
+    "slug": "smartwatches",
+    "parent": 2127,
+    "count": 2
+  },
+  {
+    "id": 2182,
+    "term_id": 2182,
+    "name": "Software",
+    "slug": "software-computer-components",
+    "parent": 2123,
+    "count": 0
+  },
+  {
+    "id": 2183,
+    "term_id": 2183,
+    "name": "Software",
+    "slug": "software",
+    "parent": 2144,
+    "count": 0
+  },
+  {
+    "id": 2190,
+    "term_id": 2190,
+    "name": "TV &amp; Audio",
+    "slug": "tv-audio",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2191,
+    "term_id": 2191,
+    "name": "TVs",
+    "slug": "tvs",
+    "parent": 2138,
+    "count": 1
+  },
+  {
+    "id": 2192,
+    "term_id": 2192,
+    "name": "Ultrabooks",
+    "slug": "ultrabooks-laptops-computers",
+    "parent": 2144,
+    "count": 1
+  },
+  {
+    "id": 2193,
+    "term_id": 2193,
+    "name": "Unlocked Phone",
+    "slug": "unlocked-phone",
+    "parent": 2177,
+    "count": 0
+  },
+  {
+    "id": 2194,
+    "term_id": 2194,
+    "name": "Video Cameras",
+    "slug": "video-cameras",
+    "parent": 2118,
+    "count": 0
+  },
+  {
+    "id": 2195,
+    "term_id": 2195,
+    "name": "Video Games &amp; Consoles",
+    "slug": "video-games-consoles",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2196,
+    "term_id": 2196,
+    "name": "Video Games &amp; Consoles",
+    "slug": "video-games-consoles-2",
+    "parent": 2195,
+    "count": 0
+  },
+  {
+    "id": 2197,
+    "term_id": 2197,
+    "name": "Waterproof Headphones",
+    "slug": "waterproof-headphones",
+    "parent": 2137,
+    "count": 0
+  },
+  {
+    "id": 2198,
+    "term_id": 2198,
+    "name": "Wearables",
+    "slug": "wearables",
+    "parent": 2127,
+    "count": 1
+  },
+  {
+    "id": 2201,
+    "term_id": 2201,
+    "name": "Wireless and Bluetooth",
+    "slug": "wireless-and-bluetooth",
+    "parent": 2137,
+    "count": 0
+  },
+  {
+    "id": 2204,
+    "term_id": 2204,
+    "name": "3D Tvs",
+    "slug": "3d-tvs",
+    "parent": 2191,
+    "count": 0
+  },
+  {
+    "id": 2205,
+    "term_id": 2205,
+    "name": "4G LTE Smartphone",
+    "slug": "4g-lte-smartphone",
+    "parent": 2177,
+    "count": 0
+  },
+  {
+    "id": 2206,
+    "term_id": 2206,
+    "name": "4k Ultra HD TVs",
+    "slug": "4k-ultra-hd-tvs",
+    "parent": 2191,
+    "count": 0
+  },
+  {
+    "id": 2207,
+    "term_id": 2207,
+    "name": "Accessories",
+    "slug": "accessories-laptops-computers",
+    "parent": 2144,
+    "count": 2
+  },
+  {
+    "id": 2208,
+    "term_id": 2208,
+    "name": "Accessories",
+    "slug": "accessories-smart-phones-tablets",
+    "parent": 2176,
+    "count": 0
+  },
+  {
+    "id": 2209,
+    "term_id": 2209,
+    "name": "Accessories",
+    "slug": "accessories-video-games-consoles",
+    "parent": 2195,
+    "count": 0
+  },
+  {
+    "id": 2210,
+    "term_id": 2210,
+    "name": "Action Games",
+    "slug": "action-games",
+    "parent": 2195,
+    "count": 0
+  },
+  {
+    "id": 2211,
+    "term_id": 2211,
+    "name": "All in One",
+    "slug": "all-in-one-laptops-computers",
+    "parent": 2144,
+    "count": 1
+  },
+  {
+    "id": 2212,
+    "term_id": 2212,
+    "name": "Audio",
+    "slug": "audio",
+    "parent": 2190,
+    "count": 0
+  },
+  {
+    "id": 2213,
+    "term_id": 2213,
+    "name": "Audio Speakers",
+    "slug": "audio-speakers",
+    "parent": 2190,
+    "count": 1
+  },
+  {
+    "id": 2214,
+    "term_id": 2214,
+    "name": "Blue-ray Players",
+    "slug": "blue-ray-players",
+    "parent": 2138,
+    "count": 0
+  },
+  {
+    "id": 2215,
+    "term_id": 2215,
+    "name": "Cameras",
+    "slug": "cameras",
+    "parent": 2118,
+    "count": 5
+  },
+  {
+    "id": 2216,
+    "term_id": 2216,
+    "name": "Chargers",
+    "slug": "chargers-smart-phones-tablets",
+    "parent": 2176,
+    "count": 0
+  },
+  {
+    "id": 2217,
+    "term_id": 2217,
+    "name": "Chargers",
+    "slug": "chargers-smartphones",
+    "parent": 2177,
+    "count": 0
+  },
+  {
+    "id": 2218,
+    "term_id": 2218,
+    "name": "Computer Accessories",
+    "slug": "computer-accessories",
+    "parent": 2144,
+    "count": 2
+  },
+  {
+    "id": 2219,
+    "term_id": 2219,
+    "name": "Computer Cases",
+    "slug": "computer-cases",
+    "parent": 2123,
+    "count": 1
+  },
+  {
+    "id": 2220,
+    "term_id": 2220,
+    "name": "Computer Monitors",
+    "slug": "computer-monitors",
+    "parent": 2144,
+    "count": 0
+  },
+  {
+    "id": 2221,
+    "term_id": 2221,
+    "name": "Computers",
+    "slug": "computers",
+    "parent": 2144,
+    "count": 0
+  },
+  {
+    "id": 2222,
+    "term_id": 2222,
+    "name": "Covers",
+    "slug": "covers",
+    "parent": 2177,
+    "count": 0
+  },
+  {
+    "id": 2223,
+    "term_id": 2223,
+    "name": "Curved TVs",
+    "slug": "curved-tvs",
+    "parent": 2191,
+    "count": 0
+  },
+  {
+    "id": 2224,
+    "term_id": 2224,
+    "name": "Desktop Computers",
+    "slug": "desktop-computers",
+    "parent": 2144,
+    "count": 0
+  },
+  {
+    "id": 2225,
+    "term_id": 2225,
+    "name": "Desktop PCs &amp; Laptops",
+    "slug": "desktop-pcs-laptops",
+    "parent": 2144,
+    "count": 0
+  },
+  {
+    "id": 2226,
+    "term_id": 2226,
+    "name": "Desktop PCs &amp; Laptops",
+    "slug": "desktop-pcs-laptops-2",
+    "parent": 2144,
+    "count": 0
+  },
+  {
+    "id": 2227,
+    "term_id": 2227,
+    "name": "DVD Players",
+    "slug": "dvd-players",
+    "parent": 2138,
+    "count": 0
+  },
+  {
+    "id": 2228,
+    "term_id": 2228,
+    "name": "Earbuds and In-ear",
+    "slug": "earbuds-and-in-ear",
+    "parent": 2137,
+    "count": 0
+  },
+  {
+    "id": 2229,
+    "term_id": 2229,
+    "name": "Featured Phones",
+    "slug": "featured-phones",
+    "parent": 2177,
+    "count": 0
+  },
+  {
+    "id": 2230,
+    "term_id": 2230,
+    "name": "Featured Tablets",
+    "slug": "featured-tablets",
+    "parent": 1189,
+    "count": 0
+  },
+  {
+    "id": 2231,
+    "term_id": 2231,
+    "name": "Game Consoles",
+    "slug": "game-consoles",
+    "parent": 2195,
+    "count": 3
+  },
+  {
+    "id": 2232,
+    "term_id": 2232,
+    "name": "Gaming",
+    "slug": "gaming-laptops-computers",
+    "parent": 2144,
+    "count": 1
+  },
+  {
+    "id": 2233,
+    "term_id": 2233,
+    "name": "Holders",
+    "slug": "holders",
+    "parent": 2177,
+    "count": 0
+  },
+  {
+    "id": 2234,
+    "term_id": 2234,
+    "name": "Home &amp; Audio Enternteinment",
+    "slug": "home-audio-enternteinment",
+    "parent": 2138,
+    "count": 0
+  },
+  {
+    "id": 2235,
+    "term_id": 2235,
+    "name": "Home &amp; Audio Enternteinment",
+    "slug": "home-audio-enternteinment-2",
+    "parent": 2138,
+    "count": 0
+  },
+  {
+    "id": 2236,
+    "term_id": 2236,
+    "name": "Laptops",
+    "slug": "laptops-laptops-computers",
+    "parent": 2144,
+    "count": 6
+  },
+  {
+    "id": 2237,
+    "term_id": 2237,
+    "name": "LED TVs",
+    "slug": "led-tvs",
+    "parent": 2191,
+    "count": 0
+  },
+  {
+    "id": 2238,
+    "term_id": 2238,
+    "name": "Mobile Phones",
+    "slug": "mobile-phones",
+    "parent": 2177,
+    "count": 0
+  },
+  {
+    "id": 2239,
+    "term_id": 2239,
+    "name": "Mobiles Accesories",
+    "slug": "mobiles-accesories",
+    "parent": 2177,
+    "count": 0
+  },
+  {
+    "id": 2240,
+    "term_id": 2240,
+    "name": "OLED TVs",
+    "slug": "oled-tvs",
+    "parent": 2191,
+    "count": 9
+  },
+  {
+    "id": 2241,
+    "term_id": 2241,
+    "name": "Portable Audio",
+    "slug": "portable-audio",
+    "parent": 2190,
+    "count": 0
+  },
+  {
+    "id": 2242,
+    "term_id": 2242,
+    "name": "Powerbanks",
+    "slug": "powerbanks-smartphones",
+    "parent": 2177,
+    "count": 0
+  },
+  {
+    "id": 2243,
+    "term_id": 2243,
+    "name": "Racing Games",
+    "slug": "racing-games",
+    "parent": 2195,
+    "count": 0
+  },
+  {
+    "id": 2244,
+    "term_id": 2244,
+    "name": "Smart TVs",
+    "slug": "smart-tvs",
+    "parent": 2191,
+    "count": 0
+  },
+  {
+    "id": 2245,
+    "term_id": 2245,
+    "name": "Station Consoles",
+    "slug": "station-consoles",
+    "parent": 2195,
+    "count": 0
+  },
+  {
+    "id": 2246,
+    "term_id": 2246,
+    "name": "Tablet Accesories",
+    "slug": "tablet-accesories",
+    "parent": 1189,
+    "count": 0
+  },
+  {
+    "id": 2247,
+    "term_id": 2247,
+    "name": "Tablet PCs",
+    "slug": "tablet-pcs",
+    "parent": 1189,
+    "count": 0
+  },
+  {
+    "id": 2279,
+    "term_id": 2279,
+    "name": "HP",
+    "slug": "hp-power-bank",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2280,
+    "term_id": 2280,
+    "name": "HP",
+    "slug": "hp-computer-accessories-2",
+    "parent": 1157,
+    "count": 1
+  },
+  {
+    "id": 2281,
+    "term_id": 2281,
+    "name": "Hisense",
+    "slug": "hisense",
+    "parent": 1149,
+    "count": 2
+  },
+  {
+    "id": 2282,
+    "term_id": 2282,
+    "name": "MSI",
+    "slug": "msi-laptop-2",
+    "parent": 1832,
+    "count": 20
+  },
+  {
+    "id": 2283,
+    "term_id": 2283,
+    "name": "ASUS",
+    "slug": "asus-desktop-2",
+    "parent": 1938,
+    "count": 1
+  },
+  {
+    "id": 2284,
+    "term_id": 2284,
+    "name": "SAMSUNG",
+    "slug": "samsung-phone",
+    "parent": 1836,
+    "count": 34
+  },
+  {
+    "id": 2285,
+    "term_id": 2285,
+    "name": "OPPO",
+    "slug": "oppo-phone",
+    "parent": 1836,
+    "count": 17
+  },
+  {
+    "id": 2286,
+    "term_id": 2286,
+    "name": "APPLE IPAD",
+    "slug": "apple-ipad",
+    "parent": 1843,
+    "count": 1
+  },
+  {
+    "id": 2287,
+    "term_id": 2287,
+    "name": "HP",
+    "slug": "hp-server-2",
+    "parent": 2024,
+    "count": 17
+  },
+  {
+    "id": 2288,
+    "term_id": 2288,
+    "name": "CISCO",
+    "slug": "cisco-networking-2",
+    "parent": 1324,
+    "count": 1
+  },
+  {
+    "id": 2289,
+    "term_id": 2289,
+    "name": "HP",
+    "slug": "hp-networking-2",
+    "parent": 1324,
+    "count": 35
+  },
+  {
+    "id": 2290,
+    "term_id": 2290,
+    "name": "HARD DRIVE",
+    "slug": "hard-drive",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2291,
+    "term_id": 2291,
+    "name": "HP",
+    "slug": "hp-hard-drive",
+    "parent": 2290,
+    "count": 3
+  },
+  {
+    "id": 2292,
+    "term_id": 2292,
+    "name": "HP",
+    "slug": "hp-ram",
+    "parent": 1984,
+    "count": 2
+  },
+  {
+    "id": 2293,
+    "term_id": 2293,
+    "name": "SAMSUNG",
+    "slug": "samsung-ssd-2",
+    "parent": 2039,
+    "count": 7
+  },
+  {
+    "id": 2294,
+    "term_id": 2294,
+    "name": "EXT HDD",
+    "slug": "ext-hdd",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2295,
+    "term_id": 2295,
+    "name": "CRUCIAL",
+    "slug": "crucial-ext-hdd",
+    "parent": 2294,
+    "count": 1
+  },
+  {
+    "id": 2296,
+    "term_id": 2296,
+    "name": "WD",
+    "slug": "wd-ext-hdd",
+    "parent": 2294,
+    "count": 2
+  },
+  {
+    "id": 2297,
+    "term_id": 2297,
+    "name": "GENERIC",
+    "slug": "generic-ssd-2",
+    "parent": 2039,
+    "count": 3
+  },
+  {
+    "id": 2298,
+    "term_id": 2298,
+    "name": "HDD",
+    "slug": "hdd",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2299,
+    "term_id": 2299,
+    "name": "SEAGTE",
+    "slug": "seagte",
+    "parent": 2298,
+    "count": 2
+  },
+  {
+    "id": 2300,
+    "term_id": 2300,
+    "name": "HP",
+    "slug": "hp-ext-hdd",
+    "parent": 2294,
+    "count": 1
+  },
+  {
+    "id": 2301,
+    "term_id": 2301,
+    "name": "CRUCIAL",
+    "slug": "crucial-ssd-2",
+    "parent": 2039,
+    "count": 6
+  },
+  {
+    "id": 2302,
+    "term_id": 2302,
+    "name": "TRANSCEND",
+    "slug": "transcend-ssd-2",
+    "parent": 2039,
+    "count": 1
+  },
+  {
+    "id": 2303,
+    "term_id": 2303,
+    "name": "SEAGTE",
+    "slug": "seagte-hard-drive",
+    "parent": 2290,
+    "count": 2
+  },
+  {
+    "id": 2304,
+    "term_id": 2304,
+    "name": "WD",
+    "slug": "wd-hard-drive",
+    "parent": 2290,
+    "count": 2
+  },
+  {
+    "id": 2305,
+    "term_id": 2305,
+    "name": "TRANSCEND",
+    "slug": "transcend-hard-drive",
+    "parent": 2290,
+    "count": 2
+  },
+  {
+    "id": 2306,
+    "term_id": 2306,
+    "name": "COMPUTER RAM",
+    "slug": "computer-ram",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2307,
+    "term_id": 2307,
+    "name": "DUOMEIQI",
+    "slug": "duomeiqi",
+    "parent": 2306,
+    "count": 1
+  },
+  {
+    "id": 2308,
+    "term_id": 2308,
+    "name": "Samsung",
+    "slug": "samsung-computer-ram",
+    "parent": 2306,
+    "count": 9
+  },
+  {
+    "id": 2309,
+    "term_id": 2309,
+    "name": "Micron",
+    "slug": "micron-computer-ram",
+    "parent": 2306,
+    "count": 1
+  },
+  {
+    "id": 2310,
+    "term_id": 2310,
+    "name": "APPLE",
+    "slug": "apple-accessories",
+    "parent": 1356,
+    "count": 23
+  },
+  {
+    "id": 2311,
+    "term_id": 2311,
+    "name": "DELL",
+    "slug": "dell-keyboard",
+    "parent": 2080,
+    "count": 7
+  },
+  {
+    "id": 2312,
+    "term_id": 2312,
+    "name": "LOGITECH",
+    "slug": "logitech-keyboard",
+    "parent": 2080,
+    "count": 2
+  },
+  {
+    "id": 2313,
+    "term_id": 2313,
+    "name": "LENOVO",
+    "slug": "lenovo-keyboard",
+    "parent": 2080,
+    "count": 4
+  },
+  {
+    "id": 2314,
+    "term_id": 2314,
+    "name": "HAVIT",
+    "slug": "havit-keyboard",
+    "parent": 2080,
+    "count": 2
+  },
+  {
+    "id": 2315,
+    "term_id": 2315,
+    "name": "HP",
+    "slug": "hp-keyboard",
+    "parent": 2080,
+    "count": 9
+  },
+  {
+    "id": 2316,
+    "term_id": 2316,
+    "name": "DELL",
+    "slug": "dell-mouse",
+    "parent": 1944,
+    "count": 1
+  },
+  {
+    "id": 2317,
+    "term_id": 2317,
+    "name": "LENOVO",
+    "slug": "lenovo-mouse",
+    "parent": 1944,
+    "count": 1
+  },
+  {
+    "id": 2318,
+    "term_id": 2318,
+    "name": "HP",
+    "slug": "hp-backpack",
+    "parent": 2059,
+    "count": 4
+  },
+  {
+    "id": 2319,
+    "term_id": 2319,
+    "name": "LENOVO",
+    "slug": "lenovo-backpack",
+    "parent": 2059,
+    "count": 4
+  },
+  {
+    "id": 2320,
+    "term_id": 2320,
+    "name": "FLASH DRIVE",
+    "slug": "flash-drive",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2321,
+    "term_id": 2321,
+    "name": "SANDISK",
+    "slug": "sandisk",
+    "parent": 2320,
+    "count": 6
+  },
+  {
+    "id": 2322,
+    "term_id": 2322,
+    "name": "HAVIT",
+    "slug": "havit-accessories",
+    "parent": 1356,
+    "count": 13
+  },
+  {
+    "id": 2323,
+    "term_id": 2323,
+    "name": "ANKER",
+    "slug": "anker",
+    "parent": 1356,
+    "count": 2
+  },
+  {
+    "id": 2324,
+    "term_id": 2324,
+    "name": "ACCESSORIES - LOGITECH",
+    "slug": "accessories-logitech",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2325,
+    "term_id": 2325,
+    "name": "ACCESSORIES -Joylight",
+    "slug": "accessories-joylight",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2326,
+    "term_id": 2326,
+    "name": "ACCESSORIES - TP LINK",
+    "slug": "accessories-tp-link",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2327,
+    "term_id": 2327,
+    "name": "ACCESSORIES - TRANSCEND",
+    "slug": "accessories-transcend",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2328,
+    "term_id": 2328,
+    "name": "ACCESSORIES - WD",
+    "slug": "accessories-wd",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2329,
+    "term_id": 2329,
+    "name": "HEADSET",
+    "slug": "headset",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2330,
+    "term_id": 2330,
+    "name": "HP",
+    "slug": "hp-headset",
+    "parent": 2329,
+    "count": 6
+  },
+  {
+    "id": 2331,
+    "term_id": 2331,
+    "name": "DELL",
+    "slug": "dell-accessories",
+    "parent": 1356,
+    "count": 4
+  },
+  {
+    "id": 2332,
+    "term_id": 2332,
+    "name": "HP",
+    "slug": "hp-accessories",
+    "parent": 1356,
+    "count": 2
+  },
+  {
+    "id": 2333,
+    "term_id": 2333,
+    "name": "LENOVO",
+    "slug": "lenovo-accessories",
+    "parent": 1356,
+    "count": 1
+  },
+  {
+    "id": 2334,
+    "term_id": 2334,
+    "name": "HAVIT",
+    "slug": "havit-headset",
+    "parent": 2329,
+    "count": 3
+  },
+  {
+    "id": 2335,
+    "term_id": 2335,
+    "name": "GAMING",
+    "slug": "gaming",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2336,
+    "term_id": 2336,
+    "name": "HAVIT",
+    "slug": "havit-gaming",
+    "parent": 2335,
+    "count": 1
+  },
+  {
+    "id": 2337,
+    "term_id": 2337,
+    "name": "LOGITECH",
+    "slug": "logitech-mouse",
+    "parent": 1944,
+    "count": 11
+  },
+  {
+    "id": 2338,
+    "term_id": 2338,
+    "name": "CANON",
+    "slug": "canon-printer",
+    "parent": 1978,
+    "count": 18
+  },
+  {
+    "id": 2339,
+    "term_id": 2339,
+    "name": "INK",
+    "slug": "ink",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2340,
+    "term_id": 2340,
+    "name": "CANON",
+    "slug": "canon-ink",
+    "parent": 2339,
+    "count": 7
+  },
+  {
+    "id": 2341,
+    "term_id": 2341,
+    "name": "BENQ",
+    "slug": "benq-monitor-2",
+    "parent": 1149,
+    "count": 1
+  },
+  {
+    "id": 2342,
+    "term_id": 2342,
+    "name": "APPLE",
+    "slug": "apple-phone",
+    "parent": 1836,
+    "count": 44
+  },
+  {
+    "id": 2343,
+    "term_id": 2343,
+    "name": "IPAD",
+    "slug": "ipad",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2344,
+    "term_id": 2344,
+    "name": "APPLE",
+    "slug": "apple-ipad-2",
+    "parent": 2343,
+    "count": 3
+  },
+  {
+    "id": 2345,
+    "term_id": 2345,
+    "name": "CHARGER",
+    "slug": "charger",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2346,
+    "term_id": 2346,
+    "name": "APPLE",
+    "slug": "apple-charger",
+    "parent": 2345,
+    "count": 1
+  },
+  {
+    "id": 2347,
+    "term_id": 2347,
+    "name": "AIRPOD",
+    "slug": "airpod",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2348,
+    "term_id": 2348,
+    "name": "APPLE",
+    "slug": "apple-airpod",
+    "parent": 2347,
+    "count": 3
+  },
+  {
+    "id": 2349,
+    "term_id": 2349,
+    "name": "SAMSUNG",
+    "slug": "samsung-accessories",
+    "parent": 1356,
+    "count": 2
+  },
+  {
+    "id": 2350,
+    "term_id": 2350,
+    "name": "SAMSUNG",
+    "slug": "samsung-tablet-3",
+    "parent": 1843,
+    "count": 0
+  },
+  {
+    "id": 2351,
+    "term_id": 2351,
+    "name": "STARLINK",
+    "slug": "starlink",
+    "parent": 1157,
+    "count": 4
+  },
+  {
+    "id": 2352,
+    "term_id": 2352,
+    "name": "GOOGLE PIXEL",
+    "slug": "google-pixel",
+    "parent": 1836,
+    "count": 3
+  },
+  {
+    "id": 2353,
+    "term_id": 2353,
+    "name": "KSL",
+    "slug": "ksl",
+    "parent": 1356,
+    "count": 1
+  },
+  {
+    "id": 2354,
+    "term_id": 2354,
+    "name": "Huawei",
+    "slug": "huawei",
+    "parent": 1356,
+    "count": 2
+  },
+  {
+    "id": 2355,
+    "term_id": 2355,
+    "name": "JBL",
+    "slug": "jbl",
+    "parent": 1356,
+    "count": 3
+  },
+  {
+    "id": 2356,
+    "term_id": 2356,
+    "name": "TECHNO",
+    "slug": "techno",
+    "parent": 1836,
+    "count": 1
+  },
+  {
+    "id": 2357,
+    "term_id": 2357,
+    "name": "LENOVO",
+    "slug": "lenovo-phone",
+    "parent": 1836,
+    "count": 1
+  },
+  {
+    "id": 2358,
+    "term_id": 2358,
+    "name": "POWERBEAT",
+    "slug": "powerbeat",
+    "parent": 1356,
+    "count": 2
+  },
+  {
+    "id": 2359,
+    "term_id": 2359,
+    "name": "DELL",
+    "slug": "dell-charger",
+    "parent": 2345,
+    "count": 16
+  },
+  {
+    "id": 2360,
+    "term_id": 2360,
+    "name": "LENOVO",
+    "slug": "lenovo-charger",
+    "parent": 2345,
+    "count": 4
+  },
+  {
+    "id": 2361,
+    "term_id": 2361,
+    "name": "MACBOOK",
+    "slug": "macbook",
+    "parent": 2345,
+    "count": 4
+  },
+  {
+    "id": 2362,
+    "term_id": 2362,
+    "name": "MICROSOFT",
+    "slug": "microsoft-charger",
+    "parent": 2345,
+    "count": 3
+  },
+  {
+    "id": 2363,
+    "term_id": 2363,
+    "name": "SCREEN",
+    "slug": "screen",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2364,
+    "term_id": 2364,
+    "name": "HP",
+    "slug": "hp-screen",
+    "parent": 2363,
+    "count": 13
+  },
+  {
+    "id": 2365,
+    "term_id": 2365,
+    "name": "LENOVO",
+    "slug": "lenovo-screen",
+    "parent": 2363,
+    "count": 3
+  },
+  {
+    "id": 2366,
+    "term_id": 2366,
+    "name": "BATTERY",
+    "slug": "battery",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2367,
+    "term_id": 2367,
+    "name": "ASUS",
+    "slug": "asus-battery",
+    "parent": 2366,
+    "count": 1
+  },
+  {
+    "id": 2368,
+    "term_id": 2368,
+    "name": "HP",
+    "slug": "hp-charger",
+    "parent": 2345,
+    "count": 24
+  },
+  {
+    "id": 2369,
+    "term_id": 2369,
+    "name": "HP",
+    "slug": "hp-battery",
+    "parent": 2366,
+    "count": 13
+  },
+  {
+    "id": 2370,
+    "term_id": 2370,
+    "name": "DELL",
+    "slug": "dell-battery",
+    "parent": 2366,
+    "count": 12
+  },
+  {
+    "id": 2371,
+    "term_id": 2371,
+    "name": "LENOVO",
+    "slug": "lenovo-battery",
+    "parent": 2366,
+    "count": 8
+  },
+  {
+    "id": 2372,
+    "term_id": 2372,
+    "name": "TECNO",
+    "slug": "tecno-phone",
+    "parent": 1836,
+    "count": 16
+  },
+  {
+    "id": 2373,
+    "term_id": 2373,
+    "name": "ITEL",
+    "slug": "itel",
+    "parent": 1836,
+    "count": 10
+  },
+  {
+    "id": 2374,
+    "term_id": 2374,
+    "name": "REDMI",
+    "slug": "redmi-phone",
+    "parent": 1836,
+    "count": 16
+  },
+  {
+    "id": 2375,
+    "term_id": 2375,
+    "name": "INFINIX",
+    "slug": "infinix-phone",
+    "parent": 1836,
+    "count": 13
+  },
+  {
+    "id": 2376,
+    "term_id": 2376,
+    "name": "VIVO",
+    "slug": "vivo",
+    "parent": 1836,
+    "count": 8
+  },
+  {
+    "id": 2377,
+    "term_id": 2377,
+    "name": "DELL",
+    "slug": "dell-screen",
+    "parent": 2363,
+    "count": 2
+  },
+  {
+    "id": 2378,
+    "term_id": 2378,
+    "name": "CISCO",
+    "slug": "cisco-server-2",
+    "parent": 2024,
+    "count": 1
+  },
+  {
+    "id": 2379,
+    "term_id": 2379,
+    "name": "HPE",
+    "slug": "hpe-hard-drive",
+    "parent": 2290,
+    "count": 16
+  },
+  {
+    "id": 2380,
+    "term_id": 2380,
+    "name": "PROCESSOR",
+    "slug": "processor",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2381,
+    "term_id": 2381,
+    "name": "HPE",
+    "slug": "hpe-processor",
+    "parent": 2380,
+    "count": 8
+  },
+  {
+    "id": 2382,
+    "term_id": 2382,
+    "name": "DOCK",
+    "slug": "dock",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2383,
+    "term_id": 2383,
+    "name": "DELL",
+    "slug": "dell-dock",
+    "parent": 2382,
+    "count": 3
+  },
+  {
+    "id": 2384,
+    "term_id": 2384,
+    "name": "HP",
+    "slug": "hp-dock",
+    "parent": 2382,
+    "count": 1
+  },
+  {
+    "id": 2385,
+    "term_id": 2385,
+    "name": "LENOVO",
+    "slug": "lenovo-dock",
+    "parent": 2382,
+    "count": 1
+  },
+  {
+    "id": 2386,
+    "term_id": 2386,
+    "name": "KENSINGTON",
+    "slug": "kensington",
+    "parent": 2382,
+    "count": 1
+  },
+  {
+    "id": 2387,
+    "term_id": 2387,
+    "name": "MICROSOFT",
+    "slug": "microsoft-dock",
+    "parent": 2382,
+    "count": 1
+  },
+  {
+    "id": 2388,
+    "term_id": 2388,
+    "name": "ACCESSORIES - MACBOOK",
+    "slug": "accessories-macbook",
+    "parent": 0,
+    "count": 21
+  },
+  {
+    "id": 2389,
+    "term_id": 2389,
+    "name": "WD BLUE",
+    "slug": "wd-blue",
+    "parent": 2039,
+    "count": 1
+  },
+  {
+    "id": 2390,
+    "term_id": 2390,
+    "name": "EXT HARD DRIVE",
+    "slug": "ext-hard-drive",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2391,
+    "term_id": 2391,
+    "name": "SEAGATE",
+    "slug": "seagate-ext-hard-drive",
+    "parent": 2390,
+    "count": 2
+  },
+  {
+    "id": 2392,
+    "term_id": 2392,
+    "name": "WD BLUE",
+    "slug": "wd-blue-ext-hard-drive",
+    "parent": 2390,
+    "count": 2
+  },
+  {
+    "id": 2393,
+    "term_id": 2393,
+    "name": "TRANSCEND",
+    "slug": "transcend-ext-hard-drive",
+    "parent": 2390,
+    "count": 2
+  },
+  {
+    "id": 2394,
+    "term_id": 2394,
+    "name": "DESKTOP RAM",
+    "slug": "desktop-ram",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2395,
+    "term_id": 2395,
+    "name": "SAMSUNG",
+    "slug": "samsung-desktop-ram",
+    "parent": 2394,
+    "count": 5
+  },
+  {
+    "id": 2396,
+    "term_id": 2396,
+    "name": "Kitchen Appliances",
+    "slug": "kitchen-appliances",
+    "parent": 2466,
+    "count": 0
+  },
+  {
+    "id": 2397,
+    "term_id": 2397,
+    "name": "High-Speed Blender / Vitamix",
+    "slug": "high-speed-blender-vitamix",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2398,
+    "term_id": 2398,
+    "name": "Food Processor",
+    "slug": "food-processor",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2399,
+    "term_id": 2399,
+    "name": "Yam Pounder eclectic",
+    "slug": "yam-pounder-eclectic",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2400,
+    "term_id": 2400,
+    "name": "⁠Hand Blender / Immersion Blender",
+    "slug": "%e2%81%a0hand-blender-immersion-blender",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2401,
+    "term_id": 2401,
+    "name": "Instant Pot",
+    "slug": "instant-pot",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2402,
+    "term_id": 2402,
+    "name": "Kitchenaid Mixer",
+    "slug": "kitchenaid-mixer",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2404,
+    "term_id": 2404,
+    "name": "Microwave Oven",
+    "slug": "microwave-oven",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2405,
+    "term_id": 2405,
+    "name": "Juicer",
+    "slug": "juicer",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2406,
+    "term_id": 2406,
+    "name": "Coffee Machine",
+    "slug": "coffee-machine",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2407,
+    "term_id": 2407,
+    "name": "Toaster",
+    "slug": "toaster",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2408,
+    "term_id": 2408,
+    "name": "Cookware",
+    "slug": "cookware",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2409,
+    "term_id": 2409,
+    "name": "⁠Air Fryer",
+    "slug": "%e2%81%a0air-fryer",
+    "parent": 2396,
+    "count": 0
+  },
+  {
+    "id": 2410,
+    "term_id": 2410,
+    "name": "⁠Cast Iron Pots",
+    "slug": "%e2%81%a0cast-iron-pots",
+    "parent": 2408,
+    "count": 0
+  },
+  {
+    "id": 2411,
+    "term_id": 2411,
+    "name": "Stainless Steel",
+    "slug": "stainless-steel",
+    "parent": 2408,
+    "count": 0
+  },
+  {
+    "id": 2412,
+    "term_id": 2412,
+    "name": "Nonstick Cookware",
+    "slug": "nonstick-cookware",
+    "parent": 2408,
+    "count": 0
+  },
+  {
+    "id": 2413,
+    "term_id": 2413,
+    "name": "Pressure Cooker",
+    "slug": "pressure-cooker",
+    "parent": 2408,
+    "count": 0
+  },
+  {
+    "id": 2414,
+    "term_id": 2414,
+    "name": "⁠Roasting Pan",
+    "slug": "%e2%81%a0roasting-pan",
+    "parent": 2408,
+    "count": 0
+  },
+  {
+    "id": 2415,
+    "term_id": 2415,
+    "name": "⁠Baking Sheets",
+    "slug": "%e2%81%a0baking-sheets",
+    "parent": 2408,
+    "count": 0
+  },
+  {
+    "id": 2416,
+    "term_id": 2416,
+    "name": "Dining Essentials",
+    "slug": "dining-essentials",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2417,
+    "term_id": 2417,
+    "name": "⁠Cutlery Sets",
+    "slug": "%e2%81%a0cutlery-sets",
+    "parent": 2416,
+    "count": 0
+  },
+  {
+    "id": 2418,
+    "term_id": 2418,
+    "name": "Plates and Bowls",
+    "slug": "plates-and-bowls",
+    "parent": 2416,
+    "count": 0
+  },
+  {
+    "id": 2419,
+    "term_id": 2419,
+    "name": "Glassware",
+    "slug": "glassware",
+    "parent": 2416,
+    "count": 0
+  },
+  {
+    "id": 2420,
+    "term_id": 2420,
+    "name": "Measuring Cups and Spoons",
+    "slug": "measuring-cups-and-spoons",
+    "parent": 2416,
+    "count": 0
+  },
+  {
+    "id": 2421,
+    "term_id": 2421,
+    "name": "Home and Living",
+    "slug": "home-and-living",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2422,
+    "term_id": 2422,
+    "name": "Furniture",
+    "slug": "furniture",
+    "parent": 2421,
+    "count": 0
+  },
+  {
+    "id": 2423,
+    "term_id": 2423,
+    "name": "Curtains and Blinds",
+    "slug": "curtains-and-blinds",
+    "parent": 2421,
+    "count": 0
+  },
+  {
+    "id": 2424,
+    "term_id": 2424,
+    "name": "Lighting",
+    "slug": "lighting",
+    "parent": 2421,
+    "count": 0
+  },
+  {
+    "id": 2425,
+    "term_id": 2425,
+    "name": "⁠Storage Solutions",
+    "slug": "%e2%81%a0storage-solutions",
+    "parent": 2421,
+    "count": 0
+  },
+  {
+    "id": 2426,
+    "term_id": 2426,
+    "name": "Bathroom Items",
+    "slug": "bathroom-items",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2427,
+    "term_id": 2427,
+    "name": "Shower and Bathtub",
+    "slug": "shower-and-bathtub",
+    "parent": 2426,
+    "count": 0
+  },
+  {
+    "id": 2428,
+    "term_id": 2428,
+    "name": "⁠Towels and Towel Hooks",
+    "slug": "%e2%81%a0towels-and-towel-hooks",
+    "parent": 2426,
+    "count": 0
+  },
+  {
+    "id": 2429,
+    "term_id": 2429,
+    "name": "Sink and Drain Accessories",
+    "slug": "sink-and-drain-accessories",
+    "parent": 2426,
+    "count": 0
+  },
+  {
+    "id": 2430,
+    "term_id": 2430,
+    "name": "Toiletries",
+    "slug": "toiletries",
+    "parent": 2426,
+    "count": 0
+  },
+  {
+    "id": 2431,
+    "term_id": 2431,
+    "name": "Cleaning Supplie",
+    "slug": "cleaning-supplie",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2432,
+    "term_id": 2432,
+    "name": "Vacuum Cleaner",
+    "slug": "vacuum-cleaner",
+    "parent": 2431,
+    "count": 0
+  },
+  {
+    "id": 2433,
+    "term_id": 2433,
+    "name": "Broom and Dustpan",
+    "slug": "broom-and-dustpan",
+    "parent": 2431,
+    "count": 0
+  },
+  {
+    "id": 2434,
+    "term_id": 2434,
+    "name": "Mops and Cleaning Tools",
+    "slug": "mops-and-cleaning-tools",
+    "parent": 2431,
+    "count": 0
+  },
+  {
+    "id": 2435,
+    "term_id": 2435,
+    "name": "Electronics",
+    "slug": "electronics",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2436,
+    "term_id": 2436,
+    "name": "Television",
+    "slug": "television",
+    "parent": 2435,
+    "count": 0
+  },
+  {
+    "id": 2437,
+    "term_id": 2437,
+    "name": "⁠Air Conditioner",
+    "slug": "%e2%81%a0air-conditioner",
+    "parent": 2435,
+    "count": 0
+  },
+  {
+    "id": 2438,
+    "term_id": 2438,
+    "name": "⁠Generator",
+    "slug": "%e2%81%a0generator",
+    "parent": 2435,
+    "count": 7
+  },
+  {
+    "id": 2439,
+    "term_id": 2439,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2440,
+    "term_id": 2440,
+    "name": "⁠Office Supplies",
+    "slug": "%e2%81%a0office-supplies",
+    "parent": 2439,
+    "count": 0
+  },
+  {
+    "id": 2441,
+    "term_id": 2441,
+    "name": "Stationery Items",
+    "slug": "stationery-items",
+    "parent": 2439,
+    "count": 0
+  },
+  {
+    "id": 2442,
+    "term_id": 2442,
+    "name": "⁠Home Decor",
+    "slug": "%e2%81%a0home-decor",
+    "parent": 2439,
+    "count": 0
+  },
+  {
+    "id": 2443,
+    "term_id": 2443,
+    "name": "SANDISK",
+    "slug": "sandisk-hard-drive",
+    "parent": 2290,
+    "count": 6
+  },
+  {
+    "id": 2444,
+    "term_id": 2444,
+    "name": "UPS",
+    "slug": "ups",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2445,
+    "term_id": 2445,
+    "name": "BLUEGATE",
+    "slug": "bluegate-ups",
+    "parent": 2444,
+    "count": 5
+  },
+  {
+    "id": 2446,
+    "term_id": 2446,
+    "name": "HAVIT",
+    "slug": "havit-2",
+    "parent": 0,
+    "count": 23
+  },
+  {
+    "id": 2447,
+    "term_id": 2447,
+    "name": "MEMORY CARD",
+    "slug": "memory-card",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2448,
+    "term_id": 2448,
+    "name": "SANDISK",
+    "slug": "sandisk-memory-card",
+    "parent": 2447,
+    "count": 5
+  },
+  {
+    "id": 2449,
+    "term_id": 2449,
+    "name": "EXTREME",
+    "slug": "extreme",
+    "parent": 2447,
+    "count": 1
+  },
+  {
+    "id": 2450,
+    "term_id": 2450,
+    "name": "LOGITECH",
+    "slug": "logitech-headset",
+    "parent": 2329,
+    "count": 5
+  },
+  {
+    "id": 2451,
+    "term_id": 2451,
+    "name": "WORKSTATION",
+    "slug": "workstation",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2452,
+    "term_id": 2452,
+    "name": "HP",
+    "slug": "hp-workstation",
+    "parent": 2451,
+    "count": 4
+  },
+  {
+    "id": 2453,
+    "term_id": 2453,
+    "name": "DELL",
+    "slug": "dell-workstation",
+    "parent": 2451,
+    "count": 1
+  },
+  {
+    "id": 2454,
+    "term_id": 2454,
+    "name": "IMAC",
+    "slug": "imac",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2455,
+    "term_id": 2455,
+    "name": "APPLE",
+    "slug": "apple-imac",
+    "parent": 2454,
+    "count": 2
+  },
+  {
+    "id": 2456,
+    "term_id": 2456,
+    "name": "Power &amp; Electrical Equipment",
+    "slug": "power-electrical-equipment",
+    "parent": 0,
+    "count": 40
+  },
+  {
+    "id": 2457,
+    "term_id": 2457,
+    "name": "Generator",
+    "slug": "generator",
+    "parent": 2459,
+    "count": 0
+  },
+  {
+    "id": 2458,
+    "term_id": 2458,
+    "name": "Distribution Board",
+    "slug": "distribution-board",
+    "parent": 2460,
+    "count": 0
+  },
+  {
+    "id": 2459,
+    "term_id": 2459,
+    "name": "Power",
+    "slug": "power",
+    "parent": 2456,
+    "count": 0
+  },
+  {
+    "id": 2460,
+    "term_id": 2460,
+    "name": "Electrical Equipment",
+    "slug": "electrical-equipment",
+    "parent": 2456,
+    "count": 65
+  },
+  {
+    "id": 2461,
+    "term_id": 2461,
+    "name": "Solar Panel, Inverter &amp; Accessories",
+    "slug": "solar-panel-inverter-accessories",
+    "parent": 2456,
+    "count": 24
+  },
+  {
+    "id": 2462,
+    "term_id": 2462,
+    "name": "Solar Panels",
+    "slug": "solar-panels",
+    "parent": 2461,
+    "count": 4
+  },
+  {
+    "id": 2463,
+    "term_id": 2463,
+    "name": "Inverters",
+    "slug": "inverters",
+    "parent": 2461,
+    "count": 18
+  },
+  {
+    "id": 2464,
+    "term_id": 2464,
+    "name": "Inverter Battery",
+    "slug": "inverter-battery",
+    "parent": 2461,
+    "count": 3
+  },
+  {
+    "id": 2465,
+    "term_id": 2465,
+    "name": "Inverter Accessories",
+    "slug": "inverter-accessories",
+    "parent": 2461,
+    "count": 3
+  },
+  {
+    "id": 2466,
+    "term_id": 2466,
+    "name": "Home &amp; Office Appliances",
+    "slug": "home-office-appliances",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2467,
+    "term_id": 2467,
+    "name": "Home Appliances",
+    "slug": "home-appliances",
+    "parent": 2466,
+    "count": 0
+  },
+  {
+    "id": 2468,
+    "term_id": 2468,
+    "name": "Television",
+    "slug": "television-home-appliances",
+    "parent": 2467,
+    "count": 0
+  },
+  {
+    "id": 2469,
+    "term_id": 2469,
+    "name": "Air Condition",
+    "slug": "air-condition",
+    "parent": 2467,
+    "count": 0
+  },
+  {
+    "id": 2470,
+    "term_id": 2470,
+    "name": "Sound System",
+    "slug": "sound-system",
+    "parent": 2467,
+    "count": 0
+  },
+  {
+    "id": 2471,
+    "term_id": 2471,
+    "name": "System",
+    "slug": "system",
+    "parent": 2467,
+    "count": 0
+  },
+  {
+    "id": 2472,
+    "term_id": 2472,
+    "name": "Refrigerator",
+    "slug": "refrigerator",
+    "parent": 2467,
+    "count": 0
+  },
+  {
+    "id": 2473,
+    "term_id": 2473,
+    "name": "Washing Machine",
+    "slug": "washing-machine",
+    "parent": 2467,
+    "count": 0
+  },
+  {
+    "id": 2474,
+    "term_id": 2474,
+    "name": "Dryer",
+    "slug": "dryer",
+    "parent": 2467,
+    "count": 0
+  },
+  {
+    "id": 2475,
+    "term_id": 2475,
+    "name": "LG LED SMART",
+    "slug": "lg-led-smart",
+    "parent": 2138,
+    "count": 2
+  },
+  {
+    "id": 2476,
+    "term_id": 2476,
+    "name": "LG UHD",
+    "slug": "lg-uhd",
+    "parent": 2138,
+    "count": 6
+  },
+  {
+    "id": 2477,
+    "term_id": 2477,
+    "name": "NANO",
+    "slug": "nano",
+    "parent": 2138,
+    "count": 3
+  },
+  {
+    "id": 2478,
+    "term_id": 2478,
+    "name": "QNED",
+    "slug": "qned",
+    "parent": 2138,
+    "count": 4
+  },
+  {
+    "id": 2479,
+    "term_id": 2479,
+    "name": "LG AUDIO SYSTEM",
+    "slug": "lg-audio-system",
+    "parent": 2138,
+    "count": 25
+  },
+  {
+    "id": 2480,
+    "term_id": 2480,
+    "name": "AV RECIEVER HOME THEATRE",
+    "slug": "av-reciever-home-theatre",
+    "parent": 2138,
+    "count": 5
+  },
+  {
+    "id": 2481,
+    "term_id": 2481,
+    "name": "SINGLE DOORLG REFRIGERATOR",
+    "slug": "single-doorlg-refrigerator",
+    "parent": 2421,
+    "count": 1
+  },
+  {
+    "id": 2482,
+    "term_id": 2482,
+    "name": "LG DISH WASHER",
+    "slug": "lg-dish-washer",
+    "parent": 2421,
+    "count": 1
+  },
+  {
+    "id": 2483,
+    "term_id": 2483,
+    "name": "LG Dryer",
+    "slug": "lg-dryer",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2484,
+    "term_id": 2484,
+    "name": "LG WASH N DRY MACHINE",
+    "slug": "lg-wash-n-dry-machine",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2485,
+    "term_id": 2485,
+    "name": "LG MANUAL TOP LOADER",
+    "slug": "lg-manual-top-loader",
+    "parent": 2421,
+    "count": 3
+  },
+  {
+    "id": 2486,
+    "term_id": 2486,
+    "name": "LG AUTOMATIC TOP LOADER",
+    "slug": "lg-automatic-top-loader",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2487,
+    "term_id": 2487,
+    "name": "NON INVERTER",
+    "slug": "non-inverter",
+    "parent": 2421,
+    "count": 1
+  },
+  {
+    "id": 2488,
+    "term_id": 2488,
+    "name": "LG MICROWAVE (INVERTER)",
+    "slug": "lg-microwave-inverter",
+    "parent": 2421,
+    "count": 4
+  },
+  {
+    "id": 2489,
+    "term_id": 2489,
+    "name": "LG AC Standard SPLIT",
+    "slug": "lg-ac-standard-split",
+    "parent": 2421,
+    "count": 3
+  },
+  {
+    "id": 2490,
+    "term_id": 2490,
+    "name": "Drinks &amp; Groceries",
+    "slug": "drinks-groceries",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2491,
+    "term_id": 2491,
+    "name": "Alcoholic Drinks",
+    "slug": "alcoholic-drinks",
+    "parent": 2490,
+    "count": 57
+  },
+  {
+    "id": 2492,
+    "term_id": 2492,
+    "name": "Wines",
+    "slug": "wines",
+    "parent": 2491,
+    "count": 0
+  },
+  {
+    "id": 2493,
+    "term_id": 2493,
+    "name": "Spirits",
+    "slug": "spirits",
+    "parent": 2491,
+    "count": 0
+  },
+  {
+    "id": 2494,
+    "term_id": 2494,
+    "name": "Champagne",
+    "slug": "champagne",
+    "parent": 2491,
+    "count": 0
+  },
+  {
+    "id": 2495,
+    "term_id": 2495,
+    "name": "Beer",
+    "slug": "beer",
+    "parent": 2491,
+    "count": 0
+  },
+  {
+    "id": 2496,
+    "term_id": 2496,
+    "name": "Coolers &amp; Cocktails",
+    "slug": "coolers-cocktails",
+    "parent": 2491,
+    "count": 0
+  },
+  {
+    "id": 2497,
+    "term_id": 2497,
+    "name": "Non-Alcoholic Drinks",
+    "slug": "non-alcoholic-drinks",
+    "parent": 2490,
+    "count": 0
+  },
+  {
+    "id": 2498,
+    "term_id": 2498,
+    "name": "Food",
+    "slug": "food",
+    "parent": 2490,
+    "count": 80
+  },
+  {
+    "id": 2499,
+    "term_id": 2499,
+    "name": "Breakfast &amp; Cereals -Rice, Pasta &amp; Noodles",
+    "slug": "breakfast-cereals-rice-pasta-noodles",
+    "parent": 2498,
+    "count": 0
+  },
+  {
+    "id": 2500,
+    "term_id": 2500,
+    "name": "Flour &amp; Grains",
+    "slug": "flour-grains",
+    "parent": 2498,
+    "count": 0
+  },
+  {
+    "id": 2501,
+    "term_id": 2501,
+    "name": "Cooking Ingredients",
+    "slug": "cooking-ingredients",
+    "parent": 2498,
+    "count": 0
+  },
+  {
+    "id": 2502,
+    "term_id": 2502,
+    "name": "Baking Ingredients",
+    "slug": "baking-ingredients",
+    "parent": 2498,
+    "count": 0
+  },
+  {
+    "id": 2503,
+    "term_id": 2503,
+    "name": "Snacks &amp; Confectioneries",
+    "slug": "snacks-confectioneries",
+    "parent": 2498,
+    "count": 0
+  },
+  {
+    "id": 2504,
+    "term_id": 2504,
+    "name": "Smoked Meat &amp; Fish",
+    "slug": "smoked-meat-fish",
+    "parent": 2498,
+    "count": 0
+  },
+  {
+    "id": 2505,
+    "term_id": 2505,
+    "name": "Agric Products",
+    "slug": "agric-products",
+    "parent": 2490,
+    "count": 0
+  },
+  {
+    "id": 2506,
+    "term_id": 2506,
+    "name": "Beverages",
+    "slug": "beverages",
+    "parent": 2490,
+    "count": 5
+  },
+  {
+    "id": 2507,
+    "term_id": 2507,
+    "name": "LG AC Standard SPLIT",
+    "slug": "lg-ac-standard-split-home-entertainment",
+    "parent": 2138,
+    "count": 0
+  },
+  {
+    "id": 2508,
+    "term_id": 2508,
+    "name": "LG 1.5Hp Inverter Split Air Conditioner",
+    "slug": "lg-1-5hp-inverter-split-air-conditioner",
+    "parent": 2138,
+    "count": 0
+  },
+  {
+    "id": 2509,
+    "term_id": 2509,
+    "name": "LG AC INVERTER SPLIT",
+    "slug": "lg-ac-inverter-split",
+    "parent": 2138,
+    "count": 1
+  },
+  {
+    "id": 2510,
+    "term_id": 2510,
+    "name": "WALL MOUNTED (DUAL INVERTER)",
+    "slug": "wall-mounted-dual-inverter",
+    "parent": 2421,
+    "count": 4
+  },
+  {
+    "id": 2511,
+    "term_id": 2511,
+    "name": "WALL MOUNTED (ART BLACK MIRROR)",
+    "slug": "wall-mounted-art-black-mirror",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2512,
+    "term_id": 2512,
+    "name": "FLOOR STANDING",
+    "slug": "floor-standing",
+    "parent": 2421,
+    "count": 1
+  },
+  {
+    "id": 2513,
+    "term_id": 2513,
+    "name": "CEILING CASSETTE",
+    "slug": "ceiling-cassette",
+    "parent": 2421,
+    "count": 1
+  },
+  {
+    "id": 2514,
+    "term_id": 2514,
+    "name": "LG STYLER INSTALLATION KIT (AC UNITS)",
+    "slug": "lg-styler-installation-kit-ac-units",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2515,
+    "term_id": 2515,
+    "name": "Floor Standing Kit",
+    "slug": "floor-standing-kit",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2516,
+    "term_id": 2516,
+    "name": "CEILLING FAN",
+    "slug": "ceilling-fan",
+    "parent": 2421,
+    "count": 1
+  },
+  {
+    "id": 2517,
+    "term_id": 2517,
+    "name": "ACBRACKET",
+    "slug": "acbracket",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2518,
+    "term_id": 2518,
+    "name": "Table Top Gas Cooker",
+    "slug": "table-top-gas-cooker",
+    "parent": 2421,
+    "count": 6
+  },
+  {
+    "id": 2519,
+    "term_id": 2519,
+    "name": "Standing Gas Cooker 50cm x 50cm",
+    "slug": "standing-gas-cooker-50cm-x-50cm",
+    "parent": 2421,
+    "count": 4
+  },
+  {
+    "id": 2520,
+    "term_id": 2520,
+    "name": "Standing Gas Cooker 60cm X 60cm TR STYLE (Italian Designed)",
+    "slug": "standing-gas-cooker-60cm-x-60cm-tr-style-italian-designed",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2521,
+    "term_id": 2521,
+    "name": "Stading Gas Cooker 60cm X 90cm",
+    "slug": "stading-gas-cooker-60cm-x-90cm",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2522,
+    "term_id": 2522,
+    "name": "4 Burners &amp; 2 Electric Heater 60 X 90 TR STYLE",
+    "slug": "4-burners-2-electric-heater-60-x-90-tr-style",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2523,
+    "term_id": 2523,
+    "name": "Food",
+    "slug": "food-2",
+    "parent": 0,
+    "count": 10
+  },
+  {
+    "id": 2524,
+    "term_id": 2524,
+    "name": "MAXI INBUILT OVEN",
+    "slug": "maxi-inbuilt-oven",
+    "parent": 2421,
+    "count": 3
+  },
+  {
+    "id": 2525,
+    "term_id": 2525,
+    "name": "INBUILT OVEN, BURNER,HOOD",
+    "slug": "inbuilt-oven-burnerhood",
+    "parent": 2421,
+    "count": 3
+  },
+  {
+    "id": 2526,
+    "term_id": 2526,
+    "name": "HOOD",
+    "slug": "hood",
+    "parent": 2421,
+    "count": 1
+  },
+  {
+    "id": 2527,
+    "term_id": 2527,
+    "name": "Hisense TV",
+    "slug": "hisense-tv",
+    "parent": 2138,
+    "count": 14
+  },
+  {
+    "id": 2528,
+    "term_id": 2528,
+    "name": "Hisense Refregirator",
+    "slug": "hisense-refregirator",
+    "parent": 2421,
+    "count": 14
+  },
+  {
+    "id": 2529,
+    "term_id": 2529,
+    "name": "Hisense Chiller (Show Case)",
+    "slug": "hisense-chiller-show-case",
+    "parent": 2421,
+    "count": 1
+  },
+  {
+    "id": 2530,
+    "term_id": 2530,
+    "name": "HISENSE Freezer",
+    "slug": "hisense-freezer",
+    "parent": 2421,
+    "count": 4
+  },
+  {
+    "id": 2531,
+    "term_id": 2531,
+    "name": "Hisense Washing Machine",
+    "slug": "hisense-washing-machine",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2532,
+    "term_id": 2532,
+    "name": "Hisense Top Load",
+    "slug": "hisense-top-load",
+    "parent": 2421,
+    "count": 7
+  },
+  {
+    "id": 2533,
+    "term_id": 2533,
+    "name": "Hisense Dryer",
+    "slug": "hisense-dryer",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2534,
+    "term_id": 2534,
+    "name": "Hisense AC",
+    "slug": "hisense-ac",
+    "parent": 2421,
+    "count": 11
+  },
+  {
+    "id": 2535,
+    "term_id": 2535,
+    "name": "Hisense Air Fryer",
+    "slug": "hisense-air-fryer",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2536,
+    "term_id": 2536,
+    "name": "Hisense Ice Mker",
+    "slug": "hisense-ice-mker",
+    "parent": 2421,
+    "count": 1
+  },
+  {
+    "id": 2537,
+    "term_id": 2537,
+    "name": "Hisense Microwave",
+    "slug": "hisense-microwave",
+    "parent": 2421,
+    "count": 3
+  },
+  {
+    "id": 2538,
+    "term_id": 2538,
+    "name": "Hisense Home Appliances",
+    "slug": "hisense-home-appliances",
+    "parent": 2421,
+    "count": 2
+  },
+  {
+    "id": 2539,
+    "term_id": 2539,
+    "name": "Hisense Audio System",
+    "slug": "hisense-audio-system",
+    "parent": 2138,
+    "count": 10
+  },
+  {
+    "id": 2540,
+    "term_id": 2540,
+    "name": "Hisense Maxi Installation Kit",
+    "slug": "hisense-maxi-installation-kit",
+    "parent": 2538,
+    "count": 4
+  },
+  {
+    "id": 2541,
+    "term_id": 2541,
+    "name": "BRACKETS",
+    "slug": "brackets",
+    "parent": 2538,
+    "count": 1
+  },
+  {
+    "id": 2542,
+    "term_id": 2542,
+    "name": "BRACKET UNIVERSAL",
+    "slug": "bracket-universal",
+    "parent": 2138,
+    "count": 0
+  },
+  {
+    "id": 2543,
+    "term_id": 2543,
+    "name": "MORA TV",
+    "slug": "mora-tv",
+    "parent": 2138,
+    "count": 4
+  },
+  {
+    "id": 2544,
+    "term_id": 2544,
+    "name": "Home &amp; Office Furniture",
+    "slug": "home-office-furniture",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2545,
+    "term_id": 2545,
+    "name": "Furniture (Chairs, Desks, Couches)",
+    "slug": "furniture-chairs-desks-couches",
+    "parent": 2544,
+    "count": 57
+  },
+  {
+    "id": 2546,
+    "term_id": 2546,
+    "name": "Curtains and Blinds",
+    "slug": "curtains-and-blinds-home-office-furniture",
+    "parent": 2544,
+    "count": 0
+  },
+  {
+    "id": 2547,
+    "term_id": 2547,
+    "name": "Lighting (Lamps, Light Bulbs)",
+    "slug": "lighting-lamps-light-bulbs",
+    "parent": 2544,
+    "count": 0
+  },
+  {
+    "id": 2548,
+    "term_id": 2548,
+    "name": "Storage Solutions (Baskets, Cupboards)",
+    "slug": "storage-solutions-baskets-cupboards",
+    "parent": 2544,
+    "count": 0
+  },
+  {
+    "id": 2549,
+    "term_id": 2549,
+    "name": "PROVINCIA TV STANDS",
+    "slug": "provincia-tv-stands",
+    "parent": 2544,
+    "count": 13
+  },
+  {
+    "id": 2550,
+    "term_id": 2550,
+    "name": "QUALITY DINING TABLE",
+    "slug": "quality-dining-table",
+    "parent": 2544,
+    "count": 37
+  },
+  {
+    "id": 2551,
+    "term_id": 2551,
+    "name": "Set tv stand and center table",
+    "slug": "set-tv-stand-and-center-table",
+    "parent": 2544,
+    "count": 16
+  },
+  {
+    "id": 2552,
+    "term_id": 2552,
+    "name": "POP",
+    "slug": "pop",
+    "parent": 2523,
+    "count": 8
+  },
+  {
+    "id": 2553,
+    "term_id": 2553,
+    "name": "TOMATO",
+    "slug": "tomato",
+    "parent": 2523,
+    "count": 2
+  },
+  {
+    "id": 2554,
+    "term_id": 2554,
+    "name": "4D'S BABYEEZ",
+    "slug": "4ds-babyeez",
+    "parent": 2523,
+    "count": 1
+  },
+  {
+    "id": 2555,
+    "term_id": 2555,
+    "name": "D'S BABTEEZ",
+    "slug": "ds-babteez",
+    "parent": 2523,
+    "count": 2
+  },
+  {
+    "id": 2556,
+    "term_id": 2556,
+    "name": "WOMANEEZZ",
+    "slug": "womaneezz",
+    "parent": 2523,
+    "count": 2
+  },
+  {
+    "id": 2557,
+    "term_id": 2557,
+    "name": "Automobile",
+    "slug": "automobile",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2558,
+    "term_id": 2558,
+    "name": "EV Bikes",
+    "slug": "ev-bikes",
+    "parent": 2557,
+    "count": 6
+  },
+  {
+    "id": 2559,
+    "term_id": 2559,
+    "name": "zinox",
+    "slug": "zinox",
+    "parent": 1189,
+    "count": 4
+  },
+  {
+    "id": 2560,
+    "term_id": 2560,
+    "name": "zinox",
+    "slug": "zinox-desktop",
+    "parent": 1143,
+    "count": 1
+  },
+  {
+    "id": 2561,
+    "term_id": 2561,
+    "name": "lenovo",
+    "slug": "lenovo-tablets",
+    "parent": 1189,
+    "count": 3
+  },
+  {
+    "id": 2562,
+    "term_id": 2562,
+    "name": "samsung",
+    "slug": "samsung-tablet-4",
+    "parent": 1843,
+    "count": 0
+  },
+  {
+    "id": 2563,
+    "term_id": 2563,
+    "name": "Mobile Phones",
+    "slug": "mobile-phones-2",
+    "parent": 0,
+    "count": 308
+  },
+  {
+    "id": 2564,
+    "term_id": 2564,
+    "name": "WLAN AP361",
+    "slug": "wlan-ap361",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2565,
+    "term_id": 2565,
+    "name": "WLAN AP263",
+    "slug": "wlan-ap263",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2566,
+    "term_id": 2566,
+    "name": "WLAN AP362",
+    "slug": "wlan-ap362",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2567,
+    "term_id": 2567,
+    "name": "Network Components OSX010000",
+    "slug": "network-components-osx010000",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2568,
+    "term_id": 2568,
+    "name": "Network Components OMXD30000",
+    "slug": "network-components-omxd30000",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2569,
+    "term_id": 2569,
+    "name": "Switch S110-24LP2SR",
+    "slug": "switch-s110-24lp2sr",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2570,
+    "term_id": 2570,
+    "name": "Switch S110-16LP2SR",
+    "slug": "switch-s110-16lp2sr",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2571,
+    "term_id": 2571,
+    "name": "Switch S110-8P2ST (170 V AC to 264 V AC)",
+    "slug": "switch-s110-8p2st-170-v-ac-to-264-v-ac",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2572,
+    "term_id": 2572,
+    "name": "WLAN AP761",
+    "slug": "wlan-ap761",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2573,
+    "term_id": 2573,
+    "name": "WLAN AP661",
+    "slug": "wlan-ap661",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2574,
+    "term_id": 2574,
+    "name": "WLAN AP371",
+    "slug": "wlan-ap371",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2575,
+    "term_id": 2575,
+    "name": "WLAN AP160",
+    "slug": "wlan-ap160",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2576,
+    "term_id": 2576,
+    "name": "Router eKitEngine S380-S8T2T",
+    "slug": "router-ekitengine-s380-s8t2t",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2577,
+    "term_id": 2577,
+    "name": "Router eKitEngine S380-L4T1T",
+    "slug": "router-ekitengine-s380-l4t1t",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2578,
+    "term_id": 2578,
+    "name": "Router eKitEngine S380-H8T3ST",
+    "slug": "router-ekitengine-s380-h8t3st",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2579,
+    "term_id": 2579,
+    "name": "Router eKitEngine S380-S8P2T",
+    "slug": "router-ekitengine-s380-s8p2t",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2580,
+    "term_id": 2580,
+    "name": "Router eKitEngine S380-L4P1T",
+    "slug": "router-ekitengine-s380-l4p1t",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2581,
+    "term_id": 2581,
+    "name": "Switch S310-24",
+    "slug": "switch-s310-24",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2582,
+    "term_id": 2582,
+    "name": "Firewall USG6000E-S03-AC",
+    "slug": "firewall-usg6000e-s03-ac",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2583,
+    "term_id": 2583,
+    "name": "Switch S310-48",
+    "slug": "switch-s310-48",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2584,
+    "term_id": 2584,
+    "name": "Switch S220-24 T4X",
+    "slug": "switch-s220-24-t4x",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2585,
+    "term_id": 2585,
+    "name": "Switch S310-48P4X",
+    "slug": "switch-s310-48p4x",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2586,
+    "term_id": 2586,
+    "name": "Switch S310-48T4S",
+    "slug": "switch-s310-48t4s",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2587,
+    "term_id": 2587,
+    "name": "Router AR720",
+    "slug": "router-ar720",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2588,
+    "term_id": 2588,
+    "name": "Switch S220-24 P4X",
+    "slug": "switch-s220-24-p4x",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2589,
+    "term_id": 2589,
+    "name": "Router AR730",
+    "slug": "router-ar730",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2590,
+    "term_id": 2590,
+    "name": "55150937",
+    "slug": "55150937",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2591,
+    "term_id": 2591,
+    "name": "21156005",
+    "slug": "21156005",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2592,
+    "term_id": 2592,
+    "name": "6190009",
+    "slug": "6190009",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2593,
+    "term_id": 2593,
+    "name": "2170477",
+    "slug": "2170477",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2594,
+    "term_id": 2594,
+    "name": "23080128",
+    "slug": "23080128",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2595,
+    "term_id": 2595,
+    "name": "IHS2-65SA/06190001/EP02T-H-R/HWA-01-R/23080128/SH 800P",
+    "slug": "ihs2-65sa-06190001-ep02t-h-r-hwa-01-r-23080128-sh-800p",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 2596,
+    "term_id": 2596,
+    "name": "Network",
+    "slug": "network",
+    "parent": 0,
+    "count": 21
+  },
+  {
+    "id": 2597,
+    "term_id": 2597,
+    "name": "Solar",
+    "slug": "solar",
+    "parent": 0,
+    "count": 14
+  },
+  {
+    "id": 2598,
+    "term_id": 2598,
+    "name": "SMART BOAD",
+    "slug": "smart-boad",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2599,
+    "term_id": 2599,
+    "name": "INTERACTIVE BOARD",
+    "slug": "interactive-board",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2600,
+    "term_id": 2600,
+    "name": "Home and Kichen",
+    "slug": "home-and-kichen",
+    "parent": 0,
+    "count": 4
+  },
+  {
+    "id": 2601,
+    "term_id": 2601,
+    "name": "PINTER",
+    "slug": "pinter",
+    "parent": 0,
+    "count": 1
+  },
+  {
+    "id": 2602,
+    "term_id": 2602,
+    "name": "STATIONERY",
+    "slug": "stationery",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2603,
+    "term_id": 2603,
+    "name": "ACCESORIES",
+    "slug": "accesories",
+    "parent": 0,
+    "count": 2
+  },
+  {
+    "id": 2604,
+    "term_id": 2604,
+    "name": "ELECTRICAL EQUIPMENT",
+    "slug": "electrical-equipment-2",
+    "parent": 0,
+    "count": 42
+  },
+  {
+    "id": 2605,
+    "term_id": 2605,
+    "name": "TONER",
+    "slug": "toner",
+    "parent": 0,
+    "count": 1
+  }
+]

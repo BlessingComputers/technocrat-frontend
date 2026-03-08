@@ -1,64 +1,46 @@
-"use client";
-
-import { useGetFeaturedProductsQuery } from "@/features/catalog/api/catalog-api";
-import { Container } from "@/components/templates/container";
-import {
-  FadeIn,
-  ViewIn,
-  StaggerContainer,
-  StaggerItem,
-} from "@/components/animations/motion-components";
+import { getFeaturedProducts } from "@/lib/data";
 import { ProductCard } from "@/components/molecules/product-card";
-import { Button } from "@/components/ui/button";
+import { Container } from "@/components/templates/container";
+import { SectionHeader } from "@/components/molecules/section-header";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { SectionHeader } from "../molecules/section-header";
 
 export function RecentArrivals() {
-  const { data: products } = useGetFeaturedProductsQuery();
+  const products = getFeaturedProducts(12).slice(8, 12);
 
-  // For this section, we just take the last 4 products from our "featured/recent" list
-  const recentProducts = products?.slice(4, 8) || [];
-
-  if (recentProducts.length === 0) return null;
+  if (products.length === 0) return null;
 
   return (
-    <section className="py-24 bg-white dark:bg-background overflow-hidden">
-      <Container>
-        <SectionHeader
-          tag="Latest Updates"
-          title={{ span: "Recent ", rest: "Arrivals" }}
-          description="Stay ahead with our newest hardware additions. Premium workstations and gaming beasts updated daily."
-        />
-        <div className="flex flex-col md:flex-row md:items-end justify-end my-16 gap-6">
-          <Button
-            variant="outline"
-            className="rounded-full h-14 px-8 border-gray-200 dark:border-white/10 text-xs font-black uppercase tracking-widest hidden md:flex"
+    <Container>
+      <SectionHeader
+        tag="Latest Updates"
+        title={{ span: "Recent", rest: "Arrivals" }}
+        description="Stay ahead with our newest hardware additions. Premium workstations and electronics updated daily."
+        action={
+          <Link
+            href="/product"
+            className="inline-flex items-center gap-2 border border-border px-5 py-2 text-xs font-semibold uppercase tracking-wider text-foreground hover:border-primary hover:text-primary transition-colors"
           >
-            Shop New Drops <ArrowRight className="w-4 h-4 ml-2" />
-          </Button>
-        </div>
-
-        <StaggerContainer
-          staggerDelay={0.1}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
-        >
-          {recentProducts.map((product) => (
-            <StaggerItem key={product.id}>
-              <ProductCard
-                id={product.id}
-                slug={product.slug}
-                title={product.name}
-                brand={product.categories[0]?.name}
-                price={product.price ? parseInt(product.price) : 0}
-                image={product.images[0] || ""}
-                description={product.short_description || ""}
-                href={`/product/${product.slug}`}
-                badge="New Arrival"
-              />
-            </StaggerItem>
-          ))}
-        </StaggerContainer>
-      </Container>
-    </section>
+            Shop New Drops <ArrowRight className="w-3 h-3" />
+          </Link>
+        }
+      />
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+        {products.map((product) => (
+          <ProductCard
+            key={product.id}
+            id={product.id}
+            slug={product.slug}
+            title={product.name}
+            brand={product.categories[0]?.name}
+            price={product.price ? parseInt(product.price) : null}
+            image={product.images[0] || "/assets/placeholder.png"}
+            description={product.short_description || ""}
+            href={`/product/${product.slug}`}
+            badge="New"
+          />
+        ))}
+      </div>
+    </Container>
   );
 }
