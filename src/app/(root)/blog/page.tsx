@@ -9,9 +9,15 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | Blessing Computers",
+  title: "Blog",
   description:
-    "Read the latest news, tips, and updates from Blessing Computers.",
+    "Read the latest news, tips, and updates from Technocrat Nigeria. Stay informed about computers, solar systems, generators, and electronics.",
+  openGraph: {
+    title: "Blog | Technocrat Nigeria",
+    description:
+      "Read the latest news, tips, and updates from Technocrat Nigeria.",
+    type: "website",
+  },
 };
 
 function PostList({ currentPage }: { currentPage: number }) {

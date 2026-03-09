@@ -5,10 +5,18 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight, LayoutGrid, List } from "lucide-react";
 import { Suspense } from "react";
 import { ProductSkeletonGrid } from "@/components/molecules/skeletons/product-skeleton-grid";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Products | Technocrat",
-  description: "Browse our extensive catalog of products.",
+export const metadata: Metadata = {
+  title: "Products",
+  description:
+    "Browse our extensive catalog of computers, laptops, solar systems, generators, and electronics at Technocrat Nigeria.",
+  openGraph: {
+    title: "Products | Technocrat Nigeria",
+    description:
+      "Browse our extensive catalog of computers, laptops, solar systems, generators, and electronics.",
+    type: "website",
+  },
 };
 
 type SortOption = "featured" | "name-asc" | "name-desc" | "newest";
