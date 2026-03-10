@@ -19,7 +19,7 @@ export function ProductDetailSkeleton() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
           {/* Gallery Skeleton */}
           <div className="lg:col-span-7 space-y-3">
-            <div className="aspect-[4/3] lg:aspect-[16/10] bg-muted/10 border border-border" />
+            <div className="aspect-4/3 lg:aspect-16/10 bg-muted/10 border border-border" />
             <div className="flex gap-1.5">
               {[...Array(4)].map((_, i) => (
                 <div

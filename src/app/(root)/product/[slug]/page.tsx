@@ -64,7 +64,7 @@ async function ProductContent({
               </>
             )}
             <span>/</span>
-            <span className="text-foreground truncate max-w-[200px] sm:max-w-none">
+            <span className="text-foreground truncate max-w-50 sm:max-w-none">
               {product.name}
             </span>
           </nav>

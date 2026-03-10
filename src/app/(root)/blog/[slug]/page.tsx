@@ -155,7 +155,7 @@ async function BlogPostContent({
                           className="w-full h-full object-cover"
                         />
                       ) : (
-                        <div className="flex items-center justify-center h-full bg-gradient-to-br from-primary/10 to-primary/5">
+                        <div className="flex items-center justify-center h-full bg-linear-to-br from-primary/10 to-primary/5">
                           <span className="text-lg font-black text-primary/20">
                             {recentPost.title.charAt(0)}
                           </span>

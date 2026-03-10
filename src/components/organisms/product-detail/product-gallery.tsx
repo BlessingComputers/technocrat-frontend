@@ -28,7 +28,7 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
   return (
     <div className="flex flex-col gap-3">
       {/* Main Image */}
-      <div className="relative aspect-[4/3] lg:aspect-[16/10] bg-muted/5 border border-border overflow-hidden group">
+      <div className="relative aspect-4/3 lg:aspect-16/10 bg-muted/5 border border-border overflow-hidden group">
         <Image
           src={displayImages[selectedImage]}
           alt={name}
