@@ -68,7 +68,6 @@ async function ProductList({
               slug={product.slug}
               title={product.name}
               description={product.short_description}
-              price={product.price ? parseFloat(product.price) : null}
               image={product.images?.[0] || "/assets/placeholder.png"}
               brand={product.categories?.[0]?.name}
               variant="list"
@@ -84,7 +83,6 @@ async function ProductList({
               slug={product.slug}
               title={product.name}
               description={product.short_description}
-              price={product.price ? parseFloat(product.price) : null}
               image={product.images?.[0] || "/assets/placeholder.png"}
               brand={product.categories?.[0]?.name}
             />

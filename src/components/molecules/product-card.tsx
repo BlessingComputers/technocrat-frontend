@@ -8,7 +8,6 @@ interface ProductCardProps {
   slug?: string;
   title: string;
   description: string;
-  price: number | null;
   image: string | StaticImageData;
   brand?: string;
   badge?: string;
@@ -24,7 +23,6 @@ export function ProductCard({
   slug,
   title,
   description,
-  price,
   image,
   brand,
   badge,
