@@ -4,10 +4,10 @@ import { getFeaturedProducts, getRootCategories } from "@/lib/data";
 import { ArrowRight } from "lucide-react";
 
 export function BentoHero() {
-  const products = getFeaturedProducts(3);
+  const products = getFeaturedProducts(2);
   const categories = getRootCategories().slice(0, 6);
   const main = products[0];
-  const secondary = products.slice(1, 3);
+  const secondary = products[1];
 
   if (!main) return null;
 
@@ -65,7 +65,32 @@ export function BentoHero() {
           </div>
         </div>
 
-        {/* Cell B — Corporate promo */}
+        {/* Cell B — Electric Bikes promo (Spiro) */}
+        <div className="col-span-6 lg:col-span-4 row-span-1 relative bg-card border border-border overflow-hidden group">
+          <a
+            href="https://rideahead.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 z-10"
+          />
+          <Image
+            src="/assets/spiro.jpeg"
+            alt="Ride Ahead — Electric Bikes on Hire Purchase"
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            sizes="(max-width: 1024px) 50vw, 33vw"
+          />
+          <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/80 via-black/40 to-transparent p-4 z-5">
+            <span className="text-[10px] font-medium uppercase tracking-[0.15em] text-white/60 block mb-0.5">
+              Hire Purchase
+            </span>
+            <h3 className="text-sm font-semibold text-white line-clamp-1">
+              Electric Bikes — Ride Ahead
+            </h3>
+          </div>
+        </div>
+
+        {/* Cell C — Corporate promo */}
         <div className="col-span-6 lg:col-span-4 row-span-1 bg-primary text-primary-foreground p-6 flex flex-col justify-between">
           <div>
             <span className="text-[10px] font-semibold uppercase tracking-[0.15em] text-primary-foreground/70 block mb-2">
@@ -86,7 +111,7 @@ export function BentoHero() {
           </Link>
         </div>
 
-        {/* Cell C — Category quick-links */}
+        {/* Cell D — Category quick-links */}
         <div className="col-span-6 lg:col-span-4 row-span-1 bg-card border border-border p-5 flex flex-col">
           <span className="text-[10px] font-semibold uppercase tracking-[0.15em] text-muted-foreground mb-3">
             Categories
@@ -104,20 +129,17 @@ export function BentoHero() {
           </div>
         </div>
 
-        {/* Cells D + E — Secondary products */}
-        {secondary.map((product) => (
-          <div
-            key={product.id}
-            className="col-span-6 lg:col-span-4 row-span-1 relative bg-card border border-border overflow-hidden group"
-          >
+        {/* Cell E — Secondary product */}
+        {secondary && (
+          <div className="col-span-6 lg:col-span-4 row-span-1 relative bg-card border border-border overflow-hidden group">
             <Link
-              href={`/product/${product.slug}`}
+              href={`/product/${secondary.slug}`}
               className="absolute inset-0 z-10"
             />
-            {product.images[0] && (
+            {secondary.images[0] && (
               <Image
-                src={product.images[0]}
-                alt={product.name}
+                src={secondary.images[0]}
+                alt={secondary.name}
                 fill
                 className="object-contain p-4 transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 1024px) 50vw, 33vw"
@@ -125,14 +147,14 @@ export function BentoHero() {
             )}
             <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/80 via-black/40 to-transparent p-4 z-5">
               <span className="text-[10px] font-medium uppercase tracking-[0.15em] text-white/60 block mb-0.5">
-                {product.categories[0]?.name}
+                {secondary.categories[0]?.name}
               </span>
               <h3 className="text-sm font-semibold text-white line-clamp-1">
-                {product.name}
+                {secondary.name}
               </h3>
             </div>
           </div>
-        ))}
+        )}
 
         {/* Cell F — Stats */}
         <div className="col-span-12 lg:col-span-4 row-span-1 bg-secondary text-secondary-foreground p-6 flex items-center justify-around">
