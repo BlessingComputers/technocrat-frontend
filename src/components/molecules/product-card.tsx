@@ -8,7 +8,6 @@ interface ProductCardProps {
   slug?: string;
   title: string;
   description: string;
-  price: number | null;
   image: string | StaticImageData;
   brand?: string;
   badge?: string;
@@ -24,7 +23,6 @@ export function ProductCard({
   slug,
   title,
   description,
-  price,
   image,
   brand,
   badge,
@@ -132,7 +130,7 @@ export function ProductCard({
             {title}
           </h3>
         </Link>
-        <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed mb-3 min-h-[32px]">
+        <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed mb-3 min-h-8">
           {cleanDesc}
         </p>
         <div className="mt-auto">

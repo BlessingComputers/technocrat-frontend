@@ -5,17 +5,40 @@ import { PageHero } from "@/components/layout/page-hero";
 import { Suspense } from "react";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Page | Blessing Computers",
-  description: "Blessing Computers page content.",
-};
-
 interface DynamicPageProps {
   params: Promise<{ slug: string }>;
 }
 
 // Slugs that are handled by other routes and should not match here
 const RESERVED_SLUGS = ["product", "blog", "contact", "test"];
+
+export async function generateMetadata({
+  params,
+}: DynamicPageProps): Promise<Metadata> {
+  const { slug } = await params;
+
+  if (RESERVED_SLUGS.includes(slug)) {
+    return {};
+  }
+
+  const page = getPageBySlug(decodeURIComponent(slug));
+
+  if (!page) {
+    return { title: "Page Not Found" };
+  }
+
+  const plainContent = page.content.replace(/<[^>]*>/g, "").slice(0, 160);
+
+  return {
+    title: page.title,
+    description: plainContent || `${page.title} - Technocrat Nigeria`,
+    openGraph: {
+      title: page.title,
+      description: plainContent || `${page.title} - Technocrat Nigeria`,
+      images: page.featuredImage ? [{ url: page.featuredImage }] : [],
+    },
+  };
+}
 
 async function PageContent({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

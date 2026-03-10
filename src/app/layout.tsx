@@ -18,9 +18,52 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Blessing Computers",
+  metadataBase: new URL("https://technocrat.ng"),
+  title: {
+    default:
+      "Technocrat Nigeria - Computers, Solar Systems, Generators, and Electronics",
+    template: "%s | Technocrat Nigeria",
+  },
   description:
-    "Your trusted source for computers, solar systems, generators, and electronics.",
+    "Technocrat Nigeria is your trusted source for high-quality computers, solar systems, generators, and electronics. We offer a wide range of products to meet your technology needs, backed by exceptional customer service and support.",
+  keywords: [
+    "computers",
+    "laptops",
+    "solar systems",
+    "generators",
+    "electronics",
+    "Nigeria",
+    "tech store",
+    "Technocrat",
+  ],
+  authors: [{ name: "Technocrat Nigeria" }],
+  openGraph: {
+    type: "website",
+    locale: "en_NG",
+    siteName: "Technocrat Nigeria",
+    title:
+      "Technocrat Nigeria - Computers, Solar Systems, Generators, and Electronics",
+    description:
+      "Your trusted source for high-quality computers, solar systems, generators, and electronics in Nigeria.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Technocrat Nigeria - Computers, Solar Systems, Generators, and Electronics",
+    description:
+      "Your trusted source for high-quality computers, solar systems, generators, and electronics in Nigeria.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({

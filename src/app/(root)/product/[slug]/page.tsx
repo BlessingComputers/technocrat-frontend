@@ -9,13 +9,43 @@ import { Suspense } from "react";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Product Detail | Technocrat",
-  description: "View product details and specifications.",
-};
-
 interface ProductPageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({
+  params,
+}: ProductPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const product = getProductById(decodeURIComponent(slug));
+
+  if (!product) {
+    return { title: "Product Not Found" };
+  }
+
+  const plainDescription = product.short_description
+    .replace(/<[^>]*>/g, "")
+    .slice(0, 160);
+
+  return {
+    title: product.name,
+    description:
+      plainDescription || `Shop ${product.name} at Technocrat Nigeria.`,
+    openGraph: {
+      title: product.name,
+      description:
+        plainDescription || `Shop ${product.name} at Technocrat Nigeria.`,
+      type: "website",
+      images: product.images?.[0] ? [{ url: product.images[0] }] : [],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: product.name,
+      description:
+        plainDescription || `Shop ${product.name} at Technocrat Nigeria.`,
+      images: product.images?.[0] ? [product.images[0]] : [],
+    },
+  };
 }
 
 async function ProductContent({
@@ -120,7 +150,6 @@ async function ProductContent({
                   id={p.id}
                   slug={p.slug}
                   title={p.name}
-                  price={p.price ? parseInt(p.price) : null}
                   image={p.images[0] || "/assets/placeholder.png"}
                   description={p.short_description || ""}
                   brand={p.categories[0]?.name}

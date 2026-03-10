@@ -5,10 +5,18 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight, LayoutGrid, List } from "lucide-react";
 import { Suspense } from "react";
 import { ProductSkeletonGrid } from "@/components/molecules/skeletons/product-skeleton-grid";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Products | Technocrat",
-  description: "Browse our extensive catalog of products.",
+export const metadata: Metadata = {
+  title: "Products",
+  description:
+    "Browse our extensive catalog of computers, laptops, solar systems, generators, and electronics at Technocrat Nigeria.",
+  openGraph: {
+    title: "Products | Technocrat Nigeria",
+    description:
+      "Browse our extensive catalog of computers, laptops, solar systems, generators, and electronics.",
+    type: "website",
+  },
 };
 
 type SortOption = "featured" | "name-asc" | "name-desc" | "newest";
@@ -60,7 +68,6 @@ async function ProductList({
               slug={product.slug}
               title={product.name}
               description={product.short_description}
-              price={product.price ? parseFloat(product.price) : null}
               image={product.images?.[0] || "/assets/placeholder.png"}
               brand={product.categories?.[0]?.name}
               variant="list"
@@ -76,7 +83,6 @@ async function ProductList({
               slug={product.slug}
               title={product.name}
               description={product.short_description}
-              price={product.price ? parseFloat(product.price) : null}
               image={product.images?.[0] || "/assets/placeholder.png"}
               brand={product.categories?.[0]?.name}
             />

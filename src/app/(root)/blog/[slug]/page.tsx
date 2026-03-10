@@ -7,13 +7,44 @@ import Link from "next/link";
 import { Calendar, User, ArrowLeft, Tag } from "lucide-react";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Blog Post | Blessing Computers",
-  description: "Read blog post details.",
-};
-
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({
+  params,
+}: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(decodeURIComponent(slug));
+
+  if (!post) {
+    return { title: "Post Not Found" };
+  }
+
+  const plainExcerpt = post.excerpt.replace(/<[^>]*>/g, "").slice(0, 160);
+
+  return {
+    title: post.title,
+    description:
+      plainExcerpt || `Read "${post.title}" on the Technocrat Nigeria blog.`,
+    openGraph: {
+      title: post.title,
+      description:
+        plainExcerpt || `Read "${post.title}" on the Technocrat Nigeria blog.`,
+      type: "article",
+      publishedTime: post.createdAt,
+      modifiedTime: post.modifiedAt,
+      authors: post.author ? [post.author.name] : [],
+      images: post.featuredImage ? [{ url: post.featuredImage }] : [],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description:
+        plainExcerpt || `Read "${post.title}" on the Technocrat Nigeria blog.`,
+      images: post.featuredImage ? [post.featuredImage] : [],
+    },
+  };
 }
 
 async function BlogPostContent({

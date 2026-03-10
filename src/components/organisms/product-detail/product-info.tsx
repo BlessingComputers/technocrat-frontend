@@ -7,7 +7,6 @@ import {
   Check,
   Phone,
 } from "lucide-react";
-import { formatPrice } from "@/helpers/helpers";
 import { Product } from "@/features/catalog/types/catalog";
 import Link from "next/link";
 
@@ -95,22 +94,11 @@ export function ProductInfo({ product }: ProductInfoProps) {
 
       {/* Price Block */}
       <div className="border border-border p-5 mb-5 bg-muted/5">
-        <div className="flex items-baseline gap-3 flex-wrap">
-          <span className="text-3xl sm:text-4xl font-mono font-bold text-foreground tracking-tight">
-            {product.price
-              ? formatPrice(parseInt(product.price))
-              : "Price on Request"}
-          </span>
-          {product.regular_price &&
-            product.sale_price &&
-            product.regular_price !== product.sale_price && (
-              <span className="text-lg font-mono text-muted-foreground line-through">
-                {formatPrice(parseInt(product.regular_price))}
-              </span>
-            )}
-        </div>
+        <span className="text-3xl sm:text-4xl font-mono font-bold text-foreground tracking-tight">
+          Available on Request
+        </span>
         <p className="text-[11px] text-muted-foreground mt-1.5">
-          Includes local VAT. Shipping calculated at checkout.
+          Contact us for pricing and availability.
         </p>
       </div>
 

@@ -33,7 +33,6 @@ export function FeaturedGrid() {
             slug={product.slug}
             title={product.name}
             brand={product.categories[0]?.name}
-            price={product.price ? parseInt(product.price) : null}
             image={product.images[0] || "/assets/placeholder.png"}
             description={product.short_description || ""}
             href={`/product/${product.slug}`}
