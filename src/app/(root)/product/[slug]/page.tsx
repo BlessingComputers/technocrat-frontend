@@ -150,7 +150,6 @@ async function ProductContent({
                   id={p.id}
                   slug={p.slug}
                   title={p.name}
-                  price={p.price ? parseInt(p.price) : null}
                   image={p.images[0] || "/assets/placeholder.png"}
                   description={p.short_description || ""}
                   brand={p.categories[0]?.name}
