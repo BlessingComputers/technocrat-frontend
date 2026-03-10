@@ -130,7 +130,7 @@ export function ProductCard({
             {title}
           </h3>
         </Link>
-        <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed mb-3 min-h-[32px]">
+        <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed mb-3 min-h-8">
           {cleanDesc}
         </p>
         <div className="mt-auto">
