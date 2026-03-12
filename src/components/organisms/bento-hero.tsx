@@ -68,7 +68,7 @@ export function BentoHero() {
         {/* Cell B — Electric Bikes promo (Spiro) */}
         <div className="col-span-6 lg:col-span-4 row-span-1 relative bg-card border border-border overflow-hidden group">
           <a
-            href="https://rideahead.netlify.app"
+            href="https://rideahead.technocratng.com"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute inset-0 z-10"

@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Star,
   Truck,
@@ -13,7 +15,12 @@ import Link from "next/link";
 interface ProductInfoProps {
   product: Product;
 }
-
+const randomContactAgent = [
+  "0812 436 2413",
+  "0901 121 5084",
+  "0907 060 4655",
+  "0901 145 5223",
+];
 export function ProductInfo({ product }: ProductInfoProps) {
   const rating = product.meta.average_rating
     ? parseFloat(product.meta.average_rating)
@@ -120,7 +127,15 @@ export function ProductInfo({ product }: ProductInfoProps) {
           Contact Us to Buy
         </Link>
         <a
-          href="tel:08124362413"
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            const agent =
+              randomContactAgent[
+                Math.floor(Math.random() * randomContactAgent.length)
+              ];
+            window.location.href = `tel:${agent.replace(/\s/g, "")}`;
+          }}
           className="border border-border py-3.5 px-6 text-xs font-semibold uppercase tracking-wider text-foreground hover:border-primary hover:text-primary transition-colors text-center"
         >
           Call Now
