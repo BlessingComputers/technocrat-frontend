@@ -8,7 +8,7 @@ export async function GET(request: NextRequest) {
     const limit = parseInt(searchParams.get("limit") || "20", 10);
     const category = searchParams.get("category") || undefined;
 
-    const result = getPaginatedProducts(
+    const result = await getPaginatedProducts(
       isNaN(page) || page < 1 ? 1 : page,
       isNaN(limit) || limit < 1 ? 20 : limit,
       category,

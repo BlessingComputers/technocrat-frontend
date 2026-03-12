@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { BentoHero } from "@/components/organisms/bento-hero";
 import { CategoryBar } from "@/components/organisms/category-bar";
 import { FeaturedGrid } from "@/components/organisms/featured-grid";
@@ -8,11 +9,21 @@ import { ContactBanner } from "@/components/organisms/contact-banner";
 export default function HomePage() {
   return (
     <main>
-      <BentoHero />
-      <CategoryBar />
-      <FeaturedGrid />
-      <RecentArrivals />
-      <LatestPosts />
+      <Suspense>
+        <BentoHero />
+      </Suspense>
+      <Suspense>
+        <CategoryBar />
+      </Suspense>
+      <Suspense>
+        <FeaturedGrid />
+      </Suspense>
+      <Suspense>
+        <RecentArrivals />
+      </Suspense>
+      <Suspense>
+        <LatestPosts />
+      </Suspense>
       <ContactBanner />
     </main>
   );

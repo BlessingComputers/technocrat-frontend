@@ -2,7 +2,6 @@ import { getPageBySlug, getAllPages } from "@/lib/data";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/templates/container";
 import { PageHero } from "@/components/layout/page-hero";
-import { Suspense } from "react";
 import type { Metadata } from "next";
 
 interface DynamicPageProps {
@@ -11,6 +10,14 @@ interface DynamicPageProps {
 
 // Slugs that are handled by other routes and should not match here
 const RESERVED_SLUGS = ["product", "blog", "contact", "test"];
+
+// Pre-render all known pages at build time so they're instant
+export async function generateStaticParams() {
+  const pages = await getAllPages();
+  return pages
+    .filter((p) => !RESERVED_SLUGS.includes(p.slug))
+    .map((p) => ({ slug: p.slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -21,7 +28,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const page = getPageBySlug(decodeURIComponent(slug));
+  const page = await getPageBySlug(decodeURIComponent(slug));
 
   if (!page) {
     return { title: "Page Not Found" };
@@ -40,21 +47,21 @@ export async function generateMetadata({
   };
 }
 
-async function PageContent({ params }: { params: Promise<{ slug: string }> }) {
+export default async function DynamicPage({ params }: DynamicPageProps) {
   const { slug } = await params;
 
   if (RESERVED_SLUGS.includes(slug)) {
     notFound();
   }
 
-  const page = getPageBySlug(decodeURIComponent(slug));
+  const page = await getPageBySlug(decodeURIComponent(slug));
 
   if (!page) {
     notFound();
   }
 
   return (
-    <>
+    <div className="bg-white dark:bg-background min-h-screen">
       <PageHero title={page.title} />
       <Container>
         <div
@@ -65,27 +72,6 @@ async function PageContent({ params }: { params: Promise<{ slug: string }> }) {
           dangerouslySetInnerHTML={{ __html: page.content }}
         />
       </Container>
-    </>
-  );
-}
-
-export default function DynamicPage({ params }: DynamicPageProps) {
-  return (
-    <div className="bg-white dark:bg-background min-h-screen">
-      <Suspense
-        fallback={
-          <div className="animate-pulse">
-            <div className="h-48 bg-gray-100 dark:bg-muted" />
-            <div className="max-w-3xl mx-auto p-8 space-y-4">
-              <div className="h-6 bg-gray-200 dark:bg-muted rounded w-3/4" />
-              <div className="h-4 bg-gray-200 dark:bg-muted rounded w-full" />
-              <div className="h-4 bg-gray-200 dark:bg-muted rounded w-5/6" />
-            </div>
-          </div>
-        }
-      >
-        <PageContent params={params} />
-      </Suspense>
     </div>
   );
 }

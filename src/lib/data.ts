@@ -1,8 +1,7 @@
-import fs from "fs";
+import fs from "fs/promises";
 import path from "path";
 import { Product, Category } from "@/features/catalog/types/catalog";
 import type { BlogPost, Page } from "@/features/catalog/types/content";
-// import { BlogPost, Page } from "@/features/catalog/types/content";
 
 const PRODUCTS_PATH = path.join(
   process.cwd(),
@@ -21,27 +20,39 @@ let categoriesCache: Category[] | null = null;
 let postsCache: BlogPost[] | null = null;
 let pagesCache: Page[] | null = null;
 
-export function getAllProducts(): Product[] {
-  if (!productsCache) {
-    try {
-      const fileContent = fs.readFileSync(PRODUCTS_PATH, "utf8");
+// In-flight promises to prevent duplicate reads
+let productsLoading: Promise<Product[]> | null = null;
+let categoriesLoading: Promise<Category[]> | null = null;
+let postsLoading: Promise<BlogPost[]> | null = null;
+let pagesLoading: Promise<Page[]> | null = null;
+
+export async function getAllProducts(): Promise<Product[]> {
+  if (productsCache) return productsCache;
+  if (productsLoading) return productsLoading;
+
+  productsLoading = fs
+    .readFile(PRODUCTS_PATH, "utf8")
+    .then((fileContent) => {
       productsCache = JSON.parse(fileContent);
-      console.log(`DEBUG: Loaded ${productsCache?.length} products from JSON`);
-    } catch (e) {
-      console.error("DEBUG: Failed to load products.json", e);
+      return productsCache!;
+    })
+    .catch(() => {
       return [];
-    }
-  }
-  return productsCache || [];
+    })
+    .finally(() => {
+      productsLoading = null;
+    });
+
+  return productsLoading;
 }
 
-export function getPaginatedProducts(
+export async function getPaginatedProducts(
   page: number,
   limit: number,
   categorySlug?: string,
   sort: "featured" | "name-asc" | "name-desc" | "newest" = "featured",
-): { products: Product[]; total: number; totalPages: number } {
-  let allProducts = getAllProducts().filter(hasRealImage);
+): Promise<{ products: Product[]; total: number; totalPages: number }> {
+  let allProducts = (await getAllProducts()).filter(hasRealImage);
 
   if (categorySlug) {
     allProducts = allProducts.filter((p) =>
@@ -81,21 +92,31 @@ export function getPaginatedProducts(
   };
 }
 
-export function getAllCategories(): Category[] {
-  if (!categoriesCache) {
-    const fileContent = fs.readFileSync(CATEGORIES_PATH, "utf8");
-    categoriesCache = JSON.parse(fileContent);
-  }
-  return categoriesCache || [];
+export async function getAllCategories(): Promise<Category[]> {
+  if (categoriesCache) return categoriesCache;
+  if (categoriesLoading) return categoriesLoading;
+
+  categoriesLoading = fs
+    .readFile(CATEGORIES_PATH, "utf8")
+    .then((fileContent) => {
+      categoriesCache = JSON.parse(fileContent);
+      return categoriesCache!;
+    })
+    .catch(() => {
+      return [];
+    })
+    .finally(() => {
+      categoriesLoading = null;
+    });
+
+  return categoriesLoading;
 }
 
-export function getProductById(slug: string): Product | undefined {
-  const products = getAllProducts();
-  const product = products.find((p) => p.slug === slug);
-  console.log(
-    `DEBUG: Searching for slug "${slug}". Found: ${product ? product.name : "NOT FOUND"}`,
-  );
-  return product;
+export async function getProductById(
+  slug: string,
+): Promise<Product | undefined> {
+  const products = await getAllProducts();
+  return products.find((p) => p.slug === slug);
 }
 
 const PLACEHOLDER_IMAGE =
@@ -105,18 +126,20 @@ function hasRealImage(p: Product): boolean {
   return p.images.length > 0 && p.images[0] !== PLACEHOLDER_IMAGE;
 }
 
-export function getFeaturedProducts(limit = 8): Product[] {
-  return getAllProducts()
+export async function getFeaturedProducts(limit = 8): Promise<Product[]> {
+  return (await getAllProducts())
     .filter(
-      (p) =>
-        (p.meta.featured || p.status === "publish") && hasRealImage(p),
+      (p) => (p.meta.featured || p.status === "publish") && hasRealImage(p),
     )
     .slice(0, limit);
 }
 
-export function getRelatedProducts(product: Product, limit = 4): Product[] {
+export async function getRelatedProducts(
+  product: Product,
+  limit = 4,
+): Promise<Product[]> {
   const categoryIds = product.categories.map((c) => c.id);
-  return getAllProducts()
+  return (await getAllProducts())
     .filter(
       (p) =>
         p.slug !== product.slug &&
@@ -125,14 +148,16 @@ export function getRelatedProducts(product: Product, limit = 4): Product[] {
     .slice(0, limit);
 }
 
-export function getProductsByCategory(categorySlug: string): Product[] {
-  return getAllProducts().filter((p) =>
+export async function getProductsByCategory(
+  categorySlug: string,
+): Promise<Product[]> {
+  return (await getAllProducts()).filter((p) =>
     p.categories.some((c) => c.slug === categorySlug),
   );
 }
 
-export function getRootCategories(): Category[] {
-  return getAllCategories().filter((c) => c.parent === 0);
+export async function getRootCategories(): Promise<Category[]> {
+  return (await getAllCategories()).filter((c) => c.parent === 0);
 }
 
 function shuffle<T>(array: T[]): T[] {
@@ -144,8 +169,8 @@ function shuffle<T>(array: T[]): T[] {
   return arr;
 }
 
-export function getAccessoriesProducts(): Product[] {
-  const all = getAllProducts();
+export async function getAccessoriesProducts(): Promise<Product[]> {
+  const all = await getAllProducts();
 
   const mobile = shuffle(
     all.filter((p) =>
@@ -164,23 +189,31 @@ export function getAccessoriesProducts(): Product[] {
 
 // ---- Blog Posts ----
 
-export function getAllPosts(): BlogPost[] {
-  if (!postsCache) {
-    try {
-      const fileContent = fs.readFileSync(POSTS_PATH, "utf8");
+export async function getAllPosts(): Promise<BlogPost[]> {
+  if (postsCache) return postsCache;
+  if (postsLoading) return postsLoading;
+
+  postsLoading = fs
+    .readFile(POSTS_PATH, "utf8")
+    .then((fileContent) => {
       postsCache = JSON.parse(fileContent);
-    } catch {
+      return postsCache!;
+    })
+    .catch(() => {
       return [];
-    }
-  }
-  return postsCache || [];
+    })
+    .finally(() => {
+      postsLoading = null;
+    });
+
+  return postsLoading;
 }
 
-export function getPaginatedPosts(
+export async function getPaginatedPosts(
   page: number,
   limit: number,
-): { posts: BlogPost[]; total: number; totalPages: number } {
-  const allPosts = getAllPosts();
+): Promise<{ posts: BlogPost[]; total: number; totalPages: number }> {
+  const allPosts = await getAllPosts();
   const start = (page - 1) * limit;
   const end = start + limit;
   return {
@@ -190,12 +223,14 @@ export function getPaginatedPosts(
   };
 }
 
-export function getPostBySlug(slug: string): BlogPost | undefined {
-  return getAllPosts().find((p) => p.slug === slug);
+export async function getPostBySlug(
+  slug: string,
+): Promise<BlogPost | undefined> {
+  return (await getAllPosts()).find((p) => p.slug === slug);
 }
 
-export function getRecentPosts(limit = 5): BlogPost[] {
-  return getAllPosts()
+export async function getRecentPosts(limit = 5): Promise<BlogPost[]> {
+  return (await getAllPosts())
     .sort(
       (a, b) =>
         new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(),
@@ -205,18 +240,26 @@ export function getRecentPosts(limit = 5): BlogPost[] {
 
 // ---- Pages ----
 
-export function getAllPages(): Page[] {
-  if (!pagesCache) {
-    try {
-      const fileContent = fs.readFileSync(PAGES_PATH, "utf8");
+export async function getAllPages(): Promise<Page[]> {
+  if (pagesCache) return pagesCache;
+  if (pagesLoading) return pagesLoading;
+
+  pagesLoading = fs
+    .readFile(PAGES_PATH, "utf8")
+    .then((fileContent) => {
       pagesCache = JSON.parse(fileContent);
-    } catch {
+      return pagesCache!;
+    })
+    .catch(() => {
       return [];
-    }
-  }
-  return pagesCache || [];
+    })
+    .finally(() => {
+      pagesLoading = null;
+    });
+
+  return pagesLoading;
 }
 
-export function getPageBySlug(slug: string): Page | undefined {
-  return getAllPages().find((p) => p.slug === slug);
+export async function getPageBySlug(slug: string): Promise<Page | undefined> {
+  return (await getAllPages()).find((p) => p.slug === slug);
 }

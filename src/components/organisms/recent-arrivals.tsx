@@ -5,8 +5,8 @@ import { SectionHeader } from "@/components/molecules/section-header";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-export function RecentArrivals() {
-  const products = getFeaturedProducts(12).slice(8, 12);
+export async function RecentArrivals() {
+  const products = (await getFeaturedProducts(12)).slice(8, 12);
 
   if (products.length === 0) return null;
 

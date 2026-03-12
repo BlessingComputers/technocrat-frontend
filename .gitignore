@@ -45,6 +45,9 @@ src/data/extracted_json/*
 # next-agents-md
 .next-docs/
 
+#ide
+.idea
+
 
 # agents
 AGENTS.md

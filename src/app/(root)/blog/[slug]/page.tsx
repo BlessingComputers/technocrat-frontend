@@ -15,7 +15,7 @@ export async function generateMetadata({
   params,
 }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPostBySlug(decodeURIComponent(slug));
+  const post = await getPostBySlug(decodeURIComponent(slug));
 
   if (!post) {
     return { title: "Post Not Found" };
@@ -53,13 +53,15 @@ async function BlogPostContent({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = getPostBySlug(decodeURIComponent(slug));
+  const post = await getPostBySlug(decodeURIComponent(slug));
 
   if (!post) {
     notFound();
   }
 
-  const recentPosts = getRecentPosts(5).filter((p) => p.slug !== post.slug);
+  const recentPosts = (await getRecentPosts(5)).filter(
+    (p) => p.slug !== post.slug,
+  );
 
   const formattedDate = new Date(post.createdAt).toLocaleDateString("en-US", {
     year: "numeric",

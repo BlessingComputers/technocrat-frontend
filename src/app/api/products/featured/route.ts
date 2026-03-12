@@ -3,7 +3,7 @@ import { getFeaturedProducts } from "@/lib/data";
 
 export async function GET() {
   try {
-    const products = getFeaturedProducts(12);
+    const products = await getFeaturedProducts(12);
     return NextResponse.json(products);
   } catch (error) {
     console.error("Failed to fetch featured products:", error);

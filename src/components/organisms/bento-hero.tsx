@@ -3,9 +3,12 @@ import Link from "next/link";
 import { getFeaturedProducts, getRootCategories } from "@/lib/data";
 import { ArrowRight } from "lucide-react";
 
-export function BentoHero() {
-  const products = getFeaturedProducts(2);
-  const categories = getRootCategories().slice(0, 6);
+export async function BentoHero() {
+  const [products, allCategories] = await Promise.all([
+    getFeaturedProducts(2),
+    getRootCategories(),
+  ]);
+  const categories = allCategories.slice(0, 6);
   const main = products[0];
   const secondary = products[1];
 

@@ -17,7 +17,7 @@ export async function generateMetadata({
   params,
 }: ProductPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProductById(decodeURIComponent(slug));
+  const product = await getProductById(decodeURIComponent(slug));
 
   if (!product) {
     return { title: "Product Not Found" };
@@ -55,13 +55,13 @@ async function ProductContent({
 }) {
   const { slug } = await params;
   const decodedSlug = decodeURIComponent(slug);
-  const product = getProductById(decodedSlug);
+  const product = await getProductById(decodedSlug);
 
   if (!product) {
     notFound();
   }
 
-  const relatedProducts = getRelatedProducts(product, 4);
+  const relatedProducts = await getRelatedProducts(product, 4);
 
   return (
     <div className="min-h-screen bg-background">

@@ -7,7 +7,7 @@ export async function GET(
 ) {
   try {
     const { slug } = await params;
-    const page = getPageBySlug(slug);
+    const page = await getPageBySlug(slug);
 
     if (!page) {
       return NextResponse.json({ error: "Page not found" }, { status: 404 });

@@ -3,10 +3,12 @@ import { getAllProducts, getAllPosts, getAllPages } from "@/lib/data";
 
 const BASE_URL = "https://technocratng.com";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const products = getAllProducts();
-  const posts = getAllPosts();
-  const pages = getAllPages();
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const [products, posts, pages] = await Promise.all([
+    getAllProducts(),
+    getAllPosts(),
+    getAllPages(),
+  ]);
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {

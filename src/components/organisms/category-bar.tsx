@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { getRootCategories } from "@/lib/data";
 
-export function CategoryBar() {
-  const categories = getRootCategories();
+export async function CategoryBar() {
+  const categories = await getRootCategories();
 
   if (categories.length === 0) return null;
 

@@ -5,8 +5,8 @@ import { SectionHeader } from "@/components/molecules/section-header";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-export function FeaturedGrid() {
-  const products = getFeaturedProducts(8);
+export async function FeaturedGrid() {
+  const products = await getFeaturedProducts(8);
 
   if (products.length === 0) return null;
 

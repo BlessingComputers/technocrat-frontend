@@ -5,8 +5,8 @@ import { SectionHeader } from "@/components/molecules/section-header";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-export function LatestPosts() {
-  const posts = getRecentPosts(3);
+export async function LatestPosts() {
+  const posts = await getRecentPosts(3);
 
   if (posts.length === 0) return null;
 

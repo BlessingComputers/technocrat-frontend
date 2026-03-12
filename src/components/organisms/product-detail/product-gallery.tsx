@@ -17,13 +17,9 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
     images.length > 0 ? images : ["/assets/placeholder.png"];
 
   const prev = () =>
-    setSelectedImage((i) =>
-      i === 0 ? displayImages.length - 1 : i - 1,
-    );
+    setSelectedImage((i) => (i === 0 ? displayImages.length - 1 : i - 1));
   const next = () =>
-    setSelectedImage((i) =>
-      i === displayImages.length - 1 ? 0 : i + 1,
-    );
+    setSelectedImage((i) => (i === displayImages.length - 1 ? 0 : i + 1));
 
   return (
     <div className="flex flex-col gap-3">
@@ -35,7 +31,7 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
           fill
           priority
           className="object-contain p-8 sm:p-12 lg:p-16 transition-transform duration-500 group-hover:scale-105"
-          sizes="100vw"
+          sizes="(max-width: 1024px) 100vw, 58vw"
         />
 
         {/* Nav arrows */}
