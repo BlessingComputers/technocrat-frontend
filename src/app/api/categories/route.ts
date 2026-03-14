@@ -3,7 +3,7 @@ import { getAllCategories } from "@/lib/data";
 
 export async function GET() {
   try {
-    const categories = getAllCategories();
+    const categories = await getAllCategories();
     return NextResponse.json(categories);
   } catch (error) {
     console.error("Failed to fetch categories:", error);

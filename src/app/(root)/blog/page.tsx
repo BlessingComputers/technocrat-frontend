@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
 };
 
-function PostList({ currentPage }: { currentPage: number }) {
-  const { posts, totalPages } = getPaginatedPosts(currentPage, 9);
+async function PostList({ currentPage }: { currentPage: number }) {
+  const { posts, totalPages } = await getPaginatedPosts(currentPage, 9);
 
   if (posts.length === 0) {
     return (

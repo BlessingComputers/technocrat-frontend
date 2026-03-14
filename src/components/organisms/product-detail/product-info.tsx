@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { Product } from "@/features/catalog/types/catalog";
 import Link from "next/link";
+import { CallNowButton } from "@/components/atoms/call-now-button";
 
 interface ProductInfoProps {
   product: Product;
@@ -119,12 +120,7 @@ export function ProductInfo({ product }: ProductInfoProps) {
           <Phone className="w-3.5 h-3.5" />
           Contact Us to Buy
         </Link>
-        <a
-          href="tel:08124362413"
-          className="border border-border py-3.5 px-6 text-xs font-semibold uppercase tracking-wider text-foreground hover:border-primary hover:text-primary transition-colors text-center"
-        >
-          Call Now
-        </a>
+        <CallNowButton />
       </div>
 
       {/* Trust Badges */}

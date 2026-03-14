@@ -3,9 +3,12 @@ import Link from "next/link";
 import { getFeaturedProducts, getRootCategories } from "@/lib/data";
 import { ArrowRight } from "lucide-react";
 
-export function BentoHero() {
-  const products = getFeaturedProducts(2);
-  const categories = getRootCategories().slice(0, 6);
+export async function BentoHero() {
+  const [products, allCategories] = await Promise.all([
+    getFeaturedProducts(2),
+    getRootCategories(),
+  ]);
+  const categories = allCategories.slice(0, 6);
   const main = products[0];
   const secondary = products[1];
 
@@ -68,7 +71,7 @@ export function BentoHero() {
         {/* Cell B — Electric Bikes promo (Spiro) */}
         <div className="col-span-6 lg:col-span-4 row-span-1 relative bg-card border border-border overflow-hidden group">
           <a
-            href="https://rideahead.netlify.app"
+            href="https://rideahead.technocratng.com"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute inset-0 z-10"

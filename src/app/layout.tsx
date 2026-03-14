@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
 import { Outfit, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import { StoreProvider } from "@/store/provider";
-import { Toaster } from "@/components/ui/sonner";
-import { ContactAgent } from "@/components/organisms/contact-agent";
+import dynamic from "next/dynamic";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+
+const Toaster = dynamic(() =>
+  import("@/components/ui/sonner").then((mod) => mod.Toaster),
+);
+
+const ContactAgent = dynamic(() =>
+  import("@/components/organisms/contact-agent").then(
+    (mod) => mod.ContactAgent,
+  ),
+);
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -74,13 +82,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${outfit.variable} ${jetbrains.variable} antialiased`}>
-        <StoreProvider>
-          {children}
-          <Toaster />
-          <ContactAgent />
-          <Analytics />
-          <SpeedInsights />
-        </StoreProvider>
+        {children}
+        <Toaster />
+        <ContactAgent />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

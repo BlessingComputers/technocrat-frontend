@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
     const page = parseInt(searchParams.get("page") || "1", 10);
     const limit = parseInt(searchParams.get("limit") || "10", 10);
 
-    const result = getPaginatedPosts(
+    const result = await getPaginatedPosts(
       isNaN(page) || page < 1 ? 1 : page,
       isNaN(limit) || limit < 1 ? 10 : limit,
     );

@@ -13,6 +13,8 @@ export function Logo({ className }: LogoProps) {
         src={logo}
         alt="Blessing Online Stores Logo"
         className="w-full h-auto"
+        priority
+        sizes="(max-width: 768px) 112px, 144px"
       />
     </Link>
   );
