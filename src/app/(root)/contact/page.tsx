@@ -146,10 +146,10 @@ export default function ContactPage() {
                     Email
                   </span>
                   <a
-                    href="mailto:contact@blessingcomputers.com"
+                    href="mailto:info@technocratng.com"
                     className="text-sm text-white hover:text-primary transition-colors"
                   >
-                    contact@blessingcomputers.com
+                    info@technocratng.com
                   </a>
                 </div>
               </div>
