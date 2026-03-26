@@ -26,7 +26,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://technocrat.ng"),
+  metadataBase: new URL("https://technocratng.com"),
   title: {
     default:
       "Technocrat Nigeria - Computers, Solar Systems, Generators, and Electronics",

@@ -52,3 +52,6 @@ src/data/extracted_json/*
 # agents
 AGENTS.md
 CLAUDE.md
+
+# Build zip
+technoc2-app.zip
