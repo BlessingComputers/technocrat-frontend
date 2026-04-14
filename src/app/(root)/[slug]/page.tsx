@@ -2,6 +2,8 @@ import { getPageBySlug, getAllPages } from "@/lib/data";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/templates/container";
 import { PageHero } from "@/components/layout/page-hero";
+import { PageSkeleton } from "@/components/molecules/skeletons/page-skeleton";
+import { Suspense } from "react";
 import type { Metadata } from "next";
 
 interface DynamicPageProps {
@@ -47,13 +49,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function DynamicPage({ params }: DynamicPageProps) {
-  const { slug } = await params;
-
-  if (RESERVED_SLUGS.includes(slug)) {
-    notFound();
-  }
-
+async function PageContent({ slug }: { slug: string }) {
   const page = await getPageBySlug(decodeURIComponent(slug));
 
   if (!page) {
@@ -65,7 +61,7 @@ export default async function DynamicPage({ params }: DynamicPageProps) {
       <PageHero title={page.title} />
       <Container>
         <div
-          className="prose prose-gray dark:prose-invert max-w-3xl mx-auto
+          className="prose prose-gray dark:prose-invert max-w-3xl mx-auto py-12
             prose-headings:font-bold prose-headings:tracking-tight
             prose-a:text-primary prose-a:no-underline hover:prose-a:underline
             prose-img:rounded-xl prose-p:leading-relaxed"
@@ -73,5 +69,19 @@ export default async function DynamicPage({ params }: DynamicPageProps) {
         />
       </Container>
     </div>
+  );
+}
+
+export default async function DynamicPage({ params }: DynamicPageProps) {
+  const { slug } = await params;
+
+  if (RESERVED_SLUGS.includes(slug)) {
+    notFound();
+  }
+
+  return (
+    <Suspense fallback={<PageSkeleton />}>
+      <PageContent slug={slug} />
+    </Suspense>
   );
 }

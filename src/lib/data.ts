@@ -3,24 +3,41 @@ import path from "path";
 import { Product, Category } from "@/features/catalog/types/catalog";
 import type { BlogPost, Page } from "@/features/catalog/types/content";
 
-const PRODUCTS_PATH = path.join(
-  process.cwd(),
-  "src/data/content/products.json",
-);
-const CATEGORIES_PATH = path.join(
-  process.cwd(),
-  "src/data/content/categories.json",
-);
-const POSTS_PATH = path.join(process.cwd(), "src/data/content/posts.json");
-const PAGES_PATH = path.join(process.cwd(), "src/data/content/pages.json");
+// Base data directory configuration
+const DATA_ROOT = process.env.DATA_ROOT || process.cwd();
+const DATA_DIR = path.join(DATA_ROOT, "src/data/content");
 
-// Cache data in memory (since these are static JSON files)
+const PRODUCTS_PATH = path.join(DATA_DIR, "products.json");
+const CATEGORIES_PATH = path.join(DATA_DIR, "categories.json");
+const POSTS_PATH = path.join(DATA_DIR, "posts.json");
+const PAGES_PATH = path.join(DATA_DIR, "pages.json");
+
+/**
+ * Helper to log path issues for debugging on shared hosting
+ */
+async function logPathDiscovery(filePath: string, context: string) {
+  try {
+    const stats = await fs.stat(filePath);
+    console.log(
+      `[Data Discovery] Found ${context} at: ${filePath} (${stats.size} bytes)`,
+    );
+    return true;
+  } catch (error) {
+    console.error(
+      `[Data Error] Missing ${context} at expected path: ${filePath}`,
+    );
+    console.error(`[Data Debug] Current working directory: ${process.cwd()}`);
+    console.error(`[Data Debug] DATA_ROOT used: ${DATA_ROOT}`);
+    return false;
+  }
+}
+
+// In-memory cache for local JSON files (Singleton pattern)
 let productsCache: Product[] | null = null;
 let categoriesCache: Category[] | null = null;
 let postsCache: BlogPost[] | null = null;
 let pagesCache: Page[] | null = null;
 
-// In-flight promises to prevent duplicate reads
 let productsLoading: Promise<Product[]> | null = null;
 let categoriesLoading: Promise<Category[]> | null = null;
 let postsLoading: Promise<BlogPost[]> | null = null;
@@ -30,18 +47,16 @@ export async function getAllProducts(): Promise<Product[]> {
   if (productsCache) return productsCache;
   if (productsLoading) return productsLoading;
 
-  productsLoading = fs
-    .readFile(PRODUCTS_PATH, "utf8")
-    .then((fileContent) => {
+  productsLoading = (async () => {
+    try {
+      const fileContent = await fs.readFile(PRODUCTS_PATH, "utf8");
       productsCache = JSON.parse(fileContent);
       return productsCache!;
-    })
-    .catch(() => {
+    } catch (err) {
+      await logPathDiscovery(PRODUCTS_PATH, "products.json");
       return [];
-    })
-    .finally(() => {
-      productsLoading = null;
-    });
+    }
+  })();
 
   return productsLoading;
 }
@@ -52,6 +67,7 @@ export async function getPaginatedProducts(
   categorySlug?: string,
   sort: "featured" | "name-asc" | "name-desc" | "newest" = "featured",
 ): Promise<{ products: Product[]; total: number; totalPages: number }> {
+  "use cache";
   let allProducts = (await getAllProducts()).filter(hasRealImage);
 
   if (categorySlug) {
@@ -96,18 +112,16 @@ export async function getAllCategories(): Promise<Category[]> {
   if (categoriesCache) return categoriesCache;
   if (categoriesLoading) return categoriesLoading;
 
-  categoriesLoading = fs
-    .readFile(CATEGORIES_PATH, "utf8")
-    .then((fileContent) => {
+  categoriesLoading = (async () => {
+    try {
+      const fileContent = await fs.readFile(CATEGORIES_PATH, "utf8");
       categoriesCache = JSON.parse(fileContent);
       return categoriesCache!;
-    })
-    .catch(() => {
+    } catch (err) {
+      await logPathDiscovery(CATEGORIES_PATH, "categories.json");
       return [];
-    })
-    .finally(() => {
-      categoriesLoading = null;
-    });
+    }
+  })();
 
   return categoriesLoading;
 }
@@ -115,6 +129,7 @@ export async function getAllCategories(): Promise<Category[]> {
 export async function getProductById(
   slug: string,
 ): Promise<Product | undefined> {
+  "use cache";
   const products = await getAllProducts();
   return products.find((p) => p.slug === slug);
 }
@@ -127,6 +142,7 @@ function hasRealImage(p: Product): boolean {
 }
 
 export async function getFeaturedProducts(limit = 8): Promise<Product[]> {
+  "use cache";
   return (await getAllProducts())
     .filter(
       (p) => (p.meta.featured || p.status === "publish") && hasRealImage(p),
@@ -139,7 +155,8 @@ export async function getRelatedProducts(
   limit = 4,
 ): Promise<Product[]> {
   const categoryIds = product.categories.map((c) => c.id);
-  return (await getAllProducts())
+  const all = await getAllProducts();
+  return all
     .filter(
       (p) =>
         p.slug !== product.slug &&
@@ -193,18 +210,16 @@ export async function getAllPosts(): Promise<BlogPost[]> {
   if (postsCache) return postsCache;
   if (postsLoading) return postsLoading;
 
-  postsLoading = fs
-    .readFile(POSTS_PATH, "utf8")
-    .then((fileContent) => {
+  postsLoading = (async () => {
+    try {
+      const fileContent = await fs.readFile(POSTS_PATH, "utf8");
       postsCache = JSON.parse(fileContent);
       return postsCache!;
-    })
-    .catch(() => {
+    } catch (err) {
+      await logPathDiscovery(POSTS_PATH, "posts.json");
       return [];
-    })
-    .finally(() => {
-      postsLoading = null;
-    });
+    }
+  })();
 
   return postsLoading;
 }
@@ -226,10 +241,12 @@ export async function getPaginatedPosts(
 export async function getPostBySlug(
   slug: string,
 ): Promise<BlogPost | undefined> {
+  "use cache";
   return (await getAllPosts()).find((p) => p.slug === slug);
 }
 
 export async function getRecentPosts(limit = 5): Promise<BlogPost[]> {
+  "use cache";
   return (await getAllPosts())
     .sort(
       (a, b) =>
@@ -244,22 +261,21 @@ export async function getAllPages(): Promise<Page[]> {
   if (pagesCache) return pagesCache;
   if (pagesLoading) return pagesLoading;
 
-  pagesLoading = fs
-    .readFile(PAGES_PATH, "utf8")
-    .then((fileContent) => {
+  pagesLoading = (async () => {
+    try {
+      const fileContent = await fs.readFile(PAGES_PATH, "utf8");
       pagesCache = JSON.parse(fileContent);
       return pagesCache!;
-    })
-    .catch(() => {
+    } catch (err) {
+      await logPathDiscovery(PAGES_PATH, "pages.json");
       return [];
-    })
-    .finally(() => {
-      pagesLoading = null;
-    });
+    }
+  })();
 
   return pagesLoading;
 }
 
 export async function getPageBySlug(slug: string): Promise<Page | undefined> {
+  "use cache";
   return (await getAllPages()).find((p) => p.slug === slug);
 }
