@@ -7,6 +7,24 @@ export interface Category {
   count: number;
 }
 
+/**
+ * Category shape actually returned by the live backend's
+ * GET /v1/products/categories (see docs/koyeb-shared-backend.md) — already a
+ * full tree (each node's `children` is populated), unlike the flat
+ * WordPress-sourced `Category` above.
+ */
+export interface CatalogCategory {
+  id: string;
+  categoryId: string;
+  name: string;
+  slug: string;
+  imageUrl: string | null;
+  isActive: boolean;
+  parentId: string | null;
+  productCount: number;
+  children: CatalogCategory[];
+}
+
 export interface ProductMeta {
   total_sales: string;
   average_rating: string;
