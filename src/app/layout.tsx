@@ -4,6 +4,7 @@ import "./globals.css";
 import dynamic from "next/dynamic";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { QueryProvider } from "@/app-shell/providers/query-provider";
 
 const Toaster = dynamic(() =>
   import("@/components/ui/sonner").then((mod) => mod.Toaster),
@@ -82,9 +83,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${outfit.variable} ${jetbrains.variable} antialiased`}>
-        {children}
-        <Toaster />
-        <ContactAgent />
+        <QueryProvider>
+          {children}
+          <Toaster />
+          <ContactAgent />
+        </QueryProvider>
         <Analytics />
         <SpeedInsights />
       </body>

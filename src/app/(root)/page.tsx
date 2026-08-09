@@ -1,34 +1,39 @@
 import { Suspense } from "react";
-import { BentoHero } from "@/components/organisms/bento-hero";
-import { CategoryBar } from "@/components/organisms/category-bar";
-import { FeaturedGrid } from "@/components/organisms/featured-grid";
-import { RecentArrivals } from "@/components/organisms/recent-arrivals";
-import { LatestPosts } from "@/components/organisms/latest-posts";
-import { ContactBanner } from "@/components/organisms/contact-banner";
+import {
+  Hero,
+  Services,
+  ShopByCategories,
+  FeaturedProducts,
+  BikePurchase,
+  Procurement,
+  NewArrivals,
+  Testimonials,
+} from "@/features/landing/home";
 import { HeroSkeleton } from "@/components/molecules/skeletons/hero-skeleton";
-import { CategoryBarSkeleton } from "@/components/molecules/skeletons/category-bar-skeleton";
-import { GridSkeleton } from "@/components/molecules/skeletons/grid-skeleton";
-import { LatestPostsSkeleton } from "@/components/molecules/skeletons/latest-posts-skeleton";
+import { ShopByCategoriesSkeleton } from "@/components/molecules/skeletons/shop-by-categories-skeleton";
+import { FeaturedProductsSkeleton } from "@/components/molecules/skeletons/featured-products-skeleton";
+import { NewArrivalsSkeleton } from "@/components/molecules/skeletons/new-arrivals-skeleton";
 
 export default function HomePage() {
+  // The (root) layout already renders the page's <main> landmark.
   return (
-    <main>
+    <>
       <Suspense fallback={<HeroSkeleton />}>
-        <BentoHero />
+        <Hero />
       </Suspense>
-      <Suspense fallback={<CategoryBarSkeleton />}>
-        <CategoryBar />
+      <Services />
+      <Suspense fallback={<ShopByCategoriesSkeleton />}>
+        <ShopByCategories />
       </Suspense>
-      <Suspense fallback={<GridSkeleton count={8} columns={{ mobile: 2, tablet: 3, desktop: 4 }} />}>
-        <FeaturedGrid />
+      <BikePurchase />
+      <Suspense fallback={<FeaturedProductsSkeleton />}>
+        <FeaturedProducts />
       </Suspense>
-      <Suspense fallback={<GridSkeleton count={4} />}>
-        <RecentArrivals />
+      <Procurement />
+      <Suspense fallback={<NewArrivalsSkeleton />}>
+        <NewArrivals />
       </Suspense>
-      <Suspense fallback={<LatestPostsSkeleton />}>
-        <LatestPosts />
-      </Suspense>
-      <ContactBanner />
-    </main>
+      <Testimonials />
+    </>
   );
 }
